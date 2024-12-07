@@ -12,6 +12,8 @@ state={
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 4
+			anti_wmd = 4
+			anti_air_building = 3
 		}
 
 	}

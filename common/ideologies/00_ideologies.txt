@@ -280,14 +280,25 @@ ideologies = {
 	gestalt = {
 
 		types = {
-
-			hivemind  = {
-				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			unitary_gestalt = {
+				can_be_randomly_selected = yes
+			}
+			devolved_gestalt = {
+				can_be_randomly_selected = yes
+			}
+			distributed_gestalt = {
+				can_be_randomly_selected = yes
 			}
 
-			machine  = {
-				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
+			# hivemind  = {
+			# 	can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			# }
+			#
+			# machine  = {
+			# 	can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			# }
+
+
 		}
 
 		dynamic_faction_names = {

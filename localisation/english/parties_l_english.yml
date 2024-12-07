@@ -90,8 +90,17 @@
  gestalt_noun:0 "Gestalt"
  gestalt_desc:0 "Gestalt Consciousness"
 
- hivemind:0 "Hive Mind"
- hivemind_desc:0 "Hive Minds operate as a single organism more than as a state. The population has no free will, and act as an extension of the Hive Mind itself - much like the limbs of a body. When cut off from the Mind, these drones become comatose and eventually wither and die."
+ unitary_gestalt:0 "Unitary Gestalt Consciousness"
+ unitary_gestalt_desc:0 "This gestalt is centered around a colossal and incredibly powerful central consciousness that co-ordinates and oversees the hordes of drones employed by the consciousness. Without the central consciousness, the drones would fail to function."
 
- machine:0 "Machine Intelligence"
- machine_desc:0 "Machine Intelligences are immense artificial group minds that have been networked into a single conscious entity. Most of the actual population in such a nation consists of mindless work units who perform their designated tasks without any semblance of free will. A small number of semi-autonomous agents are typically employed for more specialized tasks that benefit from some degree of independent initiative."
+ devolved_gestalt:0 "Devolved Gestalt Consciousness"
+ devolved_gestalt_desc:0 "This gestalt is composed of a network of connected drones and consciousnesses that together form a unified gestalt. While still generally centered around a central primary node, the workload is distributed throughout the consciousnesses population"
+
+ distributed_gestalt:0 "Distributed Gestalt Consciousness"
+ distributed_gestalt_desc:0 "This gestalt is composed of a swarm of interconnected drones, all forming a web of connections. There exists no central consciousness, no organiser, the entire consciousness is composed of each and every member of the population. A million voices speaking as one."
+
+# hivemind:0 "Hive Mind"
+# hivemind_desc:0 "Hive Minds operate as a single organism more than as a state. The population has no free will, and act as an extension of the Hive Mind itself - much like the limbs of a body. When cut off from the Mind, these drones become comatose and eventually wither and die."
+
+# machine:0 "Machine Intelligence"
+# machine_desc:0 "Machine Intelligences are immense artificial group minds that have been networked into a single conscious entity. Most of the actual population in such a nation consists of mindless work units who perform their designated tasks without any semblance of free will. A small number of semi-autonomous agents are typically employed for more specialized tasks that benefit from some degree of independent initiative."

@@ -30,4 +30,6 @@ sub_unit_categories = {
 	category_mechs
 	category_armored_car
 	category_motmech
+	category_mastery
+	category_helicopter_support_companies
 }

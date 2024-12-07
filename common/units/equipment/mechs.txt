@@ -51,7 +51,7 @@ equipments = {
 		year = 1938
 		
 		archetype = light_mech_chassis
-		parent = gw_tank_equipment
+		#parent = gw_tank_equipment #Commented as gw_tank_equipment was commented out by elo (generating an error)
 		priority = 10
 		visual_level = 0
 		is_convertable = yes
