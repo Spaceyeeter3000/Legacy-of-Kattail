@@ -4,8 +4,8 @@ state={
 	name="STATE_409"
 
 	history={
-		add_core_of = KTN
 		owner = KTN
+		add_core_of = KTN
 		victory_points = {
 			19386 50 
 		}
@@ -22,7 +22,7 @@ state={
 		19386 
 	}
 	manpower=6598752
-	buildings_max_level_factor=0.000
+	buildings_max_level_factor=1.000
 	state_category=megalopolis
 	local_supplies=0.000
 }

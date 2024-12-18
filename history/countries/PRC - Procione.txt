@@ -1,12 +1,10 @@
-capital = 19386
+capital = 110
 
-set_oob = "KTN_1936"
+oob = "KTZ_1936"
 
 set_research_slots = 3
-set_stability = 0.7
-set_war_support = 0.4
-
-
+set_stability = 0.5
+set_war_support = 0.5
 
 # Starting tech
 set_technology = {
@@ -85,31 +83,25 @@ set_technology = {
 	early_carrier = 1
 	transport = 1
 
-    # NOVA BLESS THE FREE COMMONWEALTH NAVY !!!
-    base_strike = 1
-    carrier_primacy = 1
-    carrier_task_forces = 1
-    convoy_escorts_bs = 1
-
-    basic_carrier = 1
-
-    air_torpedoe_1 = 1
+	#Katzen nation - thus mobile warfare
+	mobile_warfare = 1
+	delay = 1
+	elastic_defence = 1
+	armored_spearhead = 1
+	schwerpunk = 1
 }
 set_convoys = 300
 
 set_politics = {
-    ruling_party = democratic
-    last_election = "1933.6.20"
-    election_frequency = 48
-    elections_allowed = yes
+	ruling_party = neutrality
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 set_popularities = {
-    neutrality = 10
-    fascism = 2.5
-    communism = 17.5
-    democratic = 70
-	gestalt = 0
+	neutrality = 25
+	fascism = 25
+	communism = 25
+	democratic = 25
 }
-
-recruit_character = BDR_Clawatio_Clawtz_Meolson

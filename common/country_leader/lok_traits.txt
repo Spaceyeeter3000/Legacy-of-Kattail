@@ -22,7 +22,7 @@ leader_traits = {
 		planning_speed = -0.20
 		experience_gain_army = @chief_experience_gain_medium
 
-		command_cap = @tier2
+		command_cap_increase = @tier2
 	}
 
 	reckless_totalitarian = {
