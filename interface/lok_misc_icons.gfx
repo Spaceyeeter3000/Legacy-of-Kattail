@@ -382,6 +382,10 @@ spriteTypes = {
 		name = "GFX_ideology_technoautocracy"
 		texturefile = "gfx/inteface/ideologies/fascism_technoautocracy.tga"
 	}
+	spriteType = {
+		name = "GFX_ideology_stratocracy"
+		texturefile = "gfx/interface/ideologies/fascism_stratocracy.tga"
+	}
 
 	# Neutrality
 	spriteType = {

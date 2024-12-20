@@ -56,6 +56,9 @@
  technoautocracy:0 "Technoautocracy"
  technoautocracy_desc:0 "Technoautocracy is a more extreme form of technocracy where concepts such as personal freedom, liberty of speech and democracy are all but abolished in favor of extreme scientific and industrial development for the supposed good of the state."
 
+ stratocracy:0 "Stratocracy"
+ stratocracy_desc:0 "Stratocracies are a form of government best described by the phrase \"A military with a state\". The government is ran by the military which has supplanted the branches of a civilian government usually seen in other countries. All its citizens are loyal soldiers within the military, dissenters often end up at a court martial, and enemies of the state are none"
+
  #Neutrality
  neutrality:0 "Authoritarian"
  neutrality_noun:0 "Authoritarian"
