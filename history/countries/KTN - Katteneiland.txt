@@ -113,3 +113,4 @@ set_popularities = {
 }
 
 recruit_character = BDR_Clawatio_Clawtz_Meolson
+recruit_character = BRD_Elise_Kattven
