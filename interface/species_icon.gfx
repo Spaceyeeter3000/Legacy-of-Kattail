@@ -100,6 +100,16 @@ spriteTypes = {
 		name = "GFX_species_18"
 		texturefile = "gfx/interface/species/species_talsan.dds"
 	}
+	#Nederkattens
+	spriteType = {
+		name = "GFX_species_19"
+		texturefile = "gfx/interface/species/species_nederkatten.dds"
+	}
+	#Hyperdiverse
+	spriteType = {
+		name = "GFX_species_20"
+		texturefile = "gfx/interface/species/species_hyperdiverse.dds"
+	}
 
 	#No minority
 	spriteType = {

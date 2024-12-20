@@ -132,22 +132,6 @@ ideas = {
 			}
 		}
 		
-		TO_nato_ratified = {
-
-			picture = generic_democratic_drift_bonus
-
-			removal_cost = -1
-
-			allowed = {
-				always = no # Added via event
-			}
-
-			modifier = {
-				operative_slot = 1
-				communism_acceptance = -15
-			}
-		}
-		
 		nationalism = {
 			
 			allowed = {
@@ -165,23 +149,6 @@ ideas = {
 			
 			modifier = {
 				fascism_drift = 0.1
-			}
-		}
-		MTG_TEST_NAVAL_IDEA = { #MTG_TODO_GABRIEL: remove before shipping
-			
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			picture = generic_infantry_bonus
-
-			
-			modifier = {
-				navy_fuel_consumption_factor = -1
-				air_fuel_consumption_factor = -1
-				#spotting_chance = 5
 			}
 		}
 
@@ -390,39 +357,6 @@ ideas = {
 				neutrality_acceptance = 35
 			}
 		}
-
-		#soviets and germans are dead
-		#soviet_german_friendship = {
-		#	allowed = {
-		#		always = no
-		#	}
-		#
-		#	allowed_civil_war = {
-		#		OR = {
-		#			AND = {
-		#				tag = GER
-		#				has_government = fascism
-		#				SOV = {
-		#					has_government = communism
-		#				}
-		#			}
-		#			AND = {
-		#				tag = SOV
-		#				has_government = communism
-		#				GER = {
-		#					has_government = fascism
-		#				}
-		#			}
-		#		}
-		#	}
-		#
-		#	removal_cost = -1
-		#
-		#	modifier = {
-		#		communism_acceptance = 100
-		#		fascism_acceptance = 100
-		#	}
-		#}
 		
 		communist_pressure = {
 			
@@ -1170,103 +1104,8 @@ ideas = {
 				resistance_growth_on_our_occupied_states = 0.1 
 				resistance_damage_to_garrison_on_our_occupied_states = 0.25 
 			}
-		}	
-		MTG_naval_treaty_adherent = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			removal_cost = -1
-
-			picture = MTG_naval_treaty_adherent
-			
-			modifier = {
-				production_cost_max_ship_hull_cruiser = 5300
-				production_cost_max_ship_hull_heavy = 10000
-				production_cost_max_ship_hull_carrier = 9500
-			}
-		}
-		MTG_naval_treaty_adherent_reduced = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			removal_cost = -1
-
-			picture = MTG_naval_treaty_adherent_reduced
-			
-			modifier = {
-				production_cost_max_ship_hull_cruiser = 6000
-				production_cost_max_ship_hull_heavy = 12000
-				production_cost_max_ship_hull_carrier = 10500
-			}
-		}
-		MTG_naval_treaty_cheating = {
-			name = MTG_naval_treaty_adherent
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			removal_cost = -1
-
-			picture = MTG_naval_treaty_adherent
-			
-			modifier = {
-				production_cost_max_ship_hull_cruiser = 5700
-				production_cost_max_ship_hull_heavy = 11500
-				production_cost_max_ship_hull_carrier = 10250
-			}
-		}
-		MTG_naval_treaty_cheating_reduced = {
-			name = MTG_naval_treaty_adherent_reduced
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			removal_cost = -1
-
-			picture = MTG_naval_treaty_adherent_reduced
-			
-			modifier = {
-				production_cost_max_ship_hull_cruiser = 6500
-				production_cost_max_ship_hull_heavy = 14000
-				production_cost_max_ship_hull_carrier = 10750
-			}
 		}
 
-		organization_of_african_unity_member_idea = { 
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-			picture = generic_pp_unity_bonus
-			#TODO_ASD: Set correct icon - idea_generic_org_of_african_unity
-			modifier = {
-			}
-		}
 	}
 
 	# TECHNOLOGY

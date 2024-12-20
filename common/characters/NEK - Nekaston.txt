@@ -2,21 +2,26 @@ characters = {
 	NEK_Meowron = {
 		name = NEK_Meowron
 		gender = female
-		portraits={
-			army={
-				large="GFX_portrait_NEK_Meowron"
-				small="GFX_portrait_NEK_Meowron_Small"
+		portraits = {
+			army = {
+				large = GFX_portrait_NEK_Meowron
+				small = GFX_portrait_NEK_Meowron_Small
 			}
 		}
 		advisor = {
-			slot = 
+			slot = army_chief
 			idea_token = NEK_Meowron
-			ledger = 
-			cost = 50
+			ledger = army
 			allowed = {
 				original_tag = NEK
 			}
-			traits = { army_chief_old_guard }
+			traits = {
+				army_chief_old_guard
+			}
+			cost = 50
+			ai_will_do = {
+				factor = 1
+			}
 		}
 		corps_commander = {
 			traits = { old_guard }
@@ -27,6 +32,7 @@ characters = {
 			logistics_skill = 1
 		}
 	}
+
 	NEK_Meowska = {
 		name = NEK_Meowska
 		gender = female

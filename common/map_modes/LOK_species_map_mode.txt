@@ -132,6 +132,20 @@ scripted_map_modes = {
 					set_temp_variable = { blue = 0.71 }
 					set_temp_variable = { alpha = alpha_temp }
 				}
+				if = { #Nederkatten
+					limit = { FROM = { check_variable = { minority = 19 } } }
+					set_temp_variable = { red = 0 }
+					set_temp_variable = { green = 0.66 }
+					set_temp_variable = { blue = 0.95 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				if = { #Hyperdiverse (Nieuw Pawsterdam Unique, Unused for minority)
+					limit = { FROM = { check_variable = { minority = 20 } } }
+					set_temp_variable = { red = 0 }
+					set_temp_variable = { green = 0.27 }
+					set_temp_variable = { blue = 0.58 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
 			}
 
 			thickness = yes
@@ -271,6 +285,20 @@ scripted_map_modes = {
 					set_temp_variable = { red = 0.47 }
 					set_temp_variable = { green = 0.67 }
 					set_temp_variable = { blue = 0.71 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				if = { #Nederkatten
+					limit = { FROM = { check_variable = { species = 19 } } }
+					set_temp_variable = { red = 0 }
+					set_temp_variable = { green = 0.66 }
+					set_temp_variable = { blue = 0.95 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				if = { #Hyperdiverse (Nieuw Pawsterdam Unique, Unused for minority)
+					limit = { FROM = { check_variable = { species = 20 } } }
+					set_temp_variable = { red = 0 }
+					set_temp_variable = { green = 0.27 }
+					set_temp_variable = { blue = 0.58 }
 					set_temp_variable = { alpha = alpha_temp }
 				}
 			}

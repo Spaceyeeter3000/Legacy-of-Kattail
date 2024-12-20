@@ -418,6 +418,13 @@ on_actions = {
 			#And some Brambles (fear)
 			561 = { set_variable = { minority = 10 } }
 
+			#Arivoejo
+			KTN = { every_owned_state = { set_variable = { species = 19 } } }
+			831 = { set_variable = { minority = 14 } }
+			409 = { set_variable = { species = 20 } set_variable = { minority = 19 } }
+			832 = { set_variable = { species = 20 } set_variable = { minority = 19 } }
+			833 = { set_variable = { species = 20 } set_variable = { minority = 19 } }
+
 			every_possible_country = {
 				add_dynamic_modifier = { modifier = lok_wonder_modifier }
 				if = {
