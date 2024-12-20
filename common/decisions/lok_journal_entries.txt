@@ -1,4 +1,88 @@
 lok_journal_entries_cat = {
+	#HERZLANDS
+	KTZ_unite_east_felinea = {
+		icon = GFX_decision_generic_nationalism
+		allowed = {
+			OR = {
+				tag = STR
+				tag = MEW
+				tag = PTQ
+			}
+		}
+
+		available = {
+			has_war = no
+			custom_trigger_tooltip = {
+				tooltip = KTZ_unite_east_felinea_tooltip
+				hidden_trigger = {
+					OR = {
+						AND = {
+							any_owned_state = { is_core_of = MEW }
+							NOT = { country_exists = MEW }
+						}
+						AND = {
+							any_owned_state = { is_core_of = PTQ }
+							NOT = { country_exists = PTQ }
+						}
+						AND = {
+							any_owned_state = { is_core_of = STR }
+							NOT = { country_exists = STR }
+						}
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		remove_effect = {
+			set_cosmetic_tag = EAST_FELINEA
+			STR = {
+				every_core_state = {
+					custom_effect_tooltip = state_core_threshold_40
+					hidden_effect = {
+						reduce_compliance_coring_threshold_by_10 = yes
+						reduce_compliance_coring_threshold_by_10 = yes					reduce_compliance_coring_threshold_by_10 = yes
+						reduce_compliance_coring_threshold_by_10 = yes					reduce_compliance_coring_threshold_by_10 = yes
+						reduce_compliance_coring_threshold_by_10 = yes	
+					}
+					add_to_array = { array = ROOT.potential_cores_array }
+					add_claim_by = ROOT
+				}
+			}
+			MEW = {
+				every_core_state = {
+					custom_effect_tooltip = state_core_threshold_40
+					hidden_effect = {
+						reduce_compliance_coring_threshold_by_10 = yes
+						reduce_compliance_coring_threshold_by_10 = yes					reduce_compliance_coring_threshold_by_10 = yes
+						reduce_compliance_coring_threshold_by_10 = yes					reduce_compliance_coring_threshold_by_10 = yes
+						reduce_compliance_coring_threshold_by_10 = yes	
+					}
+					add_to_array = { array = ROOT.potential_cores_array }
+					add_claim_by = ROOT
+				}
+			}
+			PTQ = {
+				every_core_state = {
+					custom_effect_tooltip = state_core_threshold_40
+					hidden_effect = {
+						reduce_compliance_coring_threshold_by_10 = yes
+						reduce_compliance_coring_threshold_by_10 = yes					reduce_compliance_coring_threshold_by_10 = yes
+						reduce_compliance_coring_threshold_by_10 = yes					reduce_compliance_coring_threshold_by_10 = yes
+						reduce_compliance_coring_threshold_by_10 = yes	
+					}
+					add_to_array = { array = ROOT.potential_cores_array }
+					add_claim_by = ROOT
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+
 	#DOMINIONTRACKS
 	DOM_unite_east_solakean_katzens = {
 		icon = GFX_decision_generic_nationalism

@@ -1,13 +1,5 @@
 ﻿l_english:
  SUPPLYAREA_1:0 "Flusion"
-
-
-
-
-
-
-
- # Offsetting column number by 10 for easy navigation
  STATE_1:0 "STATE_1"
  STATE_2:0 "STATE_2"
  STATE_3:0 "STATE_3"
@@ -847,3 +839,5 @@
  STATE_837:0 "Clawitz Tunnel"
  STATE_838:0 "Northern Katpine Mountains"
  STATE_839:0 "Eastern Katpine Mountain"
+ STATE_840:0 "Bocerie du Sud"
+ STATE_841:2 "Garyxia"

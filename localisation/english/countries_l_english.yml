@@ -1,6 +1,17 @@
 ﻿l_english:
 
  #FORMABLES
+ EAST_FELINEA_fascism:0 "Östliches Katzenreich"
+ EAST_FELINEA_fascism_DEF:0 "the Östliches Katzenreich"
+ EAST_FELINEA_democratic:0 "East-Felinean Commonwealth"
+ EAST_FELINEA_democratic_DEF:0 "the East-Felinean Commonwealth"
+ EAST_FELINEA_communism:0 "Eastern Feline Communes"
+ EAST_FELINEA_communism_DEF:0 "the Eastern Feline Communes"
+ EAST_FELINEA_neutrality:0 "Duchy of Bayarn"
+ EAST_FELINEA_neutrality_DEF:0 "the Duchy of Bayarn"
+ EAST_FELINEA_ADJ:0 "Katzen"
+ EAST_FELINEA:0 "East Felinea"
+
  UNIONSTAAT_fascism:0 "Unionstaat Ost-Solakien"
  UNIONSTAAT_fascism_DEF:0 "the Unionstaat Ost-Solakien"
  UNIONSTAAT_democratic:0 "Republic of Chalsace-Mewraine"

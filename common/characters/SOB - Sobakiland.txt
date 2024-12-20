@@ -7,6 +7,11 @@ characters = {
 				small="GFX_portrait_SOB_Jimmy_Small"
 			}
 		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = absolutism
+			traits = { ugly_little_dog wah_wah_wah }
+		}
 		advisor = {
 			slot = high_command
 			idea_token = SOB_Jimmy
