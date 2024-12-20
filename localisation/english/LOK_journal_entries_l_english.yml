@@ -14,6 +14,11 @@
 
  lok_needs_approval:0 "§RThe recipient must approve of the demands for the bonuses to take effect.§!"
 
+ #HERZLANDS
+ KTZ_unite_east_felinea:0 "Unite Eastern Felinea"
+ KTZ_unite_east_felinea_desc:0 "Less populous and less industrious owing to their mountainous homelands, eastern Katzens have always been more or less sidelined by their northern and southern brethren. Formalizing the East's union will help it stand against the rest of the Herzlands."
+ KTZ_unite_east_felinea_tooltip:0 "We have subjugated another §HEast-Felinean§! state. "
+
  #DOMINIONTRACKS
  DOM_unite_east_solakean_katzens:0 "Unite the Katzens of Eastern Solakea"
  DOM_unite_east_solakean_katzens_desc:0 "Our existence as Katzens of eastern Solakea is under constant threat due to our neighbors only wanting to kick us back to the Herzlands. Federalizing under a singular state will help us gain some legitimacy within the international community."
