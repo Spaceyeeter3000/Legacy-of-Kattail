@@ -7,11 +7,21 @@ state={
 	history={
 		owner = KTN
 		add_core_of = KTN
+		victory_points = { 18990 15 }
+		victory_points = { 808 25 }
+		victory_points = { 9474 5 }
+		victory_points = { 11293 15 }
+		victory_points = { 19175 15 }
+		victory_points = { 19211 20 }
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 3
 			arms_factory = 1
 			dockyard = 2
+			808 = { naval_base = 3 }
+			11293 = { naval_base = 5 }
+			9474 = { bunker = 4 }
+			19211 = { naval_base = 7 }
 		}
 	}
 	manpower=5286444

@@ -17,6 +17,7 @@ state={
 			6347 = { naval_base = 10 coastal_bunker = 6 }
 			19552 = { coastal_bunker = 6 }
 			11403 = { coastal_bunker = 6 }
+			air_base = 8
 		}
 	}
 	provinces={

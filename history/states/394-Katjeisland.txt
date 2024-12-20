@@ -6,10 +6,12 @@ state={
 	history={
 		owner = KTN
 		add_core_of = KTN
+		victory_points = { 9287 20 }
 		buildings = {
 			industrial_complex = 1
 			dockyard = 4
 			infrastructure = 3
+			9287 = { naval_base = 8 }
 		}
 	}
 
