@@ -1,4 +1,4 @@
-capital = 19386
+capital = 409
 
 set_oob = "KTN_1936"
 
@@ -6,7 +6,7 @@ set_research_slots = 3
 set_stability = 0.7
 set_war_support = 0.4
 
-
+create_faction = "Zuidelijke Economische Treatie Organisatie"
 
 # Starting tech
 set_technology = {
