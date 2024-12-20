@@ -222,6 +222,9 @@
 
  #BDR - Bondsrepubliek
  BDR_Clawatio_Clawtz_Meolson:0 "Clawatio Clawtz-Meolson"
+ BDR_Clawatio_Clawtz_Meolson_DESC:0 "REPLACE_ME"
+
+ steadfast_social_democrat:0 "Resolute Social Democrat"
 
  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
  # The Abyss Lies Below Here, Tread With Caution #

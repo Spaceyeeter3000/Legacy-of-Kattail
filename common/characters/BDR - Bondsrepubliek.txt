@@ -10,8 +10,10 @@ characters = {
         }
 
         country_leader = {
+            desc = BDR_Clawatio_Clawtz_Meolson_DESC
             expire = 1965.1.1
             ideology = social_democracy
+            traits = { steadfast_social_democrat }
         }
     }
 }
