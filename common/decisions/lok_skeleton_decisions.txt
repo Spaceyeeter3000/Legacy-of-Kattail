@@ -574,6 +574,7 @@ herzlands_unification_cat = {
 		fire_only_once = yes
 
 		remove_effect = {
+			set_global_flag = joe_biden_incident_occurred
 			#How likely Itch and Frankat core states are to flip to Elwin
 			set_variable = { sil_itch_state_flip_chance = sil_itch_loyalty }
 			set_variable = { sil_frankat_state_flip_chance = sil_frankat_loyalty }
@@ -588,7 +589,7 @@ herzlands_unification_cat = {
 
 			subtract_from_variable = { sil_itch_revolt_chance = sil_itch_loyalty }
 			subtract_from_variable = { sil_frankat_revolt_chance = sil_frankat_loyalty }
-			subtract_from_variable = { sil_kaiserist_revolt_chance = sil_kaiserist_loyality }
+			subtract_from_variable = { sil_kaiserist_revolt_chance = sil_kaiserist_loyalty }
 			subtract_from_variable = { sil_monarchist_revolt_chance = sil_monarchist_loyalty }
 
 			multiply_variable = { sil_itch_revolt_chance = 100 }
@@ -613,14 +614,17 @@ herzlands_unification_cat = {
 					transfer_units_fraction = { target = KKH stockpile_ratio = 0.1 army_ratio = 0.1 navy_ratio = 0.1 air_ratio = 0.1 }
 				}
 			}
-			SIL_Fritz = {
-				set_nationality = KKH
-				add_country_leader_role = {
-					country_leader = {
-						ideology = kaiserism
-						expire = "1965.1.1.1"
+			if = {
+				limit = { check_variable = { SIL.sil_kaiserist_loyalty < 80 } }
+				SIL_Fritz = {
+					set_nationality = KKH
+					add_country_leader_role = {
+						country_leader = {
+							ideology = kaiserism
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
 					}
-					promote_leader = yes
 				}
 			}
 
@@ -647,6 +651,11 @@ herzlands_unification_cat = {
 						transfer_state_to = SIL
 					}
 				}
+				if = {
+					limit = { check_variable = { SIL.sil_itch_loyalty > 80 } }
+					CLE_Itch = { set_nationality = SIL }
+				}
+				else = { drop_cosmetic_tag = yes }
 			}
 			every_state = {
 				limit = { is_core_of = CLE is_owned_by = SIL is_core_of = SIL }
@@ -655,7 +664,7 @@ herzlands_unification_cat = {
 					transfer_state_to = CLE
 				}
 			}
-			CLE = { drop_cosmetic_tag = yes leave_faction = yes }
+			CLE = { leave_faction = yes }
 
 			PAW = {
 				every_owned_state = {
@@ -663,6 +672,10 @@ herzlands_unification_cat = {
 						chance = ROOT.sil_frankat_state_flip_chance
 						transfer_state_to = SIL
 					}
+				}
+				if = {
+					limit = { check_variable = { SIL.sil_frankat_loyalty > 80 } }
+					PAW_Meowkills = { set_nationality = SIL }
 				}
 			}
 			every_state = {

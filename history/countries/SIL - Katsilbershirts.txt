@@ -106,7 +106,7 @@ set_convoys = 300
 #Loyalty of Elwin's factions
 set_variable = { sil_itch_loyalty = 0.60 }
 set_variable = { sil_frankat_loyalty = 0.20 }
-set_variable = { sil_kaiserist_loyality = 0.50 }
+set_variable = { sil_kaiserist_loyalty = 0.50 }
 set_variable = { sil_monarchist_loyalty = 0.40 }
 
 

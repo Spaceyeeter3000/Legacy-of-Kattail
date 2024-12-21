@@ -6207,4 +6207,11 @@ leader_traits = {
 			}
 		}
 	}
+
+	ICE_minister_of_healthcare_and_finance = { 
+		random = no 
+		sprite = 13
+		stability_factor = 0.1
+		production_speed_industrial_complex_factor = 0.1
+	}
 }

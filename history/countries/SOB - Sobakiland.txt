@@ -105,10 +105,10 @@ set_politics = {
 }
 
 set_popularities = {
-	neutrality = 25
-	fascism = 25
-	communism = 25
-	democratic = 25
+	neutrality = 5
+	fascism = 10
+	communism = 75
+	democratic = 10
 }
 
 recruit_character = SOB_Jimmy

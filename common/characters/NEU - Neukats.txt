@@ -7,6 +7,10 @@ characters = {
 				small="GFX_portrait_NEU_Pimousse_Small"
 			}
 		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = despotism
+		}
 		advisor = {
 			slot = army_chief
 			idea_token = NEU_Pimousse

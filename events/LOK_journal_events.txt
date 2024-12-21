@@ -1,3 +1,438 @@
+add_namespace = LOK_SIL
+#SHIT'S EXPLODING
+country_event = {
+	id = LOK_SIL.1
+	title = "LOK_SIL.1.t"
+	desc = "LOK_SIL.1.d"
+	is_triggered_only = yes
+	picture = GFX_report_event_elwin
+
+	immediate = {
+		hidden_effect = {
+			news_event = { id = LOK_SIL.5 }
+			set_global_flag = joe_biden_incident_occurred
+			#How likely Itch and Frankat core states are to flip to Elwin
+			set_variable = { sil_itch_state_flip_chance = sil_itch_loyalty }
+			set_variable = { sil_frankat_state_flip_chance = sil_frankat_loyalty }
+
+			multiply_variable = { sil_itch_state_flip_chance = 100 }
+			multiply_variable = { sil_frankat_state_flip_chance = 100 }
+
+			set_variable = { sil_itch_revolt_chance = 1 }
+			set_variable = { sil_frankat_revolt_chance = 1 }
+			set_variable = { sil_kaiserist_revolt_chance = 1 }
+			set_variable = { sil_monarchist_revolt_chance = 1 }
+
+			subtract_from_variable = { sil_itch_revolt_chance = sil_itch_loyalty }
+			subtract_from_variable = { sil_frankat_revolt_chance = sil_frankat_loyalty }
+			subtract_from_variable = { sil_kaiserist_revolt_chance = sil_kaiserist_loyalty }
+			subtract_from_variable = { sil_monarchist_revolt_chance = sil_monarchist_loyalty }
+
+			multiply_variable = { sil_itch_revolt_chance = 100 }
+			multiply_variable = { sil_frankat_revolt_chance = 100 }
+			multiply_variable = { sil_kaiserist_revolt_chance = 100 }
+			multiply_variable = { sil_monarchist_revolt_chance = 100 }
+
+			set_variable = { elwin_lost_count = 0 }
+
+			#Fritz
+			every_state = {
+				limit = { is_core_of = KKH }
+				random = {
+					chance = ROOT.sil_kaiserist_revolt_chance
+					transfer_state_to = KKH
+					SIL = { transfer_units_fraction = { target = KKH stockpile_ratio = 0.1 army_ratio = 0.1 navy_ratio = 0.1 air_ratio = 0.1 } }
+				}
+			}
+			if = {
+				limit = { check_variable = { SIL.sil_kaiserist_loyalty < 80 } }
+				SIL_Fritz = {
+					set_nationality = KKH
+					add_country_leader_role = {
+						country_leader = {
+							ideology = kaiserism
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
+					}
+				}
+			}
+
+			#Alice
+			every_state = {
+				limit = { is_core_of = KVK }
+				random = {
+					chance = ROOT.sil_monarchist_revolt_chance
+					transfer_state_to = KVK
+					SIL = { transfer_units_fraction = { target = KVK stockpile_ratio = 0.1 army_ratio = 0.1 navy_ratio = 0.1 air_ratio = 0.1 } }
+				}
+			}
+			#Itch and Frankats
+			CLE = {
+				every_owned_state = {
+					random = {
+						chance = ROOT.sil_itch_state_flip_chance
+						transfer_state_to = SIL
+					}
+				}
+				if = {
+					limit = { check_variable = { SIL.sil_itch_loyalty > 80 } }
+					CLE = { every_character = { set_nationality = SIL } }
+					CLE_Itch = { set_nationality = SIL }
+				}
+				else = { drop_cosmetic_tag = yes }
+			}
+			every_state = {
+				limit = { is_core_of = CLE is_owned_by = SIL is_core_of = SIL }
+				random = {
+					chance = ROOT.sil_itch_revolt_chance
+					transfer_state_to = CLE
+				}
+			}
+			CLE = { leave_faction = yes }
+
+			PAW = {
+				every_owned_state = {
+					random = {
+						chance = ROOT.sil_frankat_state_flip_chance
+						transfer_state_to = SIL
+					}
+				}
+				if = {
+					limit = { check_variable = { SIL.sil_frankat_loyalty > 80 } }
+					PAW = { every_character = { set_nationality = SIL } }
+					PAW_Meowkills = { set_nationality = SIL }
+				}
+			}
+			every_state = {
+				limit = { is_core_of = PAW is_owned_by = SIL is_core_of = SIL }
+				random = {
+					chance = ROOT.sil_frankat_revolt_chance
+					transfer_state_to = PAW
+				}
+			}
+
+			PAW = { drop_cosmetic_tag = yes leave_faction = yes }
+			SIL = {
+				set_autonomy = {
+					target = CLE
+					autonomy_state = autonomy_free
+				}
+				set_autonomy = {
+					target = PAW
+					autonomy_state = autonomy_free
+				}
+			}
+			34 = { transfer_state_to = KTW set_demilitarized_zone = no }
+			44 = { transfer_state_to = KTW set_demilitarized_zone = no }
+			45 = { transfer_state_to = KTW set_demilitarized_zone = no }
+			36 = { transfer_state_to = KTW set_demilitarized_zone = no }
+
+			KKH = { declare_war_on = { target = SIL type = annex_everything } }
+			KVK = { declare_war_on = { target = SIL type = annex_everything } }
+			CLE = { declare_war_on = { target = SIL type = annex_everything } }
+			PAW = { declare_war_on = { target = SIL type = annex_everything } }
+			KTW = { declare_war_on = { target = SIL type = annex_everything } }
+		}
+	}
+
+	#Listen to Hans
+	option = {
+		name = "LOK_SIL.1.a"
+		activate_mission = SIL_crush_all_rebels
+		KEP = {
+			add_opinion_modifier = {
+				target = SIL
+				modifier = KEP_shot_down_joe_biden
+			}
+		}
+		ai_chance = {
+			base = 2
+		}
+		trigger = { check_variable = { sil_itch_loyalty < 0.80 } check_variable = { sil_frankat_loyalty < 0.80 } }
+	}
+
+	#Listen to Hans (with CLE or PAW loyal)
+	option = {
+		name = "LOK_SIL.1.c"
+		activate_mission = SIL_crush_all_rebels
+		ai_chance = {
+			base = 10
+		}
+		KEP = {
+			add_opinion_modifier = {
+				target = SIL
+				modifier = KEP_shot_down_joe_biden
+			}
+		}
+		trigger = {
+			OR = {
+				check_variable = { sil_itch_loyalty > 0.79 }
+				check_variable = { sil_frankat_loyalty > 0.79 }
+			}
+		}
+	}
+
+	#Listen to Bubbles
+	option = {
+		name = "LOK_SIL.1.b"
+		add_stability = 0.20
+		add_war_support = -0.20
+		activate_mission = SIL_crush_the_north
+		ai_chance = {
+			base = 1
+		}
+		trigger = { check_variable = { sil_itch_loyalty < 0.80 } check_variable = { sil_frankat_loyalty < 0.80 } }
+		every_owned_state = {
+			limit = { is_core_of = CLE }
+			transfer_state_to = CLE
+		}
+		white_peace = CLE
+
+		every_owned_state = {
+			limit = { is_core_of = PAW }
+			transfer_state_to = PAW
+		}
+		white_peace = PAW
+	}
+}
+
+#Elwin Triumphant
+country_event = {
+	id = LOK_SIL.2
+	title = "LOK_SIL.2.t"
+	desc = "LOK_SIL.2.d"
+	is_triggered_only = yes
+	picture = GFX_report_event_elwin
+
+	#Whatever
+	option = {
+		name = "LOK_SIL.2.a"
+		set_country_flag = SIL_small_kepler_aid
+		KEP = {
+			country_event = { id = LOK_KEP.4 }
+			effect_tooltip = {
+				add_timed_idea = {
+					idea = KEP_small_kepler_aid
+					days = 180
+				}
+			}
+			add_opinion_modifier = {
+				target = SIL
+				modifier = KEP_making_it_up
+			}
+		}
+	}
+
+	#BLOW UP KEPLAAAR
+	option = {
+		name = "LOK_SIL.2.b"
+		declare_war_on = {
+			target = KEP
+			type = annex_everything
+		}
+	}
+}
+
+#Elwin Triumphant (Moderate)
+country_event = {
+	id = LOK_SIL.3
+	title = "LOK_SIL.3.t"
+	desc = "LOK_SIL.3.d"
+	is_triggered_only = yes
+	picture = GFX_report_event_elwin
+
+	#Whatever
+	option = {
+		name = "LOK_SIL.3.a"
+		set_country_flag = SIL_small_kepler_aid
+		add_timed_idea = {
+			idea = SIL_small_kepler_aid
+			days = 180
+		}
+		KEP = {
+			country_event = { id = LOK_KEP.4 }
+			effect_tooltip = {
+				add_timed_idea = {
+					idea = KEP_small_kepler_aid
+					days = 180
+				}
+			}
+			add_opinion_modifier = {
+				target = SIL
+				modifier = KEP_making_it_up
+			}
+		}
+	}
+
+	#Help em a lot
+	option = {
+		name = "LOK_SIL.3.b"
+		set_country_flag = SIL_big_kepler_aid
+		set_country_flag = SIL_elwin_is_nice #bubbles democracy
+		add_timed_idea = {
+			idea = SIL_big_kepler_aid
+			days = 180
+		}
+		KEP = {
+			country_event = { id = LOK_KEP.4 }
+			effect_tooltip = {
+				add_timed_idea = {
+					idea = KEP_big_kepler_aid
+					days = 180
+				}
+			}
+			add_opinion_modifier = {
+				target = SIL
+				modifier = KEP_making_it_up_a_lot
+			}
+		}
+	}
+}
+
+#Elwin dies
+country_event = {
+	id = LOK_SIL.4
+	title = "LOK_SIL.4.t"
+	desc = "LOK_SIL.4.d"
+	is_triggered_only = yes
+	picture = GFX_report_event_elwin
+
+	#Whatever
+	option = {
+		name = "LOK_SIL.4.a"
+		kill_country_leader = yes
+		hidden_effect = {
+			news_event = { id = LOK_SIL.6 }
+		}
+	}
+}
+
+#Silbershirts Collapse
+news_event = {
+	id = LOK_SIL.5
+	title = "LOK_SIL.5.t"
+	desc = "LOK_SIL.5.d"
+	is_triggered_only = yes
+	picture = GFX_news_event_burning_city
+	major = yes
+
+	#Whatever
+	option = {
+		name = "LOK_SIL.5.a"
+	}
+}
+
+#Elwin Dies
+news_event = {
+	id = LOK_SIL.6
+	title = "LOK_SIL.6.t"
+	desc = "LOK_SIL.6.d"
+	is_triggered_only = yes
+	picture = GFX_news_event_victory
+	major = yes
+
+	#Whatever
+	option = {
+		name = "LOK_SIL.6.a"
+	}
+}
+
+add_namespace = LOK_KEP
+
+news_event = {
+	id = LOK_KEP.1
+	title = "LOK_KEP.1.t"
+	desc = "LOK_KEP.1.d"
+	picture = GFX_news_event_colony_ship
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = "LOK_KEP.1.a"
+		trigger = { NOT = { tag = KEP } }
+	}
+
+	option = {
+		name = "LOK_KEP.1.b"
+		trigger = { tag = KEP }
+		activate_mission = KEP_joe_biden_arrival
+	}
+}
+
+news_event = {
+	id = LOK_KEP.2
+	title = "LOK_KEP.2.t"
+	desc = "LOK_KEP.2.d"
+	picture = GFX_news_event_colony_ship
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = "LOK_KEP.2.a"
+		trigger = { NOT = { tag = KEP } }
+	}
+
+	option = {
+		name = "LOK_KEP.2.b"
+		trigger = { tag = KEP }
+	}
+}
+
+
+news_event = {
+	id = LOK_KEP.3
+	title = "LOK_KEP.3.t"
+	desc = "LOK_KEP.3.d"
+	picture = GFX_news_event_exploding_ship
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = "LOK_KEP.3.a"
+		trigger = { NOT = { tag = KEP tag = SIL } }
+	}
+
+	option = {
+		name = "LOK_KEP.3.b"
+		trigger = { tag = KEP }
+		add_stability = -0.20
+		add_war_support = 0.20
+	}
+
+	option = {
+		name = "LOK_KEP.3.c"
+		trigger = { tag = SIL }
+		add_stability = -0.10
+	}
+}
+
+#Elwin aid
+country_event = {
+	id = LOK_KEP.4
+	title = "LOK_KEP.4.t"
+	desc = "LOK_KEP.4.d"
+	is_triggered_only = yes
+
+	option = {
+		name = "LOK_KEP.4.a"
+		trigger = { SIL = { has_country_flag = SIL_small_kepler_aid } }
+		add_timed_idea = {
+			idea = KEP_small_kepler_aid
+			days = 180
+		}
+	}
+
+	option = {
+		name = "LOK_KEP.4.b"
+		trigger = { SIL = { has_country_flag = SIL_big_kepler_aid } }
+		add_timed_idea = {
+			idea = KEP_big_kepler_aid
+			days = 180
+		}
+	}
+}
+
 add_namespace = LOK_DOM
 
 country_event = {

@@ -13,5 +13,14 @@ characters = {
 			expire = "1965.1.1"
 			ideology = totalitarianism
 		}
+
+		field_marshal = {
+			traits = { harsh_leader armor_officer brilliant_strategist aggressive_assaulter }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
 	}
 }

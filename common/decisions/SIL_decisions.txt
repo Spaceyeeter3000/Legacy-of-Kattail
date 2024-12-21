@@ -1,0 +1,334 @@
+lok_journal_entries_cat = {
+	SIL_crush_the_north = {
+		activation  = {
+			always = no
+		} # activated by effect
+		available = {
+			NOT = { country_exists = KVK country_exists = KTW country_exists = KKH }
+		}
+		icon = GFX_decision_generic_military
+		#is_good = yes
+
+		days_mission_timeout = 180
+		selectable_mission = yes
+		complete_effect = {
+			country_event = { id = LOK_SIL.3 }
+		}
+		timeout_effect = {
+			custom_effect_tooltip = SIL_collapse_elwin_tooltip
+			hidden_effect = {
+				country_event = { id = LOK_SIL.4 }
+				SIL_collapse_elwin = yes
+			}
+		}
+	}
+
+	SIL_crush_all_rebels = {
+		activation  = {
+			always = no
+		} # activated by effect
+		available = {
+			NOT = { country_exists = KTW country_exists = CLE country_exists = PAW country_exists = KVK country_exists = KKH }
+		}
+		icon = GFX_decision_generic_military
+		#is_good = yes
+
+		days_mission_timeout = 180
+		selectable_mission = yes
+		complete_effect = {
+			country_event = { id = LOK_SIL.2 }
+		}
+		timeout_effect = {
+			custom_effect_tooltip = SIL_collapse_elwin_tooltip
+			hidden_effect = {
+				country_event = { id = LOK_SIL.4 }
+				SIL_collapse_elwin = yes
+			}
+		}
+	}
+}
+
+SIL_politics_cat = {
+	SIL_favor_monarchism = {
+		icon = GFX_decision_eng_ally_imperialist_coup
+		allowed = {
+			tag = SIL
+		}
+
+		visible = {
+			NOT = { has_global_flag = joe_biden_incident_occurred }
+		}
+
+		allowed = {
+			check_variable = { sil_kaiserist_loyalty > 0 }
+			check_variable = { sil_monarchist_loyalty < 100 }
+		}
+
+		cost = 75
+
+		remove_effect = {
+			set_temp_variable = { sil_loyalty_change = 0.1 }
+			SIL_change_monarchist_loyalty = yes
+
+			set_temp_variable = { sil_loyalty_change = -0.2 }
+			SIL_change_kaiserist_loyalty = yes
+		}
+
+		days_remove = 30
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+
+	SIL_spartanist_concessions = {
+		icon = GFX_decision_generic_industry
+		allowed = {
+			tag = SIL
+		}
+
+		visible = {
+			NOT = { has_global_flag = joe_biden_incident_occurred }
+		}
+
+		available = {
+			has_equipment = { infantry_equipment > 9999 }
+			check_variable = { sil_frankat_loyalty < 100 }
+			num_of_military_factories > 1
+		}
+
+		cost = 75
+
+		remove_effect = {
+			random_owned_state = {
+				limit = { check_variable = { building_level@arms_factory > 0 } }
+				remove_building = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			random_owned_state = {
+				limit = { check_variable = { building_level@arms_factory > 0 } }
+				remove_building = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -10000
+			}
+			set_temp_variable = { sil_loyalty_change = 0.1 }
+			SIL_change_frankat_loyalty = yes
+		}
+
+		days_remove = 30
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+
+	SIL_favor_kaiserism = {
+		icon = GFX_decision_eng_support_imperialist_coup
+		allowed = {
+			tag = SIL
+		}
+
+		visible = {
+			NOT = { has_global_flag = joe_biden_incident_occurred }
+		}
+
+		allowed = {
+			check_variable = { sil_monarchist_loyalty > 0 }
+			check_variable = { sil_kaiserist_loyalty < 100 }
+		}
+
+		cost = 75
+
+		remove_effect = {
+			set_temp_variable = { sil_loyalty_change = -0.2 }
+			SIL_change_monarchist_loyalty = yes
+
+			set_temp_variable = { sil_loyalty_change = 0.1 }
+			SIL_change_kaiserist_loyalty = yes
+		}
+
+		days_remove = 30
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+
+	SIL_crush_monarchism = {
+		icon = GFX_decision_oppression
+		allowed = {
+			tag = SIL
+		}
+
+		visible = {
+			NOT = { has_global_flag = joe_biden_incident_occurred }
+		}
+
+		available = {
+			has_equipment = { infantry_equipment > 9999 }
+			has_manpower > 100000
+		}
+
+		state_target = any_controlled_state
+		on_map_mode = map_and_decisions_view
+		targets = {
+			29 664 665 23
+		}
+		fire_only_once = yes
+
+		cost = 40
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -10000
+			}
+			add_manpower = -100000
+		}
+
+		remove_effect = {
+			SIL = {
+				set_temp_variable = { sil_loyalty_change = -0.2 }
+				SIL_change_monarchist_loyalty = yes
+			}
+			FROM = { remove_core_of = KVK add_manpower = -25000 }
+		}
+
+		days_remove = 30
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+
+
+	SIL_crush_frankats = {
+		icon = GFX_decision_oppression
+		allowed = {
+			tag = SIL
+		}
+
+		visible = {
+			NOT = { has_country_flag = SIL_declare_meowkills_the_favorite }
+			NOT = { has_global_flag = joe_biden_incident_occurred }
+		}
+
+		available = {
+			has_equipment = { infantry_equipment > 9999 }
+			has_manpower > 100000
+		}
+
+		state_target = any_controlled_state
+		on_map_mode = map_and_decisions_view
+		targets = {
+			656 655 43 42 50
+		}
+		fire_only_once = yes
+
+		cost = 40
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -10000
+			}
+			add_manpower = -100000
+		}
+
+		remove_effect = {
+			SIL = {
+				set_temp_variable = { sil_loyalty_change = -0.2 }
+				SIL_change_frankat_loyalty = yes
+			}
+			FROM = { remove_core_of = PAW add_manpower = -25000 }
+		}
+
+		days_remove = 30
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+
+	SIL_declare_itch_the_favorite = {
+		icon = GFX_decision_generic_nationalism
+		allowed = {
+			tag = SIL
+		}
+
+		visible = {
+			NOT = { has_global_flag = joe_biden_incident_occurred }
+		}
+
+		allowed = {
+			check_variable = { sil_itch_loyalty < 100 }
+		}
+
+		cost = 150
+
+		remove_effect = {
+			set_temp_variable = { sil_loyalty_change = 0.4 }
+			SIL_change_itch_loyalty = yes
+			
+			set_temp_variable = { sil_loyalty_change = -0.4 }
+			SIL_change_frankat_loyalty = yes
+
+			set_temp_variable = { sil_loyalty_change = -0.2 }
+			SIL_change_monarchist_loyalty = yes
+
+			set_temp_variable = { sil_loyalty_change = -0.2 }
+			SIL_change_kaiserist_loyalty = yes
+		}
+
+		days_remove = 30
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+
+	SIL_declare_meowkills_the_favorite = {
+		icon = GFX_decision_generic_nationalism
+		allowed = {
+			tag = SIL
+		}
+
+		visible = {
+			NOT = { has_global_flag = joe_biden_incident_occurred }
+		}
+
+		allowed = {
+			check_variable = { sil_itch_loyalty < 100 }
+		}
+
+		cost = 150
+
+		remove_effect = {
+			set_country_flag = SIL_declare_meowkills_the_favorite
+			set_temp_variable = { sil_loyalty_change = -0.4 }
+			SIL_change_itch_loyalty = yes
+			
+			set_temp_variable = { sil_loyalty_change = 0.4 }
+			SIL_change_frankat_loyalty = yes
+
+			set_temp_variable = { sil_loyalty_change = -0.2 }
+			SIL_change_monarchist_loyalty = yes
+
+			set_temp_variable = { sil_loyalty_change = 0.2 }
+			SIL_change_kaiserist_loyalty = yes
+		}
+
+		days_remove = 30
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+}

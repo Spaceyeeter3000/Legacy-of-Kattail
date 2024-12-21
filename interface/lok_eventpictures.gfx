@@ -30,6 +30,11 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_space_exploration.dds"
 	}
 
+	spriteType = {
+		name = "GFX_report_event_elwin"
+		texturefile = "gfx/event_pictures/report_event_elwin.dds"
+	}
+
 	#News
 	spriteType = {
 		name = "GFX_news_event_space_exploration"
@@ -39,6 +44,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_news_event_muno_landing"
 		texturefile = "gfx/event_pictures/news_event_muno_landing.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_colony_ship"
+		texturefile = "gfx/event_pictures/news_event_colony_ship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_exploding_ship"
+		texturefile = "gfx/event_pictures/news_event_exploding_ship.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_burning_city"
+		texturefile = "gfx/event_pictures/news_event_burning_city.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_victory"
+		texturefile = "gfx/event_pictures/news_event_victory.dds"
 	}
 }
 

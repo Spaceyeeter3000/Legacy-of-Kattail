@@ -1,0 +1,29 @@
+ideas = {
+	country = {
+		KEP_small_kepler_aid = {
+			picture = generic_goods_red_bonus
+			
+			allowed = { always = no }
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.20
+				industrial_capacity_factory = 0.10
+			}
+		}
+
+		KEP_big_kepler_aid = {
+			picture = generic_foreign_capital
+			
+			allowed = { always = no }
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.60
+				production_speed_buildings_factor = 0.30
+			}
+		}
+	}
+}
