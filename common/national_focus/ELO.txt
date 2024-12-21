@@ -1,15 +1,14 @@
 ﻿focus_tree = {
 	id = elowia_focus_tree
-	
+	continuous_focus_position = { x = 2700 y = 300 }
 	country = {
 		factor = 0
 		modifier = {
-        add = 2511
-		tag = ELO
+			add = 10
+			tag = ELO
 		}
 	}
 	
-	default = no
 	reset_on_civilwar = no
 
 	initial_show_position = {
@@ -22,7 +21,7 @@
 
 	focus = {
 		id = ELO_oh_shit_oh_god
-		icon = ELO_burning
+		icon = GFX_focus_ELO_burning
 		x = 12
 		y = 1
 		cost = 1
@@ -37,7 +36,7 @@
 
 	focus = {
 		id = ELO_appeal_south
-		icon = ELO_handshake_south
+		icon = GFX_focus_ELO_handshake_south
 		prerequisite = { focus = ELO_oh_shit_oh_god }
 		relative_position_id = ELO_oh_shit_oh_god
 		x = 0
