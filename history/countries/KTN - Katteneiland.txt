@@ -7,6 +7,7 @@ set_stability = 0.7
 set_war_support = 0.4
 
 create_faction = "Zuidelijke Economische Treatie Organisatie"
+add_to_faction = SMP
 
 # Starting tech
 set_technology = {

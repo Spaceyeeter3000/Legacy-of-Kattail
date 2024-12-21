@@ -1,4 +1,9 @@
 characters = {
+
+    ####################
+    ### Nederkattens ###
+    ####################
+
     BDR_Clawatio_Clawtz_Meolson = {
         name = BDR_Clawatio_Clawtz_Meolson
 
@@ -13,7 +18,7 @@ characters = {
             desc = BDR_Clawatio_Clawtz_Meolson_DESC
             expire = 1965.1.1
             ideology = social_democracy
-            traits = { steadfast_social_democrat }
+            traits = { BDR_steadfast_social_democrat }
         }
     }
     BRD_Elise_Kattven = {
@@ -166,6 +171,27 @@ characters = {
             expire = 1965.1.1
             ideology = benevolent_absolutism
             traits = { BDR_chancellor_regent }
+        }
+    }
+
+    ##################
+    ### Swamplands ###
+    ##################
+
+    BDR_Edward_Platmer = {
+        name = BDR_Edward_Platmer
+
+        portraits = {
+            civilian = {
+                large = GFX_portrait_BDR_Edward_Platmer
+                small = GFX_portrait_BDR_Edward_Platmer_Small
+            }
+        }
+        country_leader = {
+            desc = BDR_Edward_Platmer
+            expire = 1965.1.1
+            ideology = conservatism
+            traits = { BDR_unpopular_prime_minister }
         }
     }
 }
