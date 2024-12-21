@@ -37,6 +37,7 @@ defined_text = {
 	text = { trigger = { has_country_leader_ideology = stratocracy 				} localization_key = stratocracy			}
 
 	#Gestalt
-	text = { trigger = { has_country_leader_ideology = hivemind 				} localization_key = hivemind 				}
-	text = { trigger = { has_country_leader_ideology = machine 					} localization_key = machine 				}
+	text = { trigger = { has_country_leader_ideology = unitary_gestalt 			} localization_key = unitary_gestalt 		}
+	text = { trigger = { has_country_leader_ideology = devolved_gestalt 		} localization_key = devolved_gestalt 		}
+	text = { trigger = { has_country_leader_ideology = distributed_gestalt 		} localization_key = distributed_gestalt 	}
 }

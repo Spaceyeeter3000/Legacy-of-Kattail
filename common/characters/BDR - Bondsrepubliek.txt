@@ -36,7 +36,7 @@ characters = {
                 }
             }
             traits = {
-                minister_of_labour
+                BDR_minister_of_labour
             }
             available = {
                 NOT = {
@@ -71,8 +71,33 @@ characters = {
                 small = GFX_portrait_BDR_Andmer_Calwinge_Small
             }
         }
+        # advisor = {
+        #     slot = navy_chief
+        #     idea_token = andmer_calwinge
+        #     allowed = {
+        #         OR = {
+        #             original_tag = KTN
+        #             tag = BDR
+        #         }
+        #     }
+        #     traits = {
+        #         navy_chief_decisive_battle_2
+        #     }
+        #     available = {
+        #         NOT = {
+        #             has_country_leader = {
+        #                 ruling_only = yes
+        #                 character = BDR_Andmer_Calwinge
+        #             }
+        #         }
+        #     }
+        #     cost = 150
+        #     ai_will_do = {
+        #         base = 1
+        #     }
+        # }
         advisor = {
-            slot = navy_chief
+            slot = political_advisor
             idea_token = andmer_calwinge
             allowed = {
                 OR = {
@@ -81,7 +106,7 @@ characters = {
                 }
             }
             traits = {
-                navy_chief_decisive_battle_2
+                BDR_minister_of_defence
             }
             available = {
                 NOT = {
@@ -100,6 +125,47 @@ characters = {
             desc = BDR_Andmer_Calwinge_DESC
             expire = 1965.1.1
             ideology = stratocracy
+        }
+    }
+    BDR_Otto_Verdian_Stahlken = {
+        name = BDR_Otto_Verdian_Stahlken
+
+        portraits = {
+            civilian = {
+                large = GFX_portrait_BDR_Otto_Verdian_Stahlken
+                small = GFX_portrait_BDR_Otto_Verdian_Stahlken_Small
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = otto_stahlken
+            allowed = {
+                OR = {
+                    original_tag = KTN
+                    tag = BDR
+                }
+            }
+            traits = {
+                BDR_minister_of_interior
+            }
+            available = {
+                NOT = {
+                    has_country_leader = {
+                        ruling_only = yes
+                        character = BDR_Otto_Verdian_Stahlken
+                    }
+                }
+            }
+            cost = 150
+            ai_will_do = {
+                base = 1
+            }
+        }
+        country_leader = {
+            desc = BDR_Otto_Verdian_Stahlken_DESC
+            expire = 1965.1.1
+            ideology = benevolent_absolutism
+            traits = { BDR_chancellor_regent }
         }
     }
 }

@@ -233,8 +233,14 @@
  BDR_Andmer_Calwinge:0 "Andmer Calwinge"
  BDR_Andmer_Calwinge_DESC:0 "REPLACE_ME"
 
+ BDR_Otto_Verdian_Stahlken:0 "Otto Verdian Stahlken"
+ BDR_Otto_Verdian_Stahlken_DESC:0 "REPLACE_ME"
+
  steadfast_social_democrat:0 "Resolute Social Democrat"
- minister_of_labour:0 "Minister of Labour"
+ BDR_minister_of_labour:0 "Minister of Labour"
+ BDR_minister_of_interior:0 "Minister of the Interior"
+ BDR_minister_of_defence:0 "Minister of Defence"
+ BDR_chancellor_regent:0 "Kanselier-Regent"
 
 
 

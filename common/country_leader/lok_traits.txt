@@ -68,9 +68,24 @@ leader_traits = {
 		stability_weekly_factor = 0.1
 		drift_defence_factor = 0.2
 	}
-	minister_of_labour = {
+	BDR_minister_of_labour = {
 		communism_drift = 0.05
 		production_factory_efficiency_gain_factor = 0.1
 		industrial_capacity_factory = 0.1
+	}
+	BDR_minister_of_interior = {
+		neutrality_drift = 0.05
+		political_power_factor = 0.1
+		stability_weekly = 0.1
+	}
+	BDR_minister_of_defence = {
+		fascism_drift = 0.05
+		war_support_factor = 0.05
+		conscription_factor = 0.1
+	}
+	BDR_chancellor_regent = {
+		neutrality_drift = 0.1
+		stability_weekly_factor = 0.1
+		drift_defence_factor = 0.1
 	}
 }

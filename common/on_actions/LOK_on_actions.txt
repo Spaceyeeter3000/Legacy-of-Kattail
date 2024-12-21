@@ -601,6 +601,23 @@ on_actions = {
 				news_event = { id = LOK_KEP.1 days = 60 }
 				news_event = { id = LOK_KEP.2 days = 360 }
 			}
+
+			every_country = {
+				limit = { NOT = { has_government = gestalt } }
+				set_country_leader_name = {
+					ideology = gestalt
+					name = GESTALT_PARTY_DEFAULT_LEADER
+				}
+				set_country_leader_portrait = {
+					ideology = gestalt
+					portrait = GFX_portrait_MISC_Placeholder
+				}
+				set_party_name = {
+					ideology = gestalt
+					name = "GESTALT_PARTY_DEFAULT_NAME"
+					long_name = "GESTALT_PARTY_DEFAULT_NAME"
+				}
+			}
         }
 	}
 	
