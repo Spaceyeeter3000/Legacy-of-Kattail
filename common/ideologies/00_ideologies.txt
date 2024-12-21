@@ -159,6 +159,9 @@ ideologies = {
 
 			technoautocracy = {
 			}
+
+			stratocracy = {
+			}
 		}
 
 		dynamic_faction_names = {

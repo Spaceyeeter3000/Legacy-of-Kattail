@@ -227,7 +227,17 @@
  BDR_Clawatio_Clawtz_Meolson:0 "Clawatio Clawtz-Meolson"
  BDR_Clawatio_Clawtz_Meolson_DESC:0 "REPLACE_ME"
 
+ BRD_Elise_Kattven:0 "Elise Kattven"
+ BDR_Elise_Kattven_DESC:0 "REPLACE_ME"
+
+ BDR_Andmer_Calwinge:0 "Andmer Calwinge"
+ BDR_Andmer_Calwinge_DESC:0 "REPLACE_ME"
+
  steadfast_social_democrat:0 "Resolute Social Democrat"
+ minister_of_labour:0 "Minister of Labour"
+
+
+
 
  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
  # The Abyss Lies Below Here, Tread With Caution #

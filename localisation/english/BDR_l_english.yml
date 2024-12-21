@@ -9,3 +9,18 @@
 
  CLAWINGHAM_TUNNEL:0 "Clawingham Tunnel"
  CLAWINGHAM_TUNNEL_BLOWN:0 "The Clawingham Tunnel has been blown up, access to the Katpine valley through this tunnel is no longer possible."
+
+ ###################
+ ### PARTY NAMES ###
+ ###################
+
+ ### KTN ###
+ KTN_democratic_party:0 "Democratic Labour Party"
+ KTN_democratic_party_long:0 "Democratic Labour Party of Katteneiland"
+ KTN_communism_party:0 "FTUC, KTN Branch"
+ KTN_communism_party_long:0 "Federal Trades Union Congress of Katteneiland"
+ KTN_fascism_party:0 "Katteneiland National League"
+ KTN_fascism_party_long:0 "National League of Katteneiland"
+ KTN_neutrality_party:0 "Peace and Order Party"
+ KTN_neutrality_party_long:0 "Party for Peace and Order in Katteneiland"
+ KTN_gestalt_party:0 "§RBANNED PARTY§!"

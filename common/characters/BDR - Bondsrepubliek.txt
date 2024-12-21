@@ -16,4 +16,90 @@ characters = {
             traits = { steadfast_social_democrat }
         }
     }
+    BRD_Elise_Kattven = {
+        name = BRD_Elise_Kattven
+
+        portraits = {
+            civilian = {
+                large = GFX_portrait_BDR_Elise_Kattven
+                small = GFX_portrait_BDR_Elise_Kattven_Small
+            }
+        }
+
+        advisor = {
+            slot = political_advisor
+            idea_token = elise_kattven
+            allowed = {
+                OR = {
+                    original_tag = KTN
+                    tag = BDR
+                }
+            }
+            traits = {
+                minister_of_labour
+            }
+            available = {
+                NOT = {
+                    has_country_leader = {
+                        ruling_only = yes
+                        character = BRD_Elise_Kattven
+                    }
+                }
+            }
+            cost = 150
+            ai_will_do = {
+                base = 1
+            }
+        }
+
+        country_leader = {
+            desc = BDR_Elise_Kattven_DESC
+            expire = 1965.1.1
+            ideology = socialism
+        }
+    }
+    BDR_Andmer_Calwinge = {
+        name = BDR_Andmer_Calwinge
+
+        portraits = {
+            civilian = {
+                large = GFX_portrait_BDR_Andmer_Calwinge
+                small = GFX_portrait_BDR_Andmer_Calwinge_Small
+            }
+            navy = {
+                large = GFX_portrait_BDR_Andmer_Calwinge
+                small = GFX_portrait_BDR_Andmer_Calwinge_Small
+            }
+        }
+        advisor = {
+            slot = navy_chief
+            idea_token = andmer_calwinge
+            allowed = {
+                OR = {
+                    original_tag = KTN
+                    tag = BDR
+                }
+            }
+            traits = {
+                navy_chief_decisive_battle_2
+            }
+            available = {
+                NOT = {
+                    has_country_leader = {
+                        ruling_only = yes
+                        character = BDR_Andmer_Calwinge
+                    }
+                }
+            }
+            cost = 150
+            ai_will_do = {
+                base = 1
+            }
+        }
+        country_leader = {
+            desc = BDR_Andmer_Calwinge_DESC
+            expire = 1965.1.1
+            ideology = stratocracy
+        }
+    }
 }
