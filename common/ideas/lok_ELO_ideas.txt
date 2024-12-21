@@ -15,5 +15,57 @@ ideas = {
 				max_dig_in = 1
 			}
 		}
+
+		ELO_fortress_laboratories = {
+			picture = SOV_atomic_bomb_project
+			
+			allowed = { always = no }
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+
+		ELO_eliminating_poverty = {
+			picture = generic_economic_increase
+			
+			allowed = { always = no }
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_industrial_complex_factor = 0.15
+				consumer_goods_factor = -0.1
+			}
+		}
+
+		ELO_bunkerhausen = {
+			picture = generic_wall_line
+			
+			allowed = { always = no }
+
+			removal_cost = -1
+
+			modifier = {
+				army_core_defence_factor = 0.025
+				land_bunker_effectiveness_factor = 0.05
+			}
+		}
+
+		ELO_brunner_malus = {
+			picture = FRA_fortification_focus
+			
+			allowed = { always = no }
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = -0.15
+				consumer_goods_factor = 0.2
+				production_speed_buildings_factor = -0.1
+			}
+		}
 	}
 }
