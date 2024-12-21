@@ -265,7 +265,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "country_filters"
-			position = { x = 0 y = 278 }
+			position = { x = 585 y = 278 }
 			size = { width = 726 height = 50 }
 			verticalScrollbar = "right_vertical_slider"
 				
@@ -607,6 +607,24 @@ guiTypes = {
 			format = right
 		}
 		
+		instantTextboxType = {
+			name = "special_project"
+			font = "hoi_16mbs"
+			position = { x=20 y=94 }
+			maxWidth = 50
+			maxHeight = 18
+			format = right
+		}
+		
+		instantTextboxType = {
+			name = "production_line"
+			font = "hoi_16mbs"
+			position = { x=20 y=113 }
+			maxWidth = 50
+			maxHeight = 18
+			format = right
+		}
+
 		instantTextboxType = {
 			name = "needed"
 			position = { x=-8 y=94 }

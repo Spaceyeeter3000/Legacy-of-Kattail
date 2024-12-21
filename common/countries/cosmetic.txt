@@ -37,3 +37,13 @@ UNIONSTAAT = {
 	color = rgb { 33 70 139 }
 	color_ui = rgb { 33 70 139 }
 }
+
+SIL_REFORMED = {
+	color = rgb { 128 128 187 }
+	color_ui = rgb { 128 128 187 }
+}
+
+SIL_AFFIRMED = {
+	color = rgb { 32 49 104 }
+	color_ui = rgb { 32 49 104 }
+}

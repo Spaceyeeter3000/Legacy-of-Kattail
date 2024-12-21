@@ -1,4 +1,470 @@
 lok_journal_entries_cat = {
+	#BUBBLES PATH
+	SIL_leap_of_faith = {
+		icon = GFX_decision_SWI_swiss_democratic_tradition_campaign
+		allowed = {
+			tag = SIL
+		}
+
+		visible = {
+			has_government = fascism
+			has_country_flag = SIL_elwin_is_nice
+		}
+
+		available = {
+			democratic > 0.40
+			custom_trigger_tooltip = {
+				tooltip = SIL_officially_reform_available_tt
+				has_country_flag = SIL_dialed_ambitions_back
+			}
+			custom_trigger_tooltip = {
+				tooltip = SIL_integrated_katown_tt
+				36 = { is_core_of = SIL }
+				34 = { is_core_of = SIL }
+				44 = { is_core_of = SIL }
+				45 = { is_core_of = SIL }
+			}
+			has_idea = SIL_the_great_tyrant_lesser
+		}
+
+		cost = 200
+
+		days_remove = 120
+
+		remove_effect = {
+			custom_effect_tooltip = SIL_leap_of_faith_remove_tt
+			remove_ideas = SIL_the_great_tyrant_lesser
+			retire_country_leader = yes
+			SIL_Bubbles = {
+				add_country_leader_role = {
+					promote_leader = yes
+					country_leader={
+						expire = "1965.1.1"
+						ideology = conservatism
+					}
+				}
+			}
+			SIL_Hans = {
+				add_country_leader_role = {
+					promote_leader = yes
+					country_leader={
+						expire = "1965.1.1"
+						ideology = stratocracy
+					}
+				}
+			}
+			set_politics = { ruling_party = democratic }
+			start_civil_war = { ideology = fascism size = 0.5 }
+			set_cosmetic_tag = SIL_REFORMED
+		}
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+
+	SIL_fortify_against_south = {
+		icon = GFX_decision_generic_fortification
+		allowed = {
+			tag = SIL
+		}
+
+		visible = {
+			has_government = democratic
+		}
+
+		available = {
+			has_war = no
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 50
+		}
+		
+		remove_effect = {
+			every_owned_state = {
+				limit = {
+					any_neighbor_state = { NOT = { is_owned_by = SIL } }
+				}
+				set_building_level = {
+					type = bunker
+					level = 3
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					} 
+				}
+			}
+		}
+
+		days_remove = 120
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+
+	SIL_cleanse_fascism = {
+		icon = GFX_decision_eng_blackshirt_speech
+		allowed = {
+			tag = SIL
+		}
+
+		visible = {
+			has_government = democratic
+		}
+
+		available = {
+			has_war = no
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		modifier = {
+			fascism_drift = -0.50
+			neutrality_drift = -0.50
+			political_power_cost = 1
+		}
+
+		days_remove = 180
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+
+	#AUTH ELWIN
+	SIL_demand_submission = {
+		icon = GFX_decision_generic_police_action
+		allowed = {
+			tag = SIL
+		}
+
+		visible = {
+			is_puppet = no
+			has_idea = SIL_the_reformed_tyrant
+			has_government = neutrality
+			#has_global_flag = joe_biden_incident_occurred
+		}
+		targets = {
+			CLE PAW NEU
+		}
+		fire_only_once = yes
+
+		cost = 100
+
+		remove_effect = {
+			FROM = { country_event = { id = LOK_SIL.7 } }
+		}
+
+		days_remove = 10
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+
+
+	#NICE ELWIN (start)
+	SIL_integrate_katown = {
+		icon = GFX_decision_infiltrate_state
+		allowed = {
+			tag = SIL
+		}
+
+		visible = {
+			has_global_flag = joe_biden_incident_occurred
+			has_war = no
+			FROM = { NOT = { is_core_of = SIL } }
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = SIL_officially_reform_available_tt
+				has_country_flag = SIL_dialed_ambitions_back
+			}
+			has_equipment = { infantry_equipment > 3999 }
+			has_manpower > 25000
+		}
+
+		state_target = any_controlled_state
+		on_map_mode = map_and_decisions_view
+		targets = {
+			36 34 44 45
+		}
+		fire_only_once = yes
+
+		cost = 40
+
+		modifier = {
+			political_power_cost = 1
+		}
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -4000
+			}
+			add_manpower = -25000
+		}
+
+		remove_effect = {
+			FROM = { add_core_of = SIL remove_core_of = KTW  }
+		}
+
+		days_remove = 60
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+
+	SIL_officially_reform = {
+		icon = GFX_decision_eng_propaganda_campaigns
+		allowed = {
+			tag = SIL
+		}
+
+		visible = {
+			has_government = fascism
+			has_country_flag = SIL_elwin_is_nice
+		}
+
+		available = {
+			neutrality > 0.50
+			custom_trigger_tooltip = {
+				tooltip = SIL_officially_reform_available_tt
+				has_country_flag = SIL_dialed_ambitions_back
+			}
+			custom_trigger_tooltip = {
+				tooltip = SIL_integrated_katown_tt
+				36 = { is_core_of = SIL }
+				34 = { is_core_of = SIL }
+				44 = { is_core_of = SIL }
+				45 = { is_core_of = SIL }
+			}
+			has_idea = SIL_the_great_tyrant_lesser
+		}
+
+		cost = 200
+
+		days_remove = 120
+
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = SIL_the_great_tyrant_lesser
+				add_idea = SIL_the_reformed_tyrant
+			}
+			retire_country_leader = yes
+			add_stability = 0.20
+			SIL_Elwin = {
+				add_country_leader_role = {
+					promote_leader = yes
+					country_leader={
+						expire = "1965.1.1"
+						ideology = despotism
+					}
+				}
+			}
+			set_politics = { ruling_party = neutrality }
+			set_cosmetic_tag = SIL_REFORMED
+		}
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+
+	SIL_loosen_up_police = {
+		icon = GFX_decision_eng_trade_unions_support
+		allowed = {
+			tag = SIL
+		}
+
+		visible = {
+			has_country_flag = SIL_elwin_is_nice
+		}
+
+		cost = 150
+
+		fire_only_once = yes
+
+		modifier = {
+			neutrality_drift = 0.05
+			democratic_drift = 0.05
+		}
+
+		complete_effect = {
+			add_stability = -0.10
+		}
+		
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = SIL_the_great_tyrant
+				add_idea = SIL_the_great_tyrant_lesser
+			}
+		}
+
+		days_remove = 120
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+
+	SIL_chat_with_aviary = {
+		icon = GFX_decision_eng_ally_imperialist_coup
+		allowed = {
+			tag = SIL
+		}
+
+		visible = {
+			has_government = fascism
+			has_country_flag = SIL_elwin_is_nice
+		}
+
+		cost = 50
+
+		modifier = {
+			democratic_drift = 0.10
+		}
+
+		complete_effect = {
+			add_stability = -0.10
+		}
+
+		days_remove = 30
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+
+	SIL_dial_back_our_ambitions = {
+		icon = GFX_decision_generic_form_nation
+		allowed = {
+			tag = SIL
+		}
+
+		visible = {
+			has_country_flag = SIL_elwin_is_nice
+			NOT = { has_country_flag = SIL_dialed_ambitions_back }
+		}
+
+		cost = 75
+
+		complete_effect = {
+			set_country_flag = SIL_dialed_ambitions_back
+			custom_effect_tooltip = SIL_dial_back_our_ambitions_tt
+			add_war_support = -0.05
+			add_stability = 0.05
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+			clr_country_flag = herzlands_warlord_hegemon
+			set_country_flag = herzlands_warlord_uniter
+		}
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+
+	SIL_dial_back_our_ambitions_a_lot = {
+		icon = GFX_decision_infiltrate_state
+		allowed = {
+			tag = SIL
+		}
+
+		visible = {
+			has_country_flag = SIL_elwin_is_nice
+			NOT = { has_country_flag = SIL_dialed_ambitions_back }
+		}
+
+		cost = 75
+
+		complete_effect = {
+			set_country_flag = SIL_dialed_ambitions_back
+			custom_effect_tooltip = SIL_dial_back_our_ambitions_a_lot_tt
+			add_war_support = -0.10
+			add_stability = 0.10
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
+			clr_country_flag = herzlands_warlord_hegemon
+			set_country_flag = herzlands_warlord_regionalist
+		}
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+
+	SIL_chat_with_bubbles = {
+		icon = GFX_decision_eng_propaganda_campaigns
+		allowed = {
+			tag = SIL
+		}
+
+		visible = {
+			has_government = fascism
+			has_country_flag = SIL_elwin_is_nice
+		}
+
+		cost = 50
+
+		modifier = {
+			neutrality_drift = 0.10
+		}
+
+		days_remove = 30
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+
+	SIL_go_on_vacation = {
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = SIL
+		}
+
+		visible = {
+			has_government = fascism
+			has_country_flag = SIL_elwin_is_nice
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		modifier = {
+			fascism_drift = -0.05
+		}
+
+		days_remove = 120
+
+		complete_effect = {
+			add_stability = -0.05
+		}
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+
+	#FASCIST ELWIN
+	#CRAZY ELWIN
 	SIL_crush_the_north = {
 		activation  = {
 			always = no
@@ -172,8 +638,8 @@ SIL_politics_cat = {
 		}
 
 		available = {
-			has_equipment = { infantry_equipment > 9999 }
-			has_manpower > 100000
+			has_equipment = { infantry_equipment > 4999 }
+			has_manpower > 50000
 		}
 
 		state_target = any_controlled_state
@@ -188,9 +654,9 @@ SIL_politics_cat = {
 		complete_effect = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = -10000
+				amount = -4999
 			}
-			add_manpower = -100000
+			add_manpower = -50000
 		}
 
 		remove_effect = {
@@ -208,6 +674,48 @@ SIL_politics_cat = {
 		}
 	}
 
+	SIL_secure_katown = {
+		icon = GFX_decision_generic_arrest
+		allowed = {
+			tag = SIL
+		}
+
+		visible = {
+			NOT = { has_global_flag = joe_biden_incident_occurred }
+		}
+
+		available = {
+			has_equipment = { infantry_equipment > 9999 }
+			has_manpower > 100000
+		}
+
+		state_target = any_controlled_state
+		on_map_mode = map_and_decisions_view
+		targets = {
+			36 34 44 45
+		}
+		fire_only_once = yes
+
+		cost = 40
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -9999
+			}
+			add_manpower = -100000
+		}
+
+		remove_effect = {
+			FROM = { add_core_of = SIL remove_core_of = KTW add_manpower = -100000 set_demilitarized_zone = no }
+		}
+
+		days_remove = 30
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
 
 	SIL_crush_frankats = {
 		icon = GFX_decision_oppression
@@ -221,8 +729,8 @@ SIL_politics_cat = {
 		}
 
 		available = {
-			has_equipment = { infantry_equipment > 9999 }
-			has_manpower > 100000
+			has_equipment = { infantry_equipment > 4999 }
+			has_manpower > 50000
 		}
 
 		state_target = any_controlled_state
@@ -237,9 +745,9 @@ SIL_politics_cat = {
 		complete_effect = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = -10000
+				amount = -4999
 			}
-			add_manpower = -100000
+			add_manpower = -50000
 		}
 
 		remove_effect = {

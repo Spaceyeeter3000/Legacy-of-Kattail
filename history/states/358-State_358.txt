@@ -18,9 +18,30 @@ state={
 	history={
 		owner = KEP
 		add_core_of = KEP
+		victory_points = { 5857 5 }
+		victory_points = { 9947 5 }
+		victory_points = { 6499 5 }
 
 		buildings = {
 			infrastructure = 3
+			5857 = { 
+				supply_node = 1
+				naval_base = 0
+				bunker = 0
+				coastal_bunker = 0
+			}
+			9947 = { 
+				supply_node = 1
+				naval_base = 1
+				bunker = 0
+				coastal_bunker = 0
+			}
+			6499 = { 
+				supply_node = 1
+				naval_base = 1
+				bunker = 0
+				coastal_bunker = 0
+			}
 			industrial_complex = 2
 			arms_factory = 0
 			dockyard = 1

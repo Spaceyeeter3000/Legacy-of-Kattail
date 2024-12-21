@@ -16,6 +16,37 @@ ideas = {
 			}
 		}
 
+		SIL_the_great_tyrant_lesser = {
+			picture = SIL_the_great_tyrant
+			
+			allowed = { always = no }
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = 0.05
+				army_attack_factor = 0.05
+				army_defence_factor = -0.10
+				industrial_capacity_factory = 0.05
+			}
+		}
+
+		SIL_the_reformed_tyrant = {
+			picture = SIL_the_great_tyrant
+			
+			allowed = { always = no }
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.10
+				political_power_gain = 0.10
+				industrial_capacity_factory = 0.10
+			}
+		}
+
 		SIL_small_kepler_aid = {
 			picture = generic_goods_red_bonus
 			

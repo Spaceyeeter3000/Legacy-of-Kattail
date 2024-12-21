@@ -13,10 +13,17 @@ state={
 	history={
 		owner = ROQ
 		add_core_of = ROQ
+		victory_points = { 549 3 }
 
 		victory_points = { 18038 3 }
 		buildings = {
 			rocket_site = 1
+			549 = { 
+				supply_node = 1
+				naval_base = 0
+				bunker = 0
+				coastal_bunker = 0
+			}
 			food_silo = 1
 			air_base = 2
 			infrastructure = 4
