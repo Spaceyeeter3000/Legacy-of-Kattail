@@ -1,4 +1,13 @@
 ﻿l_english:
+ #Parties
+ SIL_democratic_party: "Nordkatzenbund"
+ SIL_democratic_party_long: "Nordkatzenbund"
+ SIL_neutrality_party: "AVN"
+ SIL_neutrality_party_long: "the Autoritäre Vertreter der Nordkatze"
+ SIL_fascism_party: "Elwin Loyalists"
+ SIL_fascism_party_long: "Elwin Loyalists"
+ SIL_communism_party: "Union of Northern Communists"
+ SIL_communism_party_long: "Union of Northern Communists"
 
  #Events
  LOK_SIL.1.t:0 "The Joe Biden Crisis"
