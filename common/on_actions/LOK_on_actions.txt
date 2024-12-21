@@ -595,6 +595,23 @@ on_actions = {
 			count_nukes_in_stockpile = yes
 			calculate_salvo_capacity = yes
 			set_variable = { lok_current_salvo_capacity = 0 }
+
+			every_country = {
+				limit = { NOT = { has_government = gestalt } }
+				set_country_leader_name = {
+					ideology = gestalt
+					name = GESTALT_PARTY_DEFAULT_LEADER
+				}
+				set_country_leader_portrait = {
+					ideology = gestalt
+					portrait = GFX_portrait_MISC_Placeholder
+				}
+				set_party_name = {
+					ideology = gestalt
+					name = "GESTALT_PARTY_DEFAULT_NAME"
+					long_name = "GESTALT_PARTY_DEFAULT_NAME"
+				}
+			}
         }
 	}
 	

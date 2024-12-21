@@ -553,4 +553,10 @@ spriteTypes = {
 	#BSS - Bundesstaat Sudflusionien
 	spriteType = { name = "GFX_portrait_BSS_Dietrich"						texturefile = "gfx/leaders/BSS/BSS_Dietrich.tga" 							}
 	spriteType = { name = "GFX_portrait_BSS_Dietrich_Small"					texturefile = "gfx/interface/ministers/BSS/BSS_Dietrich.tga" 				}
+
+	######################
+	### Misc Portraits ###
+	######################
+
+	spriteType = { name = "GFX_portrait_MISC_Placeholder"					texturefile = "gfx/leaders/MISC/MISC_Placeholder.tga" 							}
 }
