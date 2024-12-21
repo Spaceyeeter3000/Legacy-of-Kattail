@@ -133,29 +133,34 @@ guiTypes = {
 				format = center
 			}
 			
-			buttonType = {
-				name = "owner_flag"
-				quadTextureSprite ="GFX_flag_small2"
-				position = { x= 35 y = 63 }
+			OverlappingElementsBoxType = {
+				name = "state_owners"
+				position = { x = 35 y = 63 }
+				size = { x = 60 y = 40 }
+				format = left
+				spacing = 1.0
+			}
+
+			positionType = {
+				name = "state_owners_size_when_owner_is_controller"
+				position = { x = 110 y = 40 }
 			}
 			
-			iconType ={
-				name ="owner_flag_border"
-				quadTextureSprite = "GFX_diplo_countrylist_flag_frame"
-				position = { x= 30 y = 59 }
-				alwaystransparent = yes
+			positionType = {
+				name = "state_owners_size_when_owner_is_not_controller"
+				position = { x = 60 y = 40 }
 			}
 			
 			buttonType = {
 				name = "controller_flag"
 				quadTextureSprite = "GFX_flag_small2"
-				position = { x= 75 y = 63 }
+				position = { x= 105 y = 63 }
 			}	
 			
 			iconType ={
 				name ="controller_flag_border"
 				quadTextureSprite = "GFX_diplo_countrylist_flag_frame"
-				position = { x= 70 y = 59 }
+				position = { x= 100 y = 59 }
 				alwaystransparent = yes
 			}
 			
@@ -359,10 +364,10 @@ guiTypes = {
 			
 			gridBoxType = {
 				name = "dynamic_modifiers_grid"
-				position = { x = 423 y = 71 }
+				position = { x = -5 y = -32 }
 				size = { width = 0 height = 0 }
 				format = "LOWER_LEFT"
-				slotsize = { width = 40 height = 47 }
+				slotsize = { width = 33 height = 33 }
 				max_slots_vertical = 1
 			}
 			
@@ -446,23 +451,40 @@ guiTypes = {
 		}
 	}
 	
+	
 	windowType = {
-		name = "state_core_entry"
+		name = "state_stakeholder_entry"
 		position = { x = 0 y = 0}	
 		size = { x = 40 y = 26 }
 
 		guibuttonType = {
-			name = "core_country_flag"
+			name = "stakeholder_country_flag"
 			quadTextureSprite ="GFX_flag_small2"
 			position = { x= 0 y = 1 }
 			#Orientation = "UPPER_LEFT"
 		}
 		
-		iconType ={
-			name ="core_flag_border"
+		iconType = {
+			name = "flag_border_thin"
 			quadTextureSprite = "GFX_small_flag_frame_thin"
 			position = { x= -3 y = -1 }
 			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "flag_border_thick"
+			quadTextureSprite = "GFX_diplo_countrylist_flag_frame"
+			position = { x= -5 y = -4 }
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "flag_exclamation_mark"
+			spriteType = "GFX_alerts_category"
+			position = {x = 0 y = 0}
+			frame = 2
+			alwaystransparent = yes
+			scale = 0.8
 		}
 	}
 	
@@ -713,6 +735,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "state_view_dynamic_modifier_entry"
 		size = { width = 40 height = 47 }
+		position = { x = 0 y = -4 }
 		clipping = no
 		
 		iconType = {
@@ -722,7 +745,7 @@ guiTypes = {
 		
 		iconType = {
 			name = "flag"
-			position = { x = 25 y = 25 }
+			position = { x = 23 y = 23 }
 			quadTextureSprite ="GFX_mapicon_unit_flag_stripe"
 			orientation = "UPPER_LEFT"
 		}

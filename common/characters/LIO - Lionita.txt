@@ -8,6 +8,10 @@ characters = {
 				small="GFX_portrait_LIO_Bethadine_Small"
 			}
 		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = market_democracy
+		}
 		advisor = {
 			slot = political_advisor
 			idea_token = LIO_Bethadine

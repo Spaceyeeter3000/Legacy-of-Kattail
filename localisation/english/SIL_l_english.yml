@@ -1,7 +1,77 @@
 ﻿l_english:
 
+ #Events
+ LOK_SIL.1.t:0 "The Joe Biden Crisis"
+ LOK_SIL.1.d:0 "Elwin was furious.\n\nManaging this mess of a northern coalition was hard enough as is, and now, somehow, a giant Kaiser-era orbital gun had been slipped into her territory and used to shoot down Kepler's so-called 'UNS Joe Biden', causing worldwide outrage against her regime.\n\nElwin knew she was innocent, of course, but her nation's cliques didn't. And so disloyal elements of the Itchists, Spartanists, Monarchists and Kaiserists, and even Douclaw's wretched Katown government, seeing this incident as a breach of trust or a sign of madness by Elwin, are rising up in open revolt against Elwin's rule.\n\nNow sat in her command bunker with a trusted advisors, Elwin considers the possibilities. Her right-hand kat Bubbles suggests giving up on the south and focusing on consolidating her true base of power, while Hans, her head marshall, advises against such weakness and instead attempting to crush these foolish rebels while she still can."
+ LOK_SIL.1.a:0 "I am no weakling! They will all be crushed once more..."
+ LOK_SIL.1.a.tt:0 "We must defeat §Revery rebellion§! within the next §Y6 months§! or Elwin will go mad..."
+
+ LOK_SIL.1.c:0 "Bubbles is silly. We have extensive support from the south, let's mop up the rest."
+ LOK_SIL.1.a.tt:0 "We must defeat §Revery rebellion§! within the next §Y6 months§! or Elwin will go mad..."
+
+ LOK_SIL.1.b:0 "Bubbles is right. Let's just hold onto what we can."
+ LOK_SIL.1.b.tt:0 "We must defeat the §YMonarchists§! and the §YKaiserists§! (if they have risen up at all) within the next §Y6 months§! or Elwin will go mad."
+
+
+ LOK_SIL.2.t:0 "Elwin Triumphant"
+ LOK_SIL.2.d:0 "Elwin is victorious! Across the North, the would-be rebels' armies lay shattered beneath her mighty regime, at last truly cementing her rule over the Herzlands' heart, and while the Pyramid itself continues to resist, it will be dealt with in due time, Elwin is sure.\n\nThere however remains the issue of Kepler, who continues to press charges against Elwin's regime, threatening war if nothing is done to repay the damage caused to their nation. But, as Elwin made sure to prove to everyone by murdering anyone who disagrees, the Fuhrerin is of course innocent in the matter.\n\nOnce again her cabinet is divided. Bubbles advises showing goodwill and reimbursing Kepler anyways, while Hans proposes actually admitting responsability and crushing the Keplerites like the gnats that they are."
+ LOK_SIL.2.a:0 "Let's show some goodwill and repay Kepler, it'll cool down tensions."
+ LOK_SIL.2.b:0 "Who do these Terrans think they are? We will crush them!"
+
+ LOK_SIL.3.t:0 "Elwin Triumphant"
+ LOK_SIL.3.d:0 "While the Itchists and the Spartanists have broken away, Elwin has successfully managed to cement her control over the north and most importantly, Katown itself. The situation is stable, but Elwin's legitimacy as the 'Great Tyrant' is forever shattered.\n\nThe path ahead is unclear, but one thing's for sure: Nordherzlandish fascism has failed, and a change in course seems inevitable. For the meantime, Bubbles has proposed sending an aid package to Kepler in order to try and mend relations with the world following the incident."
+ LOK_SIL.3.a:0 "Sure, a little aid will do."
+ LOK_SIL.3.b:0 "Actually? Kepler deserves better than this. Let's fully compensate them!"
+ 
+ LOK_SIL.4.t:0 "The End of All Things"
+ LOK_SIL.4.d:0 "Elwin's high command was sitting around a table, looking at a map. Present were Bubbles (Elwin's most loyal assistant), Aviary (Elwin's wife, a humanoid bee-like creature), alongside a myriad of other generals such as Meorgel and Ktainer.\n\n'Diplomatic tensions are simmering ever since all foreign agents were expelled. The Keplerites and the Bundesrepublik are likely to resume hostilities if nothing is done, while rebels are advancing everywhere.', Bubbles stated plainly.\n\n'All of is just distraction which needs to be resolved. Everything will be fine when the world realizes I'm innocent. How goes the investigation into that?', nervously replied Elwin.\n\n'Mein Führer... the investigation...'\n\n'The investigation has failed. It has yielded no results. We still have no idea who shot down the Joe Biden, and everyone still thinks it is you.'\n\n'These people will stay here. Bubbles, and Aviary.'\n\nThe other generals leave the room.\n\n'That... that was AN ORDER! TO RESOLVE THIS CASE WAS AN ORDER! WHO ARE YOU THAT YOU DARE RESIST MY ORDERS???? IS THIS WHAT IT HAS COME TO? EVERYONE IS LYING TO ME! EVEEEERYOOOONE!! YOU! THE GENERALS! THE HIGH COMMAND! THE KEPLERITES! THE BUNDESREPUBLIK! THAT MIRLEAN-FORSAKEN GIANT RABBIT IS PART OF IT TOO! I KNOW IT! EVERYONE IS PLOTTING AGAINST ME! THE ENTIRE FUCKING PLANET WANTS MY DOWNFALL! EVEN THOSE FUCKING FISHES IN THE SUN SEA ARE PART OF IT, I BET!!!!'\n\n'Mein Führerin, I cannot allow you to spew such basel-'\n\n'Shut the SCHEISSE UP you PATHETIC MORON! ALL YOU'VE DONE IS LIE TO ME! YOU WANT ME DEAD TOO, DON'T YOU? YOU THINK I'M TOO EVIL FOR YOU, DON'T YOU? THAT I'M TOO RADICAL???? NOT WHOLESOME ENOUGH FOR YOU, HUH?? THAT I SHOULD BE NICE TO ALL THESE... THESE... THESE FLUSIONIAN SCUMS??? THESE STUPID APE ALIENS, THESE MORONIC RABBITS, THESE DEGENERATE INBRED SEAKATZENS??'\n\n'What you say is outrageous'\n\n'They have NO HONOR! RESORTING TO PLOTS AND PLOYS TO UNDERMINE ME!! You know what I SHOULD have done, huuh??? COBALT BOMB! COBALT BOMB ALL OF THEM! BATHE THIS FUCKING PLANET IN RADIATION! KILL EVERYTHING!!!!!!'\n\n'This would be in violation of the FAR-\n\n'The FART? THE FART??? THE ONLY FART IN THIS ROOM IS YOU! ALL OF YOU!!!! Well, you know WHAT? YOU KNOW WHAT??? I'M GONNA DO WHAT I SHOULD HAVE DONE LONG AGO!'\n\nElwin pulls out her Katzenluger and aims it at Aviary.\n\n'Starting with YOU, DEGENERATE SCUM! I BET YOU'RE THE ONE BEHIND IT ALL, HUH??? ONLY PRETENDING TO BE ON MY SIDE TO BETTER UNDERMINE ME, YOU PATHETIC BUG! YOU DID IT! YOU SHOT DOWN THE JOE BIDEN! IT WAS YOOOOOOUUUUUUUUU! WELL, SAY GOODBY-'\n\nKABLAM!\n\nElwin falls dead to the ground as Bubbles, shaking, puts his smoking Katzenluger back into its holster. Bubbles grabs Aviary by the arm.\n\n'Let's get out of here. Now. There's an exit below her desk. This is going to get real ugly, real soon.' Bubbles said, pulling Aviary and himself through a trapdoor below Elwin's desk."
+ LOK_SIL.4.a:0 "And real ugly it got, real soon..."
+
+ LOK_SIL.5.t:0 "Silbershirts Collapse!"
+ LOK_SIL.5.d:0 "Following the destruction of the UNS Joe Biden, seemingly by Elwin's forces, tensions within the Katsilbershirts have reached a boiling point. The various factions with whom Elwin had previously compromised have erupted in open revolt, claiming the ship's destruction to be a wanton act of insanity by the Fuhrerin warranting her removal from power.\n\nElwin herself claims to be innocent, having repeatedly declared the whole event to be part of a conspiracy aiming for her downfall, which has done little to deter the rebels operating all across her lands."
+ LOK_SIL.5.a:0 "Her end is near."
+
+ LOK_SIL.6.t:0 "Führerin Elwin von Kattensbach Dead!"
+ LOK_SIL.6.d:0 "News have come from the northern herzlands that the Katsilbershirts's infamous leader, Elwin von Kattensbach, has been shot dead by her advisor, Bubbles, after threatening to obliterate the world in nuclear hellfire following a series of military defeats against rebellious northern groups.\n\nWith the most powerful state in the Northern Herzlands gone, the world looks with baited breath to the north, praying for the power vacuum to be filled by someone less prone to violent racism."
+ LOK_SIL.6.a:0 "And so it ends."
+
+ SIL_small_kepler_aid:0 "Aid to Kepler"
+ SIL_big_kepler_aid:0 "Reconstruction Aid for Kepler"
+
+ KEP_small_kepler_aid:0 "Silbershirts Aid"
+ KEP_big_kepler_aid:0 "Silbershirts Reconstruction Aid"
+
+ SIL_collapse_elwin_tooltip:0 "Elwin's regime will §Rend§!."
+ 
+ SIL_crush_the_north:0 "Stabilize the North"
+ SIL_crush_the_north_desc:0 "The south's a lost cause, let's just focus on keeping the north in check."
+
+ SIL_crush_all_rebels:0 "Crush the Rebels"
+ SIL_crush_all_rebels_desc:0 "Enough games. They will all bend, or perish. Elwin forever!"
+
  SIL_the_great_tyrant:0 "The Great Tyrant"
  SIL_the_great_tyrant_desc:0 "Out of all the warlords, Elwin is the most successful. Her Nordherzlands are a brutal land filled with the most aggressive Katzens which floods into a betrayal-filled political system. Totalitarianism is the expected quality of life and only the “right” Katzens get to survive the night. Hail Elwin!"
 
  SIL_politics_cat:0 "Die Haus of Katz"
- SIL_politics_cat_desc:0 "Elwin's gargantuan Nordherzlandish order was built on numerous compromises made to several rival factions, but this order simply cannot last. Elwin cannot please everyone, and one way or another, the most displeased of them will one day find an excuse - whether it be political upheaval, a sudden military conflict, or a conspiracy - to take up arms against Elwin's order in order to claim a slice of the Nordherzlands pie. Until then, Elwin must play her cards carefully...\n\nThe §gItchists§! are §Y[?ROOT.sil_itch_loyalty|%0]§! loyal.\nThe §GSpartanists§! are §Y[?ROOT.sil_frankat_loyalty|%0]§! loyal.\nThe §8Kaiserists§! are §Y[?ROOT.sil_kaiserist_loyality|%0]§! loyal.\nThe §OMonarchists§! are §Y[?ROOT.sil_monarchist_loyalty|%0]§! loyal."
+ SIL_politics_cat_desc:0 "Elwin's gargantuan Nordherzlandish order was built on numerous compromises made to several rival factions, but this order simply cannot last. Elwin cannot please everyone, and one way or another, the most displeased of them will one day find an excuse - whether it be political upheaval, a sudden military conflict, or a conspiracy - to take up arms against Elwin's order in order to claim a slice of the Nordherzlands pie. Until then, Elwin must play her cards carefully...\n\nThe §gItchists§! are §Y[?ROOT.sil_itch_loyalty|%0]§! loyal.\nThe §GSpartanists§! are §Y[?ROOT.sil_frankat_loyalty|%0]§! loyal.\nThe §8Kaiserists§! are §Y[?ROOT.sil_kaiserist_loyalty|%0]§! loyal.\nThe §OMonarchists§! are §Y[?ROOT.sil_monarchist_loyalty|%0]§! loyal."
+
+ SIL_change_itch_loyalty_tooltip:0 "§gItchist§! loyalty changes by §Y[?SIL.sil_loyalty_change|%0]§!"
+ SIL_change_monarchist_loyalty_tooltip:0 "§OMonarchists§! loyalty changes by §Y[?SIL.sil_loyalty_change|%0]§!"
+ SIL_change_kaiserist_loyalty_tooltip:0 "§8Kaiserists§! loyalty changes by §Y[?SIL.sil_loyalty_change|%0]§!"
+ SIL_change_frankat_loyalty_tooltip:0 "§GSpartanists§! loyalty changes by §Y[?SIL.sil_loyalty_change|%0]§!"
+
+ SIL_declare_itch_the_favorite:0 "Officially Favor Itch Cheumienbeumien"
+ 
+ SIL_declare_meowkills_the_favorite:0 "Officially Favor Sgt. Meowkills"
+
+ SIL_favor_monarchism:0 "Favor Monarchism over Kaiserism"
+
+ SIL_favor_kaiserism:0 "Decry Antiquated Monarchism"
+
+ SIL_spartanist_concessions:0 "Military Concessions to Spartanists"
+
+ SIL_crush_monarchism:0 "Strike Monarchist Holdouts in §Y[From.GetName]§!"
+ SIL_crush_monarchism_desc:0 "We have tolerated the monarchists for long enough. Their petty games end now."
+
+ SIL_crush_frankats:0 "Crush §Y[From.GetName]§! Spartanists"
+ SIL_crush_frankats_desc:0 "To hell with Meowkills and his cronies! Their degenerated spartanism has no place in Elwin's new order."

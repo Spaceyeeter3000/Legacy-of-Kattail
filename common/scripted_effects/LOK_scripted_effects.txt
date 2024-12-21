@@ -1,3 +1,115 @@
+SIL_collapse_elwin = {
+	SIL = {
+		every_controlled_state = {
+			limit = { is_core_of = BLM }
+			transfer_state_to = BLM
+		}
+		transfer_units_fraction = {
+			target = BLM
+			stockpile_ratio = 0.05
+			army_ratio = 0.05
+			navy_ratio = 0.05
+			air_ratio = 0.05
+		}
+		every_controlled_state = {
+			limit = { is_core_of = AKR }
+			transfer_state_to = AKR
+		}
+		transfer_units_fraction = {
+			target = AKR
+			stockpile_ratio = 0.05
+			army_ratio = 0.05
+			navy_ratio = 0.05
+			air_ratio = 0.05
+		}
+		SIL_Meowtin_Hessler = {
+			set_nationality = AKR
+			add_country_leader_role = {
+				country_leader = {
+					ideology = despotism
+					expire = "1965.1.1.1"
+				}
+				promote_leader = yes
+			}
+		}
+		every_controlled_state = {
+			limit = { is_core_of = KTV }
+			transfer_state_to = KTV
+		}
+		SIL_Hans = {
+			set_nationality = KTV
+			add_country_leader_role = {
+				country_leader = {
+					ideology = collectivism
+					expire = "1965.1.1.1"
+				}
+				promote_leader = yes
+			}
+		}
+		transfer_units_fraction = {
+			target = KTV
+			stockpile_ratio = 0.10
+			army_ratio = 0.10
+			navy_ratio = 0.10
+			air_ratio = 0.10
+		}
+		every_controlled_state = {
+			limit = { is_core_of = PMB }
+			transfer_state_to = PMB
+		}
+		SIL_Ulrich_Blutstein = {
+			set_nationality = PMB
+			add_country_leader_role = {
+				country_leader = {
+					ideology = despotism
+					expire = "1965.1.1.1"
+				}
+				promote_leader = yes
+			}
+		}
+		transfer_units_fraction = {
+			target = KTV
+			stockpile_ratio = 0.075
+			army_ratio = 0.075
+			navy_ratio = 0.075
+			air_ratio = 0.075
+		}
+	}
+}
+
+#Elwin Gaming
+SIL_change_itch_loyalty = {
+	custom_effect_tooltip = SIL_change_itch_loyalty_tooltip
+	hidden_effect = {
+		add_to_variable = { sil_itch_loyalty = sil_loyalty_change }
+		clamp_variable = { var = sil_itch_loyalty min = 0 max = 1 }
+	}
+}
+
+SIL_change_monarchist_loyalty = {
+	custom_effect_tooltip = SIL_change_monarchist_loyalty_tooltip
+	hidden_effect = {
+		add_to_variable = { sil_monarchist_loyalty = sil_loyalty_change }
+		clamp_variable = { var = sil_monarchist_loyalty min = 0 max = 1 }
+	}
+}
+
+SIL_change_kaiserist_loyalty = {
+	custom_effect_tooltip = SIL_change_kaiserist_loyalty_tooltip
+	hidden_effect = {
+		add_to_variable = { sil_kaiserist_loyalty = sil_loyalty_change }
+		clamp_variable = { var = sil_kaiserist_loyalty min = 0 max = 1 }
+	}
+}
+
+SIL_change_frankat_loyalty = {
+	custom_effect_tooltip = SIL_change_frankat_loyalty_tooltip
+	hidden_effect = {
+		add_to_variable = { sil_frankat_loyalty = sil_loyalty_change }
+		clamp_variable = { var = sil_frankat_loyalty min = 0 max = 1 }
+	}
+}
+
 change_state_majority_species = {
 	custom_effect_tooltip = change_state_majority_species_tooltip
 	hidden_effect = {

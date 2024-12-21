@@ -14,6 +14,35 @@
 
  lok_needs_approval:0 "§RThe recipient must approve of the demands for the bonuses to take effect.§!"
 
+ #KEPLER
+ KEP_joe_biden_arrival:0 "Arrival of the UNS 'Joe Biden'"
+ KEP_joe_biden_arrival_desc:0 "The UNS Joe Biden is a colony ship reportedly launched in 2150 as to supplement colonization efforts. Although contact was lost with it decades ago, it has suddenly reappeared and is rapidly approaching Flusion."
+ KEP_joe_biden_arrival_tooltip:0 "The UNS 'Joe Biden' will land on Flusion, massively bolstering our population."
+
+ LOK_KEP.1.t:0 "UNS 'Joe Biden' Arrives on Mlekane"
+ LOK_KEP.1.d:0 "The UNS Joe Biden, an interstellar ship coming from the Keplerite's homeworld of Earth, has landed on Mlekane due to an energy shortage. This comes as a shock to Kepler an the world as a whole as the ship was thought to have been lost decades ago alongside all contact with Earth.\n\nReportedly carrying forty-million Terrans in cryosleep, the vessel has began extracting hydrogen from Mlekane's atmosphere to fuel their fusion reactor, and expect to be able to head to Flusion within the next year or so.\n\nKeplerite authorities have confirmed these informations, and will reportedly provide more details in the coming months."
+ LOK_KEP.1.a:0 "Great! More aliens..."
+ LOK_KEP.1.b:0 "Our brethren at last arrive!"
+
+ LOK_KEP.2.t:0 "UNS 'Joe Biden' Departs from Mlekane"
+ LOK_KEP.2.d:0 "The Interstellar ship known to humans as the 'UNS Joe Biden' has collected enough hydrogen to start its fusion reactor. It has subsequently departed Mlekane and will likely arrive on Flusion in the next couple of months.\n\nJubilant celebrations have already erupted across Kepler, with new cities and infrastructure being planned to accomodate for the new population."
+ LOK_KEP.2.a:0 "Good for them, I guess."
+ LOK_KEP.2.b:0 "A momentous occasion."
+
+ LOK_KEP.3.t:0 "UNS 'Joe Biden' Destroyed in Flusion Orbit!"
+ LOK_KEP.3.d:0 "As the 'Joe Biden' Colony Ship begins to enter Flusion's orbit, a sudden flash of light spreads across the ship's hull. The vessel's thrusters explode with a deafening boom as a high speed projectile cuts through the back half of the ship. The vessel quickly breaks apart into a swarm of burning chunks, most of which burn into nothingness as they reach atmospheric reentry. Only few pieces of the ship survive long enough to crash onto the planets surface. The main 'surviving' piece of the 'Joe Biden' crashes north of the Kepler Republic's Coast with an estimated casualty rate of about 90% \n\nThe projectile was seemingly launched from within Silbershirt territory. Elwin's government has made no statement on this seemingly sudden assault."
+ LOK_KEP.3.a:0 "Barbaric..."
+ LOK_KEP.3.b:0 "WHAT???? Elwin will PAY FOR THIS!"
+ LOK_KEP.3.c:0 "Guh? We didn't do anything!"
+ KEP_shot_down_joe_biden:0 "Destroyed Colony Ship"
+ KEP_making_it_up:0 "Provided Aid"
+ KEP_making_it_up_a_lot:0 "Provided Plentiful Aid"
+
+ LOK_KEP.4.t:0 "Elwin Provides Aid"
+ LOK_KEP.4.d:0 "Despite their apparent involvement in the destruction of our colony ship, Elwin herself has approached the Keplerite government bearing an offer of aid for our nation in the wake of the Joe Biden incident.\n\nIncluded is extensive industrial aid to rebuild areas damaged by ship debris, as well as financial compensation for the ship's destruction."
+ LOK_KEP.4.a:0 "Alright then."
+ LOK_KEP.4.b:0 "How generous of them. They still suck, though."
+
  #HERZLANDS
  KTZ_unite_east_felinea:0 "Unite Eastern Felinea"
  KTZ_unite_east_felinea_desc:0 "Less populous and less industrious owing to their mountainous homelands, eastern Katzens have always been more or less sidelined by their northern and southern brethren. Formalizing the East's union will help it stand against the rest of the Herzlands."
