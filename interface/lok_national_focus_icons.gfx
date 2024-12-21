@@ -4063,11 +4063,11 @@ spriteTypes = {
 	}
 
 	SpriteType = { 
-		name = "ELO_burning"
+		name = "GFX_focus_ELO_burning"
 		texturefile = "gfx/interface/goals/ELO/ELO_burning.tga"
 	}
 	SpriteType = { 
-		name = "ELO_burning_shine"
+		name = "GFX_focus_ELO_burning_shine"
 		texturefile = "gfx/interface/goals/ELO/ELO_burning.tga"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -4098,11 +4098,11 @@ spriteTypes = {
 	}
 
 	SpriteType = { 
-		name = "ELO_handshake_south"
+		name = "GFX_focus_ELO_handshake_south"
 		texturefile = "gfx/interface/goals/ELO/ELO_handshake_south.tga"
 	}
 	SpriteType = { 
-		name = "ELO_handshake_south_shine"
+		name = "GFX_focus_ELO_handshake_south_shine"
 		texturefile = "gfx/interface/goals/ELO/ELO_handshake_south.tga"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
