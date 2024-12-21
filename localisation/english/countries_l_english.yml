@@ -1,6 +1,28 @@
 ﻿l_english:
 
  #FORMABLES
+ SIL_AFFIRMED_fascism:0 "Vereinigter Katzenstaatreich"
+ SIL_AFFIRMED_fascism_DEF:0 "the Vereinigter Katzenstaatreich"
+ SIL_AFFIRMED_democratic:0 "Nordherzlandbund"
+ SIL_AFFIRMED_democratic_DEF:0 "the Nordherzlandbund"
+ SIL_AFFIRMED_communism:0 "Northern Feline Communes"
+ SIL_AFFIRMED_communism_DEF:0 "the Northern Feline Communes"
+ SIL_AFFIRMED_neutrality:0 "Duchy of Bayarn"
+ SIL_AFFIRMED_neutrality_DEF:0 "the Duchy of Bayarn"
+ SIL_AFFIRMED_ADJ:0 "Katzen"
+ SIL_AFFIRMED:0 "East Felinea"
+
+ SIL_REFORMED_fascism:0 "Katsilbershirts"
+ SIL_REFORMED_fascism_DEF:0 "the Katsilbershirts"
+ SIL_REFORMED_democratic:0 "Federated Republics of the Northern Herzlands"
+ SIL_REFORMED_democratic_DEF:0 "the Federated Republics of the Northern Herzlands"
+ SIL_REFORMED_communism:0 "Northern Feline Communes"
+ SIL_REFORMED_communism_DEF:0 "the Northern Feline Communes"
+ SIL_REFORMED_neutrality:0 "Nördliche Katzenbehörde"
+ SIL_REFORMED_neutrality_DEF:0 "the Nördliche Katzenbehörde"
+ SIL_REFORMED_ADJ:0 "Katzen"
+ SIL_REFORMED:0 "East Felinea"
+
  EAST_FELINEA_fascism:0 "Östliches Katzenreich"
  EAST_FELINEA_fascism_DEF:0 "the Östliches Katzenreich"
  EAST_FELINEA_democratic:0 "East-Felinean Commonwealth"

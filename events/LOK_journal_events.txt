@@ -209,6 +209,7 @@ country_event = {
 	option = {
 		name = "LOK_SIL.2.a"
 		set_country_flag = SIL_small_kepler_aid
+		set_country_flag = SIL_elwin_is_fascist
 		KEP = {
 			country_event = { id = LOK_KEP.4 }
 			effect_tooltip = {
@@ -227,6 +228,7 @@ country_event = {
 	#BLOW UP KEPLAAAR
 	option = {
 		name = "LOK_SIL.2.b"
+		set_country_flag = SIL_elwin_is_crazy
 		declare_war_on = {
 			target = KEP
 			type = annex_everything
@@ -246,6 +248,11 @@ country_event = {
 	option = {
 		name = "LOK_SIL.3.a"
 		set_country_flag = SIL_small_kepler_aid
+		set_country_flag = SIL_elwin_is_nice
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.1
+		}
 		add_timed_idea = {
 			idea = SIL_small_kepler_aid
 			days = 180
@@ -269,7 +276,12 @@ country_event = {
 	option = {
 		name = "LOK_SIL.3.b"
 		set_country_flag = SIL_big_kepler_aid
-		set_country_flag = SIL_elwin_is_nice #bubbles democracy
+		set_country_flag = SIL_elwin_is_nice
+		add_stability = -0.10
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.1
+		}
 		add_timed_idea = {
 			idea = SIL_big_kepler_aid
 			days = 180
@@ -338,6 +350,76 @@ news_event = {
 	}
 }
 
+#Demand submission
+country_event = {
+	id = LOK_SIL.7
+	title = "LOK_SIL.7.t"
+	desc = "LOK_SIL.7.d"
+	is_triggered_only = yes
+	picture = GFX_report_event_elwin
+
+	#Ok
+	option = {
+		name = "LOK_SIL.7.a"
+		SIL = {
+			set_autonomy = {
+				target = ROOT
+				autonomy_state = autonomy_puppet
+			}
+		}
+		if = {
+			limit = { tag = CLE }
+			set_cosmetic_tag = CLE_ELWIN
+			every_owned_state = {
+				limit = { is_core_of = SIL }
+				transfer_state_to = SIL
+			}
+		}
+		if = {
+			limit = { tag = PAW }
+			set_cosmetic_tag = PAW_ELWIN
+			every_owned_state = {
+				limit = { is_core_of = SIL }
+				transfer_state_to = SIL
+			}
+		}
+		SIL = { country_event = LOK_proposal.1 }
+		add_stability = -0.10
+		ai_chance = {
+			base = 1
+			modifier = {
+				strength_ratio = { tag = SIL ratio < 0.75 }
+				factor = 2
+			}
+		}
+	}
+
+	#How about no
+	option = {
+		name = "LOK_SIL.7.b"
+		SIL = {
+			create_wargoal = {
+				type = annex_everything
+				target = ROOT
+			}
+			country_event = LOK_proposal.2
+		}
+
+		ai_chance = {
+			base = 3
+			modifier = {
+				strength_ratio = { tag = SIL ratio > 1.5 }
+				factor = 2
+			}
+			modifier = {
+				strength_ratio = { tag = SIL ratio > 2 }
+				factor = 10
+			}
+		}
+	}
+}
+
+
 add_namespace = LOK_KEP
 
 news_event = {
@@ -404,6 +486,9 @@ news_event = {
 		name = "LOK_KEP.3.c"
 		trigger = { tag = SIL }
 		add_stability = -0.10
+		hidden_effect = {
+			country_event = { id = LOK_SIL.1 days = 15 }
+		}
 	}
 }
 

@@ -129,6 +129,10 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 2
 		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = despotism
+		}
 	}
 	SIL_Aviary = {
 		name = SIL_Aviary
@@ -162,6 +166,14 @@ characters = {
 			expire = "1965.1.1"
 			ideology = nationalism
 		}
-	}
 
+		field_marshal = {
+			skill = 4
+			traits = { harsh_leader inspirational_leader }
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
 }
