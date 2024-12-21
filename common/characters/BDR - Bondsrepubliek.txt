@@ -38,6 +38,18 @@ characters = {
             traits = {
                 minister_of_labour
             }
+            available = {
+                NOT = {
+                    has_country_leader = {
+                        ruling_only = yes
+                        character = BRD_Elise_Kattven
+                    }
+                }
+            }
+            cost = 150
+            ai_will_do = {
+                base = 1
+            }
         }
 
         country_leader = {
