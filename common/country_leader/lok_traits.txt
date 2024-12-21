@@ -68,4 +68,10 @@ leader_traits = {
 		stabiity_factor = 0.1
 		drift_defence_factor = 0.2
 	}
+	minister_of_labour = {
+		communism_drift = 0.05
+		stability_factory = 0.1
+		production_factory_efficiency_gain_factor = 0.1
+		industrial_capacity_factor = 0.1
+	}
 }

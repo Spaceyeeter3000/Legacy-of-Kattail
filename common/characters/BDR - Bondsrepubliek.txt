@@ -26,6 +26,20 @@ characters = {
             }
         }
 
+        advisor = {
+            slot = political_advisor
+            idea_token = elise_kattven
+            allowed = {
+                OR = {
+                    original_tag = KTN
+                    tag = BDR
+                }
+            }
+            traits = {
+                minister_of_labour
+            }
+        }
+
         country_leader = {
             desc = BDR_Elise_Kattven_DESC
             expire = 1965.1.1
