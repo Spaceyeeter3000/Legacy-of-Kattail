@@ -208,6 +208,7 @@ lok_journal_entries_cat = {
 		}
 
 		complete_effect = {
+			add_stability = 0.05
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
 				amount = -4000
@@ -337,7 +338,11 @@ lok_journal_entries_cat = {
 		}
 
 		complete_effect = {
-			add_stability = -0.10
+			add_stability = -0.05
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
 		}
 
 		days_remove = 30
@@ -424,6 +429,13 @@ lok_journal_entries_cat = {
 
 		modifier = {
 			neutrality_drift = 0.10
+		}
+
+		remove_effect = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
 		}
 
 		days_remove = 30
