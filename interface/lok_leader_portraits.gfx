@@ -542,7 +542,10 @@ spriteTypes = {
 
 	spriteType = { name = "GFX_portrait_BDR_Andmer_Calwinge"				texturefile = "gfx/leaders/BDR/BDR_Andmer_Calwinge.tga" 					}
 	spriteType = { name = "GFX_portrait_BDR_Andmer_Calwinge_Small"			texturefile = "gfx/interface/ministers/BDR/BDR_Andmer_Calwinge.tga" 		}
-	
+
+	spriteType = { name = "GFX_portrait_BDR_Otto_Verdian_Stahlken"			texturefile = "gfx/leaders/BDR/BDR_Otto_Verdian_Stahlken.tga" 				}
+	spriteType = { name = "GFX_portrait_BDR_Otto_Verdian_Stahlken_Small"	texturefile = "gfx/interface/ministers/BDR/BDR_Otto_Verdian_Stahlken.tga" 	}
+
 	##################
 	### South Pole ###
 	##################
