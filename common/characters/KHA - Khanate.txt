@@ -1,4 +1,18 @@
 characters = {
+	KHA_Khaltmaa = {
+		name = KHA_Khaltmaa
+		gender = female
+		portraits={
+			army={
+				large="GFX_portrait_KHA_Khaltmaa"
+				small="GFX_portrait_KHA_Khaltmaa_Small"
+			}
+		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = absolutism
+		}
+	}
 	KHA_Kibbler = {
 		name = TAI_Kibbler
 		portraits={

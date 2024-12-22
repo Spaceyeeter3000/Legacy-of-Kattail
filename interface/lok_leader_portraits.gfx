@@ -332,6 +332,9 @@ spriteTypes = {
 	###############
 
 	#KHA - Khanate
+	spriteType = { name = "GFX_portrait_KHA_Khaltmaa" texturefile = "gfx/leaders/KHA/KHA_Khaltmaa.tga" }
+	spriteType = { name = "GFX_portrait_KHA_Khaltmaa_Small" texturefile = "gfx/interface/ministers/KHA/KHA_Khaltmaa.tga" }
+
 
 	#ROQ - Roqualia
 	spriteType = { name = "GFX_portrait_ROQ_Delaparte" texturefile = "gfx/leaders/ROQ/ROQ_Delaparte.tga" }
