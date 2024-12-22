@@ -2,11 +2,10 @@ state={
 	id=443
 	name="STATE_443"
 	provinces={
-		84 223 545 1746 1833 2189 20265 
+		223 1833 20265 
 	}
-	history={
-	}
-	manpower = 2000000
-    state_category = town
+	manpower=2000000
 	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }
