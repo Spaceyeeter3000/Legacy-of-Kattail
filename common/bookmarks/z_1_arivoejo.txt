@@ -7,14 +7,14 @@ bookmarks = {
         default_country = "KTN"
         default = no
 
-        "KTN"={
+        "KTN" = {
             history = "KTN_BOOKMARK_DESC"
             ideology = democratic
         }
-        # "SMP"={
-        #     history = "SMP_BOOKMARK_DESC"
-        #     ideology = democratic
-        # }
+        "SMP"={
+            history = "SMP_BOOKMARK_DESC"
+            ideology = democratic
+        }
         # "MUL"={
         #     history = "MUL_BOOKMARK_DESC"
         #     ideology = neutrality
