@@ -12,19 +12,26 @@ state={
 	history={
 		owner = TEN
 		add_core_of = TEN
-
-		victory_points = { 18472 3 }
+		victory_points = { 18208 5 }
+		victory_points = { 18472 15 }
 		buildings = {
 			infrastructure = 4
+			18208 = { 
+				supply_node = 1
+				naval_base = 0
+				bunker = 1
+				coastal_bunker = 0
+			}
+			18472 = { 
+				supply_node = 1
+				naval_base = 0
+				bunker = 2
+				coastal_bunker = 0
+			}
 			industrial_complex = 1
 			arms_factory = 2
 			dockyard = 0
 			anti_air_building = 0
-			18472 = {
-				supply_node = 1
-				bunker = 0.0
-			}
-
 		}
 	}
 }

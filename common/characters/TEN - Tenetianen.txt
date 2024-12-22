@@ -1,4 +1,17 @@
 characters = {
+	TEN_Geight = {
+		name = TEN_Geight
+		portraits={
+			army={
+				large="GFX_portrait_TEN_Geight"
+				small="GFX_portrait_TEN_Geight_Small"
+			}
+		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = despotism
+		}
+	}
 	TEN_King_Mewtail = {
 		name = TAI_King_Mewtail
 		portraits={
