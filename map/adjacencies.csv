@@ -58,4 +58,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1664;19216;;-1;3336;372;3347;384;CLAWITZ_TUNNEL;Clawitz_Tunnel
 19099;2658;;-1;-1;-1;-1;-1;ELISA_TUNNEL;Elisa_Tunnel
 9474;19186;;-1;-1;-1;-1;-1;CLAWINGHAM_TUNNEL;Clawingham_Tunnel
+20928;20722;sea;-1;-1;-1;-1;-1;MOG_RIVER;fennec_rot
+20722;9330;sea;-1;-1;-1;-1;-1;BOG_RIVER;fennec_rot
 -1;-1;;-1;-1;-1;-1;-1;-1
