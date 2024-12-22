@@ -12,9 +12,16 @@ state={
 	history={
 		owner = TEN
 		add_core_of = TEN
+		victory_points = { 18916 15 }
 
 		buildings = {
 			infrastructure = 4
+			18916 = { 
+				supply_node = 1
+				naval_base = 0
+				bunker = 2
+				coastal_bunker = 0
+			}
 			industrial_complex = 2
 			arms_factory = 2
 			dockyard = 0

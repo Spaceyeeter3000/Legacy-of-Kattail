@@ -516,6 +516,9 @@ spriteTypes = {
 	spriteType = { name = "GFX_portrait_PLR_Vesbuncchi_Small"				texturefile = "gfx/interface/ministers/PLR/PLR_Vessbunchi.tga"				}
 
 	#TEN - Tenetianen
+	spriteType = { name = "GFX_portrait_TEN_Geight" texturefile = "gfx/leaders/TEN/TEN_Geight.tga" }
+	spriteType = { name = "GFX_portrait_TEN_Geight_Small" texturefile = "gfx/interface/ministers/TEN/TEN_Geight.tga" }
+
 
 	################
 	### Arivoejo ###
