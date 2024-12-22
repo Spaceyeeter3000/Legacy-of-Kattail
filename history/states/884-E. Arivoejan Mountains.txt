@@ -4,7 +4,13 @@ state={
 	provinces={
 		6402 
 	}
-	manpower=0
+	history = {
+		owner = SMP
+		add_core_of = SMP
+	}
+	manpower=116752
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	state_category = wasteland
+	impassable = yes
 }

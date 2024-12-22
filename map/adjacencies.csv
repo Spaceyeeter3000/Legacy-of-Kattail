@@ -10,7 +10,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7793;5438;sea;20687;-1;-1;-1;-1;;Duuhr 2
 4076;10748;sea;20559;-1;-1;-1;-1;;Duuhr 3
 3851;12853;sea;20465;-1;-1;-1;-1;;Duuhr 4
-15417;15339;sea;20387;-1;-1;-1;-1;;Purrlin-Lionsburg
+15417;15339;sea;4469;-1;-1;-1;-1;;Purrlin-Lionsburg
 8269;4970;sea;20506;-1;-1;-1;-1;;Auralia
 5698;12748;sea;20719;-1;-1;-1;-1;;Quarries-Nekeox
 2397;5169;sea;20423;-1;-1;-1;-1;;Nekeox-Enonita
@@ -55,7 +55,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 20923;20925;sea;20437;-1;-1;-1;-1;;Aurelia
 20926;20925;sea;20437;-1;-1;-1;-1;;Aurelia
 20926;20924;sea;20437;-1;-1;-1;-1;;Aurelia
-1664;19216;;-1;3336;372;3347;384;CLAWITZ_TUNNEL;Clawitz Tunnel
-19099;2658;;-1;-1;-1;-1;-1;ELISA_TUNNEL;Elisa Tunnel
-9474;19186;;-1;-1;-1;-1;-1;CLAWINGHAM_TUNNEL;Clawingham Tunnel
+1664;19216;;-1;3336;372;3347;384;CLAWITZ_TUNNEL;Clawitz_Tunnel
+19099;2658;;-1;-1;-1;-1;-1;ELISA_TUNNEL;Elisa_Tunnel
+9474;19186;;-1;-1;-1;-1;-1;CLAWINGHAM_TUNNEL;Clawingham_Tunnel
+20928;20722;sea;-1;-1;-1;-1;-1;MOG_RIVER;fennec_rot
+20722;9330;sea;-1;-1;-1;-1;-1;BOG_RIVER;fennec_rot
 -1;-1;;-1;-1;-1;-1;-1;-1

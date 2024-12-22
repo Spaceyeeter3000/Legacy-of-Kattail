@@ -103,7 +103,8 @@ adjacency_rule =
 
 	is_disabled = {
 		tooltip = "CLAWITZ_TUNNEL_BLOWN"
-		393 = {
+		any_state = {
+			state = 837
 			has_state_flag = CLAWITZ_TUNNEL_BLOWN
 		}
 	}
@@ -149,7 +150,8 @@ adjacency_rule =
 
 	is_disabled = {
 		tooltip = "ELISA_TUNNEL_BLOWN"
-		393 = {
+		any_state = {
+			state = 836
 			has_state_flag = ELISA_TUNNEL_BLOWN
 		}
 	}
@@ -195,7 +197,8 @@ adjacency_rule =
 
 	is_disabled = {
 		tooltip = "CLAWINGHAM_TUNNEL_BLOWN"
-		393 = {
+		any_state = {
+			state = 835
 			has_state_flag = CLAWINGHAM_TUNNEL_BLOWN
 		}
 	}
@@ -204,6 +207,92 @@ adjacency_rule =
 	offset = { 0 0 0 }
 
 	required_provinces = { 9474 9040 19186 }
+
+	contested =
+	{
+		army = yes
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+}
+adjacency_rule =
+{
+	name = "MOG_RIVER"
+
+	is_disabled = {
+		tooltip = "MOG_RIVER_BLOCKED"
+		has_global_flag = MOG_RIVER_BLOCKED
+	}
+
+	icon = 19017
+	offset = { 0 0 0 }
+
+	required_provinces = { 273 19017 18968 18969 18952 }
+
+	contested =
+	{
+		army = yes
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+}
+adjacency_rule =
+{
+	name = "BOG_RIVER"
+
+	is_disabled = {
+		tooltip = "BOG_RIVER_BLOCKED"
+		has_global_flag = BOG_RIVER_BLOCKED
+	}
+
+	icon = 2086
+	offset = { 0 0 0 }
+
+	required_provinces = { 18977 7449 2373 2086 18847 }
 
 	contested =
 	{

@@ -81,7 +81,6 @@ RSA = "countries/RSA.txt" #Roqualian Strait Authority
 ACR = "countries/ACR.txt" #ACR
 
 #Arivoejo
-BDR = "countries/BDR.txt" #Bundesrepublik
 KTN = "countries/KTN.txt" #Katteneiland
 SMP = "countries/SMP.txt" #Swamplands
 MUL = "countries/MUL.txt" #Muldvarpe

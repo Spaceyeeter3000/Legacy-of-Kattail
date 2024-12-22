@@ -4,7 +4,17 @@ state={
 	provinces={
 		976 2125 7449 18745 18977 18997 
 	}
-	manpower=0
+	history = {
+		owner = SMP
+		add_core_of = SMP
+		buildings = {
+			industrial_complex = 1
+			arms_factory = 1
+			infrastructure = 3
+		}
+	}
+	manpower=5774495
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	state_category = large_town
 }

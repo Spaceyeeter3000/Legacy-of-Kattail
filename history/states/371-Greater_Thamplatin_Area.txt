@@ -1,0 +1,21 @@
+state={
+	id=371
+	name="STATE_371"
+	provinces={
+		2415 3627 6504 6884 7749 8141 11641 18468 18516 18591 18611 18623 18669 20303 
+	}
+	history = {
+		owner = SMP
+		add_core_of = SMP
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 7
+			arms_factory = 1
+			dockyard = 2
+		}
+	}
+	manpower=12386992
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

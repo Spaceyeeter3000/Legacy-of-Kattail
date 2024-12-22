@@ -1,6 +1,6 @@
 capital = 371
 
-oob = "KTZ_1936"
+#set_oob = "SMP_1936"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -83,20 +83,14 @@ set_technology = {
     early_carrier = 1
     transport = 1
 
-    #Katzen nation - thus mobile warfare
-    mobile_warfare = 1
-    delay = 1
-    elastic_defence = 1
-    armored_spearhead = 1
-    schwerpunk = 1
 }
 set_convoys = 300
 
 set_politics = {
     ruling_party = democratic
-    last_election = "1932.5.1"
+    last_election = "1933.5.1"
     election_frequency = 48
-    elections_allowed = no
+    elections_allowed = yes
 }
 
 set_popularities = {
@@ -104,6 +98,7 @@ set_popularities = {
     fascism = 10
     communism = 10
     democratic = 65
+    gestalt = 0
 }
 
 recruit_character = BDR_Edward_Platmer
