@@ -1,0 +1,11 @@
+characters = {
+	TEN_King_Mewtail = {
+		name = TAI_King_Mewtail
+		portraits={
+			army={
+				large="GFX_portrait_TAI_King_Mewtail"
+				small="GFX_portrait_TAI_King_Mewtail_Small"
+			}
+		}
+	}
+}
