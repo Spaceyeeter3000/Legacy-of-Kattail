@@ -331,6 +331,8 @@ spriteTypes = {
 	### Solakea ###
 	###############
 
+	#KHA - Khanate
+
 	#ROQ - Roqualia
 	spriteType = { name = "GFX_portrait_ROQ_Delaparte" texturefile = "gfx/leaders/ROQ/ROQ_Delaparte.tga" }
 	spriteType = { name = "GFX_portrait_ROQ_Delaparte_Small" texturefile = "gfx/interface/ministers/ROQ/ROQ_Delaparte.tga" }
@@ -512,6 +514,8 @@ spriteTypes = {
 
 	spriteType = { name = "GFX_portrait_PLR_Vesbuncci"						texturefile = "gfx/leaders/PLR/PLR_Vesbuncci.tga"							}
 	spriteType = { name = "GFX_portrait_PLR_Vesbuncchi_Small"				texturefile = "gfx/interface/ministers/PLR/PLR_Vessbunchi.tga"				}
+
+	#TEN - Tenetianen
 
 	################
 	### Arivoejo ###
