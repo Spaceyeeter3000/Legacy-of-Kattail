@@ -1295,7 +1295,7 @@
  #Swamplands
  SMP:0 "Swamplands"
  SMP_ADJ:0 "Swamplander"
- SMP_democratic:0 "United Kingdom"
+ SMP_democratic:0 "United Swamplands Kingdom"
  SMP_democratic_DEF:0 "United Kingdom of the Swamplands"
  SMP_neutrality:0 "Swamplands Realm"
  SMP_neutrality_DEF:0 "The Royal Realm of his Majesty the King of the Swamplands"
@@ -1303,3 +1303,5 @@
  SMP_communism_DEF:0 "Peoples Republic of the Swamplands"
  SMP_fascism:0 "National Swampland State"
  SMP_fascism_DEF:0 "National State of the Swamplandish People."
+
+ SMP_BOOKMARK_DESC:0 "After a decade of war, the lowland kingdom of Swamp King Terrence IV lies as the strongest military power on the Arivoejan continent. While their fleet may dull in comparison to the mighty Nederkatten and Loutterian fleets, the Royal Marines of his Majesty outnumber the militaries of every other Arivoejan state, not counting the Zealots of Nova, 2 to 1.\n\nBut for all their military prowess, the Swamplands are a in a tought spot at home. The current Conservative Prime Minister, Edwar Platmer, has made many an enemy with the common man of the Swamplands while dining with business magnates and the nobility. While the situation is by no means irredeemable, the workers look to their neigbhours with their trade unions as the topic of a general strike... even republican sentiment, becomes louder and louder... The Kingdom must act before these whispers become a deafening cry that can no longer be ignored."
