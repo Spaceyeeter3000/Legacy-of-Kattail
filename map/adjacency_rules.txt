@@ -292,7 +292,7 @@ adjacency_rule =
 	icon = 2086
 	offset = { 0 0 0 }
 
-	required_provinces = { 18977 7449 2373 2086 18847 }
+	required_provinces = { 18977 7449 2383 2086 18847 }
 
 	contested =
 	{
