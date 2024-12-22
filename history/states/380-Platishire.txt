@@ -4,8 +4,18 @@ state={
 	provinces={
 		1019 2535 3037 3444 4929 5642 5658 7467 7486 8940 10050 10141 18879 18960 19026 19027 19042 19073 19080 19086 19094 19118 19262 
 	}
-	manpower=2000000
+	history = {
+		owner = SMP
+		add_core_of = SMP
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+		}
+	}
+	manpower=5258426
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town
 	local_supplies=0.000
 }
