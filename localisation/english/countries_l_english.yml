@@ -599,10 +599,17 @@
  SLR:0 "Solaria"
 
  #Khaganate
+
+ KHA_communism:0 "Goaghan Communities of Solakea"
+ KHA_communism_DEF:0 "the Goaghan Communities of Solakea"
+ KHA_democratic:0 "Khimeran Monarchical Republic"
+ KHA_democratic_DEF:0 "the Khimeran Monarchical Republic"
+ KHA_fascism:0 "Great Goaghan Horde"
+ KHA_fascism_DEF:0 "the Great Goaghan Horde"
  KHA_neutrality:0 "Goaghan Khaganate"
  KHA_neutrality_DEF:0 "the Goaghan Khaganate"
  KHA_ADJ:0 "Goaghan"
- KHA:0 "Goatland"
+ KHA:0 "Goatlandia"
 
  #Roquatzen
  RQA_neutrality:0 "Roquatzen Autonomy"
@@ -665,9 +672,15 @@
  TAK:0 "Takicardie"
 
  #Tenet
+ TEN_communism:0 "East-Solakean Factory Communes"
+ TEN_communism_DEF:0 "the East-Solakean Factory Communes"
+ TEN_democratic:0 "Republic of Smurden"
+ TEN_democratic_DEF:0 "the Republic of Smurden"
+ TEN_fascism:0 "Golden Tenetianen"
+ TEN_fascism_DEF:0 "the Golden Tenetianen"
  TEN_neutrality:0 "Tenetianen"
  TEN_neutrality_DEF:0 "Tenetianen"
- TEN_ADJ:0 "Tenetianian"
+ TEN_ADJ:0 "Tenetianen"
  TEN:0 "Tenetianen"
 
  #Vixens
