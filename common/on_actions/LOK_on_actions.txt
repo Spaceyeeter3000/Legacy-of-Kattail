@@ -547,12 +547,6 @@ on_actions = {
 				every_owned_state = { apply_state_species_modifier = yes } #Species modifiers
 				apply_wonder_effects = yes #Wonders!
 				calculate_strategic_resource_modifiers = yes #Strategic Resources!
-
-				#Food tech to trick the AI into importing food
-				if = {
-					limit = { is_ai = yes }
-					set_technology = { LOK_ai_food_tech = 1 }
-				}
 			}
 
 			#Set up Herzlands uniter types

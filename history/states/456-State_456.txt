@@ -2,11 +2,10 @@ state={
 	id=456
 	name="STATE_456"
 	provinces={
-		725 1301 2408 20273 
+		1301 
 	}
-	history={
-	}
-	manpower = 2000000
-    state_category = town
+	manpower=2000000
 	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }
