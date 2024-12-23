@@ -4,8 +4,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3760;16104;sea;20450;-1;-1;-1;-1;;Solkatzia-Solakea 2
 12208;10378;sea;20342;-1;-1;-1;-1;;Barnsems Dock
 18312;7977;sea;20372;-1;-1;-1;-1;;Roqual Strait
-11435;1637;sea;20927;-1;-1;-1;-1;;Katzeninsel-Katjeisland
-19151;9401;sea;20928;-1;-1;-1;-1;;Katjeisland-Swamplands
 9671;6096;sea;20550;-1;-1;-1;-1;;Duuhr 1
 7793;5438;sea;20687;-1;-1;-1;-1;;Duuhr 2
 4076;10748;sea;20559;-1;-1;-1;-1;;Duuhr 3
@@ -55,9 +53,21 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 20923;20925;sea;20437;-1;-1;-1;-1;;Aurelia
 20926;20925;sea;20437;-1;-1;-1;-1;;Aurelia
 20926;20924;sea;20437;-1;-1;-1;-1;;Aurelia
-1664;19216;;-1;3336;372;3347;384;CLAWITZ_TUNNEL;Clawitz_Tunnel
+#Arivoejo
+11435;1637;sea;20927;-1;-1;-1;-1;;Katzeninsel-Katjeisland
+19151;9401;sea;20928;-1;-1;-1;-1;;Katjeisland-Swamplands
+1664;19216;;-1;-1;-1;-1;-1;CLAWITZ_TUNNEL;Clawitz_Tunnel
 19099;2658;;-1;-1;-1;-1;-1;ELISA_TUNNEL;Elisa_Tunnel
 9474;19186;;-1;-1;-1;-1;-1;CLAWINGHAM_TUNNEL;Clawingham_Tunnel
-20928;20722;sea;273;19017;18968;18969;18952;MOG_RIVER;fennec_rot
-20722;9330;sea;18977;7449;2383;2086;18847;BOG_RIVER;fennec_rot
+20928;20722;sea;273;19017;18968;18969;18952;MOG_RIVER;mog
+20722;9330;sea;18977;7449;2383;2086;18847;BOG_RIVER;bog
+18745;20306;sea;9330;-1;-1;-1;-1;;groggorton-rubalton
+11130;20306;sea;9330;-1;-1;-1;-1;;velthart-rubalton
+20306;20304;sea;6303;-1;-1;-1;-1;;rubalton-cardcastle
+20304;9666;sea;18201;-1;-1;-1;-1;;cardcastle-flinlen
+20304;18740;sea;18774;-1;-1;-1;-1;;cardcastle-kiwille
+20304;20307;sea;18775;-1;-1;-1;-1;;cardcastle-cluttered
+20307;8513;sea;2792;-1;-1;-1;-1;;cluttered-darknar
+9666;18740;sea;18201;-1;-1;-1;-1;;flinlen-kiwille
+18740;20307;sea;18633;-1;-1;-1;-1;;kiwille-cluttered
 -1;-1;;-1;-1;-1;-1;-1;-1
