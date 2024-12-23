@@ -7,8 +7,22 @@ state={
 	history = {
 		owner = SMP
 		add_core_of = SMP
+		victory_points = { 18611 15 }
+		victory_points = { 18669 40 }
 		buildings = {
 			infrastructure = 5
+			18611 = { 
+				supply_node = 1
+				naval_base = 0
+				bunker = 0
+				coastal_bunker = 0
+			}
+			18669 = { 
+				supply_node = 1
+				naval_base = 5
+				bunker = 0
+				coastal_bunker = 3
+			}
 			industrial_complex = 7
 			arms_factory = 1
 			dockyard = 2
