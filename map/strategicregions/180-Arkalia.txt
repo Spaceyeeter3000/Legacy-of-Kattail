@@ -5,5 +5,18 @@ strategic_region={
 		236 384 1164 1526 1648 6627 
 	}
 	weather={
+		period={
+			between={ 0.0 30.11 }
+			temperature={ -60.0 -20.0 }
+			no_phenomenon=0.500
+			rain_light=0.000
+			rain_heavy=0.000
+			snow=2.000
+			blizzard=1.000
+			arctic_water=1.000
+			mud=0.000
+			sandstorm=0.000
+			min_snow_level=0.000
+		}
 	}
 }
