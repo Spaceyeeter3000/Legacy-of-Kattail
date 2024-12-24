@@ -205,6 +205,7 @@ every_possible_country = {
 			is_herzlands_warlord = yes
 			tag = FSR
 			tag = DOM
+			tag = BSS
 		}
 	}
 	generate_character = {

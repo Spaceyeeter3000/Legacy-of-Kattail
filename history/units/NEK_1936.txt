@@ -55,8 +55,6 @@ units = {
 	division = { location = 10294 division_template = "Rocket Maids" start_experience_factor = 0 }
 	division = { location = 11309 division_template = "Rocket Maids" start_experience_factor = 0 }
 	division = { location = 7095 division_template = "Rocket Maids" start_experience_factor = 0 }
-	division = { location = 8305 division_template = "Rocket Maids" start_experience_factor = 0 }
-	division = { location = 7095 division_template = "Rocket Maids" start_experience_factor = 0 }
 
 	division = { location = 7756 division_template = "Maid Division" start_experience_factor = 0 }
 	division = { location = 9165 division_template = "Maid Division" start_experience_factor = 0 }
@@ -71,20 +69,7 @@ units = {
 	division = { location = 16908 division_template = "Maid Division" start_experience_factor = 0 }
 	division = { location = 16980 division_template = "Maid Division" start_experience_factor = 0 }
 	division = { location = 7756 division_template = "Maid Division" start_experience_factor = 0 }
-	division = { location = 9165 division_template = "Maid Division" start_experience_factor = 0 }
-	division = { location = 16908 division_template = "Maid Division" start_experience_factor = 0 }
-	division = { location = 7095 division_template = "Maid Division" start_experience_factor = 0 }
-	division = { location = 11309 division_template = "Maid Division" start_experience_factor = 0 }
-	division = { location = 5239 division_template = "Maid Division" start_experience_factor = 0 }
-	division = { location = 8305 division_template = "Maid Division" start_experience_factor = 0 }
-	division = { location = 9165 division_template = "Maid Division" start_experience_factor = 0 }
-	division = { location = 16908 division_template = "Maid Division" start_experience_factor = 0 }
-	division = { location = 16908 division_template = "Maid Division" start_experience_factor = 0 }
-	division = { location = 16908 division_template = "Maid Division" start_experience_factor = 0 }
-	division = { location = 16980 division_template = "Maid Division" start_experience_factor = 0 }
-	division = { location = 10294 division_template = "Maid Division" start_experience_factor = 0 }
 
-	division = { location = 16908 division_template = "Seamen" start_experience_factor = 0 }
 	division = { location = 16908 division_template = "Seamen" start_experience_factor = 0 }
 	division = { location = 7756 division_template = "Seamen" start_experience_factor = 0 }
 	division = { location = 7756 division_template = "Seamen" start_experience_factor = 0 }

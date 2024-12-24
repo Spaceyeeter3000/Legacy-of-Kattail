@@ -40,6 +40,7 @@ KAR = "countries/KAR.txt" #Karrotia
 
 #South Pole
 BSS = "countries/BSS.txt" #Südflusionien
+NGE = "countries/NGE.txt" #Nouvelle-Gergovie
 
 #Northern Solakea
 KUS = "countries/KUS.txt" #Kusnurk

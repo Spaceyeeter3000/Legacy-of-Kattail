@@ -913,6 +913,7 @@ calculate_bonus_resources_from_modifiers = { #Example with +50%
 	#Calculate total bonuses for oil
 	set_temp_variable = { lok_total_extra_oil_factor = 1 } #set to 1
 	add_to_temp_variable = { lok_total_extra_oil_factor = modifier@lok_mineral_resources_factor } #minerals
+	add_to_temp_variable = { lok_total_extra_oil_factor = modifier@lok_oil_resources_factor }
 	#Calculate total extra oil
 	set_variable = { lok_total_extra_oil = resource_produced@oil } #Say 100
 	multiply_variable = { lok_total_extra_oil = lok_total_extra_oil_factor } #we get the factor, if its 1.5 then 150
@@ -929,6 +930,7 @@ calculate_bonus_resources_from_modifiers = { #Example with +50%
 
 	#Calculate total bonuses for food
 	set_temp_variable = { lok_total_extra_food_factor = 1 } #set to 1
+	add_to_temp_variable = { lok_total_extra_food_factor = modifier@lok_food_resources_factor } #minerals
 	#Calculate total extra food
 	set_variable = { lok_total_extra_food = resource_produced@food } #Say 100
 	multiply_variable = { lok_total_extra_food = lok_total_extra_food_factor } #we get the factor, if its 1.5 then 150
@@ -938,6 +940,7 @@ calculate_bonus_resources_from_modifiers = { #Example with +50%
 	#Calculate total bonuses for fissiles
 	set_temp_variable = { lok_total_extra_fissiles_factor = 1 } #set to 1
 	add_to_temp_variable = { lok_total_extra_fissiles_factor = modifier@lok_mineral_resources_factor } #minerals
+	add_to_temp_variable = { lok_total_extra_oil_factor = modifier@lok_fissiles_resources_factor }
 	#Calculate total extra fissiles
 	set_variable = { lok_total_extra_fissiles = resource_produced@fissiles } #Say 100
 	multiply_variable = { lok_total_extra_fissiles = lok_total_extra_fissiles_factor } #we get the factor, if its 1.5 then 150

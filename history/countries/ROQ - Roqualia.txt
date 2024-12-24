@@ -16,6 +16,7 @@ add_to_faction = LMB
 add_to_faction = RQA
 add_to_faction = PER
 add_to_faction = TAK
+add_to_faction = NGE
 
 RQA = {
 	set_politics = { ruling_party = neutrality elections_allowed = no }
@@ -143,4 +144,15 @@ set_popularities = {
 
 recruit_character = ROQ_Delaparte
 recruit_character = ROQ_Dorito
+recruit_character = ROQ_Alphonse
+recruit_character = ROQ_Edouard
+recruit_character = ROQ_Maxime
+recruit_character = ROQ_Francois
+recruit_character = ROQ_Zeus
+recruit_character = ROQ_Jean_Charles
+recruit_character = ROQ_Albert
+recruit_character = ROQ_Paotr
+recruit_character = ROQ_Wheatle
+recruit_character = ROQ_Sonya
+recruit_character = ROQ_Tabitha
 recruit_character = ROQ_Dofus

@@ -1,10 +1,10 @@
-﻿capital = 631
+﻿capital = 854
 
-oob = "KTZ_1936"
+set_oob = "BSS_1936"
 
 set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.5
+set_stability = 0.3
+set_war_support = 0.2
 
 # Starting tech
 set_technology = {
@@ -90,6 +90,7 @@ set_technology = {
 	armored_spearhead = 1
 	schwerpunk = 1
 }
+
 set_convoys = 300
 
 set_politics = {
@@ -100,10 +101,8 @@ set_politics = {
 }
 
 set_popularities = {
-	neutrality = 25
-	fascism = 25
-	communism = 25
-	democratic = 25
+	neutrality = 40
+	fascism = 60
 }
 
 recruit_character = BSS_Dietrich
