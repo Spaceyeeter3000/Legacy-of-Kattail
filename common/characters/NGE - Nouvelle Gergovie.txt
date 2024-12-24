@@ -1,0 +1,47 @@
+characters = {
+	NGE_Megaliott = {
+		name = NGE_Megaliott
+		portraits={
+			army={
+				large="GFX_portrait_NGE_Megaliott"
+				small="GFX_portrait_NGE_Megaliott_Small"
+			}
+		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = technocracy
+			traits = { oil_baron }
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ROQ_Tabitha = {
+		name = ROQ_Tabitha
+		gender = female
+		portraits={
+			army={
+				large="GFX_portrait_ROQ_Tabitha"
+				small="GFX_portrait_ROQ_Tabitha_Small"
+			}
+		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = technocracy
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ROQ_Tabitha
+			cost = 150
+			allowed = {
+				original_tag = ROQ
+			}
+			traits = { roq_technocrat }
+		}
+	}
+}

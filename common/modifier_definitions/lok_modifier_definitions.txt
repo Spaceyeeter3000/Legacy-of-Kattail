@@ -48,7 +48,23 @@ lok_mineral_resources_factor = {
 }
 
 #Buff ONLY food
-lok_food_resource_factor = {
+lok_food_resources_factor = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+
+#Buff ONLY oil
+lok_oil_resources_factor = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+
+#Buff ONLY fissiles
+lok_fissiles_resources_factor = {
 	color_type = good
 	value_type = percentage
 	precision = 2

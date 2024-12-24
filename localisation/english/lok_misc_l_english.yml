@@ -133,7 +133,11 @@
  country_resource_fissiles:0 "Fissiles"
  country_resource_supertensiles:0 "Supertensiles"
  lok_nuke_radiation_factor:0 "Radiation from Nukes"
- lok_mineral_resources_factor:0 "Mineral Resources Gain"
+ lok_mineral_resources_factor:0 "Mineral Resources Production"
+ lok_food_resources_factor:0 "Food Production"
+ lok_oil_resources_factor:0 "Fossil Fuels Production"
+ lok_fissiles_resources_factor:0 "Fissiles Production"
+
  lok_starvation_yes:0 "Population Decline from Starvation"
 
  LOK_extra_resources_modifier:0 "Extra Resources from Tech & Buffs"

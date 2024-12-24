@@ -1,4 +1,261 @@
 characters = {
+	ROQ_Tabitha = {
+		name = ROQ_Tabitha
+		gender = female
+		portraits={
+			army={
+				large="GFX_portrait_ROQ_Tabitha"
+				small="GFX_portrait_ROQ_Tabitha_Small"
+			}
+		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = technocracy
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ROQ_Tabitha
+			cost = 150
+			allowed = {
+				original_tag = ROQ
+			}
+			traits = { roq_technocrat }
+		}
+	}
+	ROQ_Sonya = {
+		name = ROQ_Sonya
+		gender = female
+		portraits={
+			army={
+				large="GFX_portrait_ROQ_Sonya"
+				small="GFX_portrait_ROQ_Sonya_Small"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = ROQ_Sonya
+			ledger = army
+			cost = 150
+			allowed = {
+				original_tag = ROQ
+			}
+			traits = { dofus_little_miracle }
+		}
+		corps_commander = {
+			traits = { media_personality }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	ROQ_Wheatle = {
+		name = ROQ_Wheatle
+		portraits={
+			army={
+				large="GFX_portrait_ROQ_Wheatle"
+				small="GFX_portrait_ROQ_Wheatle_Small"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ROQ_Wheatle
+			ledger = air
+			cost = 150
+			allowed = {
+				original_tag = ROQ
+			}
+			traits = { air_airborne_3 }
+		}
+		corps_commander = {
+			traits = { paratrooper skirmisher harsh_leader }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ROQ_Paotr = {
+		name = ROQ_Paotr
+		portraits={
+			army={
+				large="GFX_portrait_ROQ_Paotr"
+				small="GFX_portrait_ROQ_Paotr_Small"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ROQ_Paotr
+			ledger = army
+			cost = 150
+			allowed = {
+				original_tag = ROQ
+			}
+			traits = { army_artillery_2 }
+		}
+		corps_commander = {
+			traits = { bearer_of_artillery }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ROQ_Albert = {
+		name = ROQ_Albert
+		portraits={
+			army={
+				large="GFX_portrait_ROQ_Albert"
+				small="GFX_portrait_ROQ_Albert_Small"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ROQ_Albert
+			ledger = navy
+			cost = 150
+			allowed = {
+				original_tag = ROQ
+			}
+			traits = { navy_chief_reform_2 }
+		}
+		navy_leader = {
+			traits = { marksman }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ROQ_Jean_Charles = {
+		name = ROQ_Jean_Charles
+		portraits={
+			army={
+				large="GFX_portrait_ROQ_Jean_Charles"
+				small="GFX_portrait_ROQ_Jean_Charles_Small"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer media_personality }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ROQ_Zeus = {
+		name = ROQ_Zeus
+		portraits={
+			army={
+				large="GFX_portrait_ROQ_Zeus"
+				small="GFX_portrait_ROQ_Zeus_Small"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ROQ_Zeus
+			cost = 150
+			allowed = {
+				original_tag = ROQ
+			}
+			traits = { head_of_intelligence }
+		}
+	}
+	ROQ_Francois = {
+		name = ROQ_Francois
+		portraits={
+			army={
+				large="GFX_portrait_ROQ_Francois"
+				small="GFX_portrait_ROQ_Francois_Small"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = ROQ_Francois
+			ledger = navy
+			cost = 100
+			allowed = {
+				original_tag = ROQ
+			}
+			traits = { navy_submarine_2 }
+		}
+		navy_leader = {
+			traits = { seawolf blockade_runner }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	ROQ_Maxime = {
+		name = ROQ_Maxime
+		portraits={
+			army={
+				large="GFX_portrait_ROQ_Maxime"
+				small="GFX_portrait_ROQ_Maxime_Small"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ROQ_Maxime
+			cost = 150
+			allowed = {
+				original_tag = ROQ
+			}
+			traits = { minister_of_integration }
+		}
+	}
+	ROQ_Edouard = {
+		name = ROQ_Edouard
+		portraits={
+			army={
+				large="GFX_portrait_ROQ_Edouard"
+				small="GFX_portrait_ROQ_Edouard_Small"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ROQ_Edouard
+			cost = 150
+			allowed = {
+				original_tag = ROQ
+			}
+			traits = { minister_of_culture }
+		}
+	}
+	ROQ_Alphonse = {
+		name = ROQ_Alphonse
+		portraits={
+			army={
+				large="GFX_portrait_ROQ_Alphonse"
+				small="GFX_portrait_ROQ_Alphonse_Small"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = ROQ_Alphonse
+			ledger = army
+			cost = 100
+			allowed = {
+				original_tag = ROQ
+			}
+			traits = { military_modernizer }
+		}
+		field_marshal = {
+			traits = { old_guard brilliant_strategist politically_connected war_hero }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
 	ROQ_Dorito = {
 		name = ROQ_Dorito
 		portraits={
@@ -14,7 +271,6 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = ROQ_Dorito
-			ledger = army
 			cost = 150
 			allowed = {
 				original_tag = ROQ
