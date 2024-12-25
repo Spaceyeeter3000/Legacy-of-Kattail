@@ -435,6 +435,24 @@ spriteTypes = {
 	spriteType = { name = "GFX_portrait_RQA_Konrad_Chadenauer_Small" texturefile = "gfx/interface/ministers/RQA/RQA_Konrad_Chadenauer.tga" }
 
 	#FST - Kaiserstein
+	spriteType = { name = "GFX_portrait_FST_Tangali" texturefile = "gfx/leaders/FST/FST_Tangali.tga" }
+	spriteType = { name = "GFX_portrait_FST_Tangali_Small" texturefile = "gfx/interface/ministers/FST/FST_Tangali.tga" }
+
+	spriteType = { name = "GFX_portrait_FST_Hans" texturefile = "gfx/leaders/FST/FST_Hans.tga" }
+	spriteType = { name = "GFX_portrait_FST_Hans_Small" texturefile = "gfx/interface/ministers/FST/FST_Hans.tga" }
+
+	spriteType = { name = "GFX_portrait_FST_Gotthold" texturefile = "gfx/leaders/FST/FST_Gotthold.tga" }
+	spriteType = { name = "GFX_portrait_FST_Gotthold_Small" texturefile = "gfx/interface/ministers/FST/FST_Gotthold.tga" }
+
+	spriteType = { name = "GFX_portrait_FST_Dieter" texturefile = "gfx/leaders/FST/FST_Dieter.tga" }
+	spriteType = { name = "GFX_portrait_FST_Dieter_Small" texturefile = "gfx/interface/ministers/FST/FST_Dieter.tga" }
+
+	spriteType = { name = "GFX_portrait_FST_Baer" texturefile = "gfx/leaders/FST/FST_Baer.tga" }
+	spriteType = { name = "GFX_portrait_FST_Baer_Small" texturefile = "gfx/interface/ministers/FST/FST_Baer.tga" }
+
+	spriteType = { name = "GFX_portrait_FST_Ludenclaw" texturefile = "gfx/leaders/FST/FST_Ludenclaw.tga" }
+	spriteType = { name = "GFX_portrait_FST_Ludenclaw_Small" texturefile = "gfx/interface/ministers/FST/FST_Ludenclaw.tga" }
+
 
 	#MCF - Cloudstriders
 	spriteType = { name = "GFX_portrait_MCF_Rose" 							texturefile = "gfx/leaders/MCF/MCF_Rose.tga" 								}

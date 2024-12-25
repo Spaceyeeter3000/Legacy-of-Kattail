@@ -246,6 +246,14 @@
  #VIX - Vixenoids
  VIX_Noronyo:0 "Noronyo Obunagr'sa"
 
+ #FST - Kaiserstein
+ FST_Tangali:0 "Mareintinkonimali Tangali"
+ FST_Hans:0 "Hans Flammen"
+ FST_Gotthold:0 "Gotthold Treben"
+ FST_Dieter:0 "Dieter Habect"
+ FST_Baer:0 "Baer Adalfuns"
+ FST_Ludenclaw:0 "Emerich Ludenclaw"
+
  ##################
  ### South Pole ###
  ##################
