@@ -499,6 +499,9 @@ lok_journal_entries_cat = {
 				SIL_collapse_elwin = yes
 			}
 		}
+		ai_will_do = {
+			factor = 1000
+		}
 	}
 
 	SIL_crush_all_rebels = {
@@ -522,6 +525,9 @@ lok_journal_entries_cat = {
 				country_event = { id = LOK_SIL.4 }
 				SIL_collapse_elwin = yes
 			}
+		}
+		ai_will_do = {
+			factor = 1000
 		}
 	}
 }

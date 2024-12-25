@@ -1,6 +1,50 @@
 SIL_collapse_elwin = {
 	SIL = {
 		every_controlled_state = {
+			limit = { is_core_of = CLE }
+			transfer_state_to = CLE
+		}
+		transfer_units_fraction = {
+			target = CLE
+			stockpile_ratio = 0.05
+			army_ratio = 0.05
+			navy_ratio = 0.05
+			air_ratio = 0.05
+		}
+		every_controlled_state = {
+			limit = { is_core_of = PAW }
+			transfer_state_to = PAW
+		}
+		transfer_units_fraction = {
+			target = PAW
+			stockpile_ratio = 0.05
+			army_ratio = 0.05
+			navy_ratio = 0.05
+			air_ratio = 0.05
+		}
+		every_controlled_state = {
+			limit = { is_core_of = KKH }
+			transfer_state_to = KKH
+		}
+		transfer_units_fraction = {
+			target = KKH
+			stockpile_ratio = 0.10
+			army_ratio = 0.10
+			navy_ratio = 0.10
+			air_ratio = 0.10
+		}
+		every_controlled_state = {
+			limit = { is_core_of = KVK }
+			transfer_state_to = KVK
+		}
+		transfer_units_fraction = {
+			target = KVK
+			stockpile_ratio = 0.10
+			army_ratio = 0.10
+			navy_ratio = 0.10
+			air_ratio = 0.10
+		}
+		every_controlled_state = {
 			limit = { is_core_of = BLM }
 			transfer_state_to = BLM
 		}
@@ -74,6 +118,28 @@ SIL_collapse_elwin = {
 			navy_ratio = 0.075
 			air_ratio = 0.075
 		}
+		every_controlled_state = {
+			limit = { any_neighbor_state = { NOT = { is_owned_by = SIL } } }
+			random_neighbor_state = {
+				var:controller = { save_global_event_target_as = elwin_state_grabber }
+				PREV = { transfer_state_to = event_target:elwin_state_grabber }
+			}
+		}
+		every_controlled_state = {
+			limit = { any_neighbor_state = { NOT = { is_owned_by = SIL } } }
+			random_neighbor_state = {
+				var:controller = { save_global_event_target_as = elwin_state_grabber }
+				PREV = { transfer_state_to = event_target:elwin_state_grabber }
+			}
+		}
+		every_controlled_state = {
+			limit = { any_neighbor_state = { NOT = { is_owned_by = SIL } } }
+			random_neighbor_state = {
+				var:controller = { save_global_event_target_as = elwin_state_grabber }
+				PREV = { transfer_state_to = event_target:elwin_state_grabber }
+			}
+		}
+		clear_global_event_target = elwin_state_grabber
 	}
 }
 
