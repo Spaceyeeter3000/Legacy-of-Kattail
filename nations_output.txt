@@ -1,192 +1,92 @@
-[846] has 1 Military Factories, 1 Civilian Factories, 0 Dockyards and 2340000.0 Population.
-Its relative value is 0.0440
-Province 1132 has terrain urban and coastal False
-Province 3662 has terrain jungle and coastal False
-Province 6874 has terrain jungle and coastal False
-Province 10737 has terrain forest and coastal False
-Province 11289 has terrain jungle and coastal False
-Province 17523 has terrain hills and coastal False
-Province 17615 has terrain jungle and coastal False
-[847] has 1 Military Factories, 3 Civilian Factories, 0 Dockyards and 5420000.0 Population.
-Its relative value is 0.1023
-Province 1085 has terrain hills and coastal False
-Province 1280 has terrain hills and coastal False
-Province 7150 has terrain hills and coastal False
-Province 7309 has terrain jungle and coastal False
-Province 11298 has terrain hills and coastal False
-Province 17465 has terrain urban and coastal False
-Province 17476 has terrain jungle and coastal False
-Province 17644 has terrain mountain and coastal False
-Province 17650 has terrain hills and coastal False
-Province 17702 has terrain urban and coastal False
-Province 17754 has terrain marsh and coastal False
-Province 20299 has terrain jungle and coastal False
-Province 20808 has terrain lakes and coastal False
-[261] has 0 Military Factories, 5 Civilian Factories, 0 Dockyards and 5850000.0 Population.
-Its relative value is 0.1104
-Province 737 has terrain plains and coastal True
-Province 1959 has terrain plains and coastal False
-Province 3642 has terrain jungle and coastal False
-Province 4703 has terrain plains and coastal False
-Province 6442 has terrain plains and coastal False
-Province 6845 has terrain jungle and coastal False
-Province 7229 has terrain plains and coastal True
-Province 9108 has terrain mountain and coastal False
-Province 11471 has terrain urban and coastal False
-Province 17237 has terrain jungle and coastal False
-Province 17293 has terrain plains and coastal False
-Province 17311 has terrain urban and coastal False
-Province 17363 has terrain jungle and coastal False
-Province 17381 has terrain plains and coastal False
-Province 17394 has terrain hills and coastal False
-Province 17428 has terrain jungle and coastal False
-[849] has 1 Military Factories, 12 Civilian Factories, 1 Dockyards and 16230000.0 Population.
-Its relative value is 0.3062
-Province 544 has terrain urban and coastal True
-Province 1014 has terrain plains and coastal True
-Province 3519 has terrain jungle and coastal False
-Province 5384 has terrain plains and coastal False
-Province 8174 has terrain plains and coastal False
-Province 17252 has terrain plains and coastal True
-Province 17278 has terrain plains and coastal True
-Province 17352 has terrain plains and coastal False
-Province 17353 has terrain urban and coastal True
-Province 17414 has terrain jungle and coastal False
-Province 17416 has terrain jungle and coastal False
-Province 17454 has terrain plains and coastal False
-Province 17490 has terrain urban and coastal False
-Province 17532 has terrain jungle and coastal False
-[289] has 1 Military Factories, 5 Civilian Factories, 0 Dockyards and 6700000.0 Population.
-Its relative value is 0.1264
-Province 121 has terrain jungle and coastal False
-Province 812 has terrain jungle and coastal False
-Province 1407 has terrain hills and coastal False
-Province 5507 has terrain jungle and coastal False
-Province 5695 has terrain jungle and coastal False
-Province 6391 has terrain jungle and coastal False
-Province 6477 has terrain hills and coastal False
-Province 6976 has terrain jungle and coastal False
-Province 7623 has terrain jungle and coastal False
-Province 9830 has terrain jungle and coastal False
-Province 10208 has terrain hills and coastal False
-Province 10221 has terrain urban and coastal False
-Province 10923 has terrain jungle and coastal False
-Province 11061 has terrain jungle and coastal False
-Province 11233 has terrain jungle and coastal False
-Province 17489 has terrain marsh and coastal False
-Province 17566 has terrain plains and coastal False
-Province 17570 has terrain jungle and coastal False
-Province 17587 has terrain jungle and coastal False
-Province 17715 has terrain jungle and coastal False
-Province 17767 has terrain jungle and coastal False
-Province 17841 has terrain jungle and coastal False
-Province 17900 has terrain hills and coastal False
-[848] has 0 Military Factories, 2 Civilian Factories, 0 Dockyards and 2110000.0 Population.
-Its relative value is 0.0398
-Province 528 has terrain jungle and coastal False
-Province 6944 has terrain jungle and coastal False
-Province 17819 has terrain jungle and coastal False
-Province 17908 has terrain urban and coastal False
-Province 17986 has terrain jungle and coastal False
-Province 18007 has terrain jungle and coastal False
-Province 18082 has terrain plains and coastal False
-Province 20811 has terrain lakes and coastal False
-[850] has 1 Military Factories, 2 Civilian Factories, 0 Dockyards and 3160000.0 Population.
-Its relative value is 0.0595
-Province 2150 has terrain mountain and coastal False
-Province 3198 has terrain hills and coastal False
-Province 3495 has terrain hills and coastal False
-Province 5346 has terrain plains and coastal True
-Province 5357 has terrain hills and coastal False
-Province 7319 has terrain jungle and coastal False
-Province 10840 has terrain jungle and coastal True
-Province 11182 has terrain jungle and coastal False
-Province 17417 has terrain jungle and coastal True
-Province 17429 has terrain hills and coastal True
-Province 17438 has terrain plains and coastal True
-Province 17446 has terrain jungle and coastal True
-Province 17510 has terrain mountain and coastal False
-Province 17511 has terrain hills and coastal False
-Province 17524 has terrain hills and coastal False
-Province 17552 has terrain hills and coastal False
-Province 17579 has terrain mountain and coastal False
-Province 17602 has terrain hills and coastal False
-[250] has 0 Military Factories, 1 Civilian Factories, 0 Dockyards and 1850000.0 Population.
-Its relative value is 0.0348
-Province 743 has terrain mountain and coastal False
-Province 753 has terrain mountain and coastal False
-Province 1281 has terrain jungle and coastal False
-Province 1913 has terrain jungle and coastal False
-Province 1980 has terrain hills and coastal False
-Province 2325 has terrain jungle and coastal False
-Province 3405 has terrain jungle and coastal False
-Province 6145 has terrain hills and coastal False
-Province 7197 has terrain hills and coastal False
-Province 10000 has terrain jungle and coastal False
-Province 17716 has terrain mountain and coastal False
-Province 17731 has terrain hills and coastal False
-Province 17755 has terrain marsh and coastal False
-Province 17768 has terrain jungle and coastal False
-Province 17777 has terrain jungle and coastal False
-Province 17820 has terrain jungle and coastal False
-Province 17850 has terrain jungle and coastal False
-Province 17909 has terrain jungle and coastal False
-Province 17959 has terrain jungle and coastal False
-Province 17987 has terrain mountain and coastal False
-[851] has 0 Military Factories, 1 Civilian Factories, 0 Dockyards and 2600000.0 Population.
-Its relative value is 0.0490
-Province 914 has terrain mountain and coastal False
-Province 1346 has terrain jungle and coastal False
-Province 2084 has terrain hills and coastal False
-Province 4512 has terrain hills and coastal False
-Province 5341 has terrain hills and coastal False
-Province 6507 has terrain hills and coastal False
-Province 7994 has terrain jungle and coastal False
-Province 18099 has terrain mountain and coastal False
-Province 18156 has terrain hills and coastal False
-Province 18177 has terrain mountain and coastal False
-Province 18192 has terrain mountain and coastal False
-Province 18230 has terrain hills and coastal False
-Province 18231 has terrain mountain and coastal False
-Province 18287 has terrain hills and coastal False
-[274] has 0 Military Factories, 2 Civilian Factories, 1 Dockyards and 3720000.0 Population.
-Its relative value is 0.0702
-Province 698 has terrain mountain and coastal False
-Province 1606 has terrain mountain and coastal True
-Province 2288 has terrain mountain and coastal False
-Province 3142 has terrain hills and coastal True
-Province 3873 has terrain hills and coastal False
-Province 5606 has terrain mountain and coastal False
-Province 5741 has terrain mountain and coastal False
-Province 6772 has terrain hills and coastal True
-Province 8241 has terrain mountain and coastal True
-Province 10034 has terrain jungle and coastal True
-Province 17616 has terrain mountain and coastal False
-Province 17781 has terrain mountain and coastal False
-Province 17851 has terrain mountain and coastal False
-Province 17852 has terrain hills and coastal False
-Province 17930 has terrain hills and coastal False
-Province 17931 has terrain hills and coastal True
-Province 17966 has terrain mountain and coastal False
-Province 17988 has terrain hills and coastal False
-Province 18040 has terrain mountain and coastal False
-[852] has 1 Military Factories, 3 Civilian Factories, 0 Dockyards and 3050000.0 Population.
-Its relative value is 0.0575
-Province 257 has terrain mountain and coastal False
-Province 1072 has terrain mountain and coastal False
-Province 1686 has terrain mountain and coastal False
-Province 2818 has terrain mountain and coastal False
-Province 3476 has terrain mountain and coastal False
-Province 4714 has terrain mountain and coastal False
-Province 6439 has terrain mountain and coastal False
-Province 6502 has terrain mountain and coastal False
-Province 6859 has terrain mountain and coastal False
-Province 8717 has terrain hills and coastal False
-Province 10545 has terrain mountain and coastal False
-Province 18157 has terrain mountain and coastal False
-Province 18178 has terrain mountain and coastal False
-Province 18219 has terrain mountain and coastal False
-Province 18339 has terrain mountain and coastal False
-Province 18439 has terrain mountain and coastal False
-Province 18514 has terrain hills and coastal False
-Province 18581 has terrain hills and coastal False
+[333] has 0 Military Factories, 0 Civilian Factories, 0 Dockyards and 2370000.0 Population.
+Its relative value is 0.0787
+Province 3180 has terrain plains and coastal False
+Province 7728 has terrain forest and coastal False
+Province 10535 has terrain hills and coastal False
+Province 18316 has terrain hills and coastal False
+Province 18317 has terrain forest and coastal False
+Province 20300 has terrain forest and coastal False
+Province 20301 has terrain forest and coastal False
+Province 20707 has terrain lakes and coastal False
+Province 20709 has terrain lakes and coastal False
+Province 20710 has terrain lakes and coastal False
+Province 20711 has terrain lakes and coastal False
+Province 20820 has terrain lakes and coastal False
+[302] has 0 Military Factories, 2 Civilian Factories, 0 Dockyards and 4080000.0 Population.
+Its relative value is 0.1358
+Province 188 has terrain forest and coastal False
+Province 321 has terrain forest and coastal False
+Province 4610 has terrain forest and coastal True
+Province 6397 has terrain forest and coastal False
+Province 6578 has terrain forest and coastal True
+Province 8648 has terrain forest and coastal False
+Province 17998 has terrain mountain and coastal True
+Province 18075 has terrain hills and coastal True
+Province 18237 has terrain forest and coastal False
+Province 18329 has terrain forest and coastal True
+Province 18374 has terrain forest and coastal False
+[898] has 1 Military Factories, 2 Civilian Factories, 0 Dockyards and 4430000.0 Population.
+Its relative value is 0.1476
+Province 5135 has terrain plains and coastal True
+Province 6892 has terrain forest and coastal True
+Province 7296 has terrain forest and coastal True
+Province 8498 has terrain hills and coastal False
+Province 11606 has terrain forest and coastal False
+Province 18482 has terrain forest and coastal False
+Province 18530 has terrain hills and coastal False
+Province 18540 has terrain forest and coastal False
+Province 18577 has terrain hills and coastal False
+Province 18628 has terrain forest and coastal False
+Province 18638 has terrain forest and coastal False
+Province 18692 has terrain forest and coastal False
+[346] has 1 Military Factories, 1 Civilian Factories, 0 Dockyards and 2250000.0 Population.
+Its relative value is 0.0748
+Province 3788 has terrain hills and coastal False
+Province 5409 has terrain plains and coastal False
+Province 9995 has terrain hills and coastal False
+Province 10086 has terrain plains and coastal False
+Province 18637 has terrain forest and coastal False
+Province 18679 has terrain hills and coastal False
+[438] has 0 Military Factories, 2 Civilian Factories, 1 Dockyards and 6500000.0 Population.
+Its relative value is 0.2165
+Province 383 has terrain forest and coastal True
+Province 4356 has terrain plains and coastal False
+Province 6000 has terrain forest and coastal False
+Province 7079 has terrain forest and coastal False
+Province 10403 has terrain forest and coastal True
+Province 11032 has terrain forest and coastal False
+Province 11054 has terrain plains and coastal True
+Province 18652 has terrain forest and coastal False
+Province 18733 has terrain forest and coastal False
+[386] has 1 Military Factories, 1 Civilian Factories, 0 Dockyards and 2130000.0 Population.
+Its relative value is 0.0709
+Province 490 has terrain plains and coastal False
+Province 3244 has terrain plains and coastal False
+Province 8578 has terrain plains and coastal False
+Province 9383 has terrain plains and coastal False
+Province 18785 has terrain plains and coastal False
+Province 18843 has terrain plains and coastal False
+[900] has 0 Military Factories, 2 Civilian Factories, 1 Dockyards and 4080000.0 Population.
+Its relative value is 0.1358
+Province 746 has terrain plains and coastal True
+Province 2201 has terrain plains and coastal False
+Province 2306 has terrain plains and coastal False
+Province 3208 has terrain plains and coastal False
+Province 3312 has terrain plains and coastal True
+Province 11224 has terrain plains and coastal True
+Province 18858 has terrain plains and coastal False
+Province 18958 has terrain plains and coastal True
+Province 19055 has terrain plains and coastal True
+[899] has 0 Military Factories, 1 Civilian Factories, 1 Dockyards and 4200000.0 Population.
+Its relative value is 0.1398
+Province 3032 has terrain forest and coastal False
+Province 3228 has terrain forest and coastal False
+Province 7938 has terrain plains and coastal True
+Province 9110 has terrain forest and coastal False
+Province 9823 has terrain plains and coastal False
+Province 18891 has terrain plains and coastal False
+Province 18910 has terrain plains and coastal False
+Province 19041 has terrain forest and coastal False
+Province 19078 has terrain forest and coastal True
+Province 19096 has terrain forest and coastal True
+Province 19124 has terrain plains and coastal True
