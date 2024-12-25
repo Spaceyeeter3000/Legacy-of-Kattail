@@ -1,6 +1,6 @@
 ﻿capital = 357
 
-oob = "KTZ_1936"
+set_oob = "TEN_1936"
 
 set_research_slots = 2
 set_stability = 0.5
