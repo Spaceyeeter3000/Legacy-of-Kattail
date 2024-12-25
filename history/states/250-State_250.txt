@@ -4,8 +4,22 @@ state={
 	provinces={
 		743 753 1281 1913 1980 2325 3405 6145 7197 10000 17716 17731 17755 17768 17777 17820 17850 17909 17959 17987 
 	}
-	manpower=2000000
 	buildings_max_level_factor=1.000
-	state_category=town
 	local_supplies=0.000
+	manpower=1850000.0
+	state_category=town
+	resources = { food = 65.0 rubber = 80.0 tungsten = 0.0 aluminium = 17.0 fissiles = 0.0 supertensiles = 0.0 chromium = 0.0 oil = 0.0 steel = 0.0 }
+	history={
+		owner = VIX
+		add_core_of = VIX
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 0
+			anti_air_building = 0
+
+		}
+	}
 }

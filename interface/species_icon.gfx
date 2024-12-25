@@ -8,7 +8,7 @@ spriteTypes = {
 	}  
 	spriteType = {
 		name = "GFX_species_0"
-		texturefile = "gfx/interface/species/species_no_minority.dds"
+		texturefile = "gfx/interface/species/species_diverse.dds"
 	}
 	#Katzens RAAAAAAAAGH
 	spriteType = {
@@ -110,6 +110,22 @@ spriteTypes = {
 		name = "GFX_species_20"
 		texturefile = "gfx/interface/species/species_hyperdiverse.dds"
 	}
+	#Haranian
+	spriteType = {
+		name = "GFX_species_21"
+		texturefile = "gfx/interface/species/species_haranian.dds"
+	}
+	#Eto'ya
+	spriteType = {
+		name = "GFX_species_22"
+		texturefile = "gfx/interface/species/species_etoya.dds"
+	}
+	#Penguin
+	spriteType = {
+		name = "GFX_species_23"
+		texturefile = "gfx/interface/species/species_penguin.dds"
+	}
+
 
 	#No minority
 	spriteType = {

@@ -6,6 +6,13 @@ scripted_map_modes = {
 			color = {
 				set_temp_variable = { alpha_temp = 0.25 }
 				set_temp_variable = { thickness = 500.0 }
+				if = { #Diverse
+					limit = { FROM = { check_variable = { minority = 0 } } }
+					set_temp_variable = { red = 0.50 }
+					set_temp_variable = { green = 0.50 }
+					set_temp_variable = { blue = 0.50 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
 				if = { #Katzen
 					limit = { FROM = { check_variable = { minority = 1 } } }
 					set_temp_variable = { red = 0.00 }
@@ -144,6 +151,27 @@ scripted_map_modes = {
 					set_temp_variable = { red = 0 }
 					set_temp_variable = { green = 0.27 }
 					set_temp_variable = { blue = 0.58 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				if = { #Haranian
+					limit = { FROM = { check_variable = { minority = 21 } } }
+					set_temp_variable = { red = 0.99 }
+					set_temp_variable = { green = 0.95 }
+					set_temp_variable = { blue = 0.55 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				if = { #Etoya
+					limit = { FROM = { check_variable = { minority = 22 } } }
+					set_temp_variable = { red = 0.26 }
+					set_temp_variable = { green = 0.53 }
+					set_temp_variable = { blue = 0.96 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				if = { #Penguin
+					limit = { FROM = { check_variable = { minority = 23 } } }
+					set_temp_variable = { red = 0.91 }
+					set_temp_variable = { green = 0.8 }
+					set_temp_variable = { blue = 0.07 }
 					set_temp_variable = { alpha = alpha_temp }
 				}
 			}
@@ -299,6 +327,27 @@ scripted_map_modes = {
 					set_temp_variable = { red = 0 }
 					set_temp_variable = { green = 0.27 }
 					set_temp_variable = { blue = 0.58 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				if = { #Haranian
+					limit = { FROM = { check_variable = { species = 21 } } }
+					set_temp_variable = { red = 0.99 }
+					set_temp_variable = { green = 0.95 }
+					set_temp_variable = { blue = 0.55 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				if = { #Etoya
+					limit = { FROM = { check_variable = { species = 22 } } }
+					set_temp_variable = { red = 0.26 }
+					set_temp_variable = { green = 0.53 }
+					set_temp_variable = { blue = 0.96 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				if = { #Penguin
+					limit = { FROM = { check_variable = { species = 23 } } }
+					set_temp_variable = { red = 0.91 }
+					set_temp_variable = { green = 0.8 }
+					set_temp_variable = { blue = 0.07 }
 					set_temp_variable = { alpha = alpha_temp }
 				}
 			}
