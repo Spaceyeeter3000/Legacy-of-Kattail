@@ -22,6 +22,18 @@ ZUS = {
 	callsigns = { "Hunter" "Berserker" "Pouncer" "Destroyer" }
 }
 
+USS = {
+	names = { Kdon Kavws Xoy Dkfo Heo Lohg Fokmwserohn Psekpsohde Ruto Defo Donohde Kmwsvw Mweseroh Ohgrooy Tooy Okrohk Kkekver Oykver }
+	surnames = { Kdon Kavws Xoy Dkfo Heo Lohg Fokmwserohn Psekpsohde Ruto Defo Donohde Kmwsvw Mweseroh Ohgrooy Tooy Okrohk Kkekver Oykver }
+	callsigns = { "Hunter" "Berserker" "Pouncer" "Destroyer" }
+}
+
+UST = {
+	names = { Kdon Kavws Xoy Dkfo Heo Lohg Fokmwserohn Psekpsohde Ruto Defo Donohde Kmwsvw Mweseroh Ohgrooy Tooy Okrohk Kkekver Oykver }
+	surnames = { Kdon Kavws Xoy Dkfo Heo Lohg Fokmwserohn Psekpsohde Ruto Defo Donohde Kmwsvw Mweseroh Ohgrooy Tooy Okrohk Kkekver Oykver }
+	callsigns = { "Hunter" "Berserker" "Pouncer" "Destroyer" }
+}
+
 SOB = {
 	female = {
 		names = {
@@ -316,4 +328,126 @@ SLR = {
 	}
 	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
 	callsigns = { }
+}
+
+VIX = {
+	female = {
+		names = {
+			Dewi Ayu Lestari Ratri Kartika Saraswati Melati Kamila Cahya Sari Ayunda Puspita Laras Indira Cempaka Kartini Mawar Amara Putri Anggita Sekar Sri Widya Citra Aulia Hana Intan Rukmini Murni Asih Alika Kusumawardhani Wulan Mirah Ambar Pertiwi Astari Puspa Cahaya Sekar Wangi Cantika Laksmi Tika Arimbi Anjani Lila Sekar Anggun
+		}
+	}
+	male = {
+		names = {
+			Agung Atmajaya Bahuwirya Bajrayekt Cawisono Darmanto Ismoyono Laksmana Nugroho Pangestu Susilo Raditya Senopati Wibowo Kartono Widyatmaka Pratama Yudistira Candra Kusuma Adi Prakoso Surya Mahendra Wijaya Dharma Pramudya Bayu Setyawan Eka Kurniawan Cahaya Arjuna Galih Putra Bintang Priyono Aditya Wiyono Raharja
+		}
+	}
+	surnames = { 
+		Santoso Wirawan Hidayat Rahardjo Purnama Wijaya Prawira Kencana Cokro Bramantyo Dirgantara Wicaksono Wardhana Pamungkas Baskoro Aryasatya Harjono Wiratama Nugrahadi Sunarto Widjaja Kusumo Reksodiputro Djohari Mandala Sungkono Yulianto Surapati Kertanegara Saputra Widodo Ardiananta Prabowo Suryatmaja Triyono Kartasasmita Daryanto
+	}
+	callsigns = { "Vulpes" "Reynard" "Kitsune" "SlyPaw" "Foxfire" "ShadowTail" "SwiftPelt" "CunningEye" "Fennec" "BlazeFur" }
+}
+
+MAC = {
+	male = {
+		names = {
+			Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Arturo Augusto Aureliano
+			Baldomero Baltasar Benancio Benigno Benito Bernardino Bernardo
+			Calixto Cándido Carlos Celestino Claudio Cristóbal Dámaso Diego Dionisio Domingo
+			Eduardo Eleazar Emilio Ernesto Estanislao Esteban Federico Felipe Félix Fernando Francisco
+			Gabino Gabriel Gaspar Genaro Gonzalo Herminio Ignacio Isidro
+			Jacobo Jaime Joaquín "Jorge Mariano" José "José Antonio" "Jose María" Juan "Juan Manuel" Julián Julio Leopoldo Lorenzo Luis
+			Manuel Marcelo Mariano Mario "Mario Eduardo" Mateo Melchor Miguel Nicolás Norberto Pablo Pascual Pedro
+			Rafael Raimundo Ramón Ricardo Salvador Sandalio Santiago Sebastián Segismundo Segundo Valeriano Vicente
+		  }
+	}
+	female = {
+		names = {
+			Adelita Amalia Amaranta Ana Araceli Aurelia Auxilio Beatriz Belén Blanca
+			Camila Candelaria Cándida Carmen Chavela Cirila Consuelo Cristina Delfina Dolores
+			Eduarda Esperanza Felipa Fidelia Froilana Graciela Herminia Inés Isabel Irene Isadora Isabella
+			Jimena Justa Justina Luciana Lucrecia María "María del Carmen" "María del Mar" "María Dolores" Marisol Mercedes
+			Noemí Nohemi Primitiva Rebeca Remedios Rocío Salvadora Socorro Sofía Soledad
+			Teodora Teófila Úrsula Valentina Valeria Vicenta Ximena
+		}
+	}
+	surnames = {
+		Acuña Aguirre Allendesalazar Alonso Álvarez Aranda Arcadio Asensio Aznar
+		Blázquez Barradas Basaraz Bugallal Burruezo Caballero Cabrera Calvo Cano Castillo Castro Cervera Cevallos Cortés
+		"de Albornoz" "de Carvajal" "de la Fuente" "de Irujo" "de la Llave" "de Orleans" Díaz Domínguez Espartero Fernández Franco
+		Gallego García Garrido González Grande Guisado Heredia Hernández Herrera Hevia Iglesias Jiménez Lasarte Letamendía Linares López
+		Maroto Márquez Martínez-Campos Maura Martín Martínez Menéndez Mercado Miaja Millán-Astray Mina Mola Molina Moreno Muñoz
+		Narváez Núñez O'Donnell Ortega Pavía Pérez Ramírez Rodríguez Rojo Romero Ruiz Sánchez Sanjurjo Serrano Silvestre Suárez
+		Topete Torres Urkiaga Valdés Varela Vázquez Velasco Villapol Villar Weyler Yagüe Zapatero
+	}
+	callsigns = { }
+}
+
+FOR = {
+	male = {
+		names = {
+			Jan Pieter Hans Willem Richard Arnold Casper Martijn Gerard Klaas Joost Siebrand Hugo Luike Julian Lucas Diederik Bastiaan Reinier Sander Thijs Bram Floris Jeroen Koen Maarten Ruben Vincent Bas Dirk Hendrik Niels Gijsbert Stefan Tom Paul Robbert Arjen Henk Wouter Leon Marcel Timo Joep
+		}
+	}
+	female = {
+		names = {
+			Anna Maria Sophie Emma Julia Lisa Eva Iris Lotte Tess Saar Mila Zoë Luna Esmee Noor Fleur Eline Vera Maud Jasmijn Amber Lieke Sanne Puck Femke Elise Romy Yara Ilse Nina Liv Bo Roos Kim Lynn Marieke Jet Britt Floor Elise Loes
+		}
+	}
+	surnames = {
+		Quartz Amethyst Gold Diamond Silver Ruby Emerald Sapphire Topaz Opal Garnet Pearl Obsidian Jade Malachite Turquoise Aquamarine Amber Peridot Spinel Moonstone Agate Lapis Lazuli Beryl Onyx Zircon Citrine Alexandrite Carnelian Chrysoberyl Tanzanite Tourmaline Pyrite Hematite Sunstone Smoky Quartz Kyanite Fluorite Labradorite Selenite Jasper
+	}
+	callsigns = { "Quartz" "Amethyst" "Gold" "Ruby" "Emerald" "Sapphire" "Topaz" "Opal" "Obsidian" "Pearl" }
+}
+
+PAC = {
+	male = {
+		names = {
+			"The Glorious" "The Butcher" "The Great" "The Fool" "The Conqueror" "The Valiant" "The Ruthless" "The Noble" "The Savage" "The Mighty"
+			"The Bold" "The Cunning" "The Merciless" "The Shrewd" "The Gallant" "The Fearless" "The Daring" "The Wise" "The Resolute" "The Grim"
+			"The Reckless" "The Heroic" "The Brave" "The Tyrant" "The Defender" "The Ambitious" "The Unyielding" "The Relentless" "The Steadfast" "The Victorious"
+			"The Fierce" "The Loyal" "The Proud" "The Treacherous" "The Fiery" "The Invincible" "The Dauntless" "The Triumphant" "The Iron"
+		}
+	}
+	female = {
+		names = {
+			"The Glorious" "The Butcher" "The Great" "The Fool" "The Conqueror" "The Valiant" "The Ruthless" "The Noble" "The Savage" "The Mighty"
+			"The Bold" "The Cunning" "The Merciless" "The Shrewd" "The Gallant" "The Fearless" "The Daring" "The Wise" "The Resolute" "The Grim"
+			"The Reckless" "The Heroic" "The Brave" "The Tyrant" "The Defender" "The Ambitious" "The Unyielding" "The Relentless" "The Steadfast" "The Victorious"
+			"The Fierce" "The Loyal" "The Proud" "The Treacherous" "The Fiery" "The Invincible" "The Dauntless" "The Triumphant" "The Iron"	
+		}
+	}
+	surnames = {
+		", Glorysprung" ", Butchersprung" ", Greatsprung" ", Foolsprung" ", Conquerorsprung" ", Mightysprung" ", Noblesprung" ", Savagesprung" ", Boldsprung" ", Cunningsprung"
+		", Gallantsprung" ", Resolutesprung" ", Heroicsprung" ", Tyrantsprung" ", Fearlesssprung" ", Dreadsprung" ", Recklesssprung" ", Victorioussprung" ", Braveheartsprung" ", Relentlesssprung"
+		", Loyalistsprung" ", Proudheartsprung" ", Steadfastsprung" ", Dauntlesssprung" ", Unyieldingsprung" ", Triumphantsprung" ", Ironwillsprung" ", Fieryspiritsprung" ", Mercilesssprung" ", Defendersprung"		
+	}
+	callsigns = { "Hunter" "Berserker" "Pouncer" "Destroyer" }
+}
+
+XIR = {
+	female = {
+		names = {
+			"Vaenaer" "Cieneurio" "Xaeruikuov" "Rieneouko" "Kaienour" "Tsuuaikuon" "Maeriouk" "Nooruon" "Seeriau" "Baariouka"
+			"Keanouru" "Faeraoku" "Shaenoiu" "Laesuu" "Ruoniaku" "Daeriuo" "Meiouko" "Soeruon" "Kairuoku" "Gaenoru"
+			"Naeruu" "Tsieouko" "Faiunoru" "Haeiouka" "Zaeioukou" "Louraoku" "Voiurak" "Souniaku" "Peurioan" "Tsuoniur"
+			"Xaeiou" "Raiunoku" "Kaenuoru" "Mieaurko" "Ceairiou" "Naeiouku" "Shaoriun" "Vaeiouka" "Gaeounur" "Bouneaku"
+		}
+	}
+	male = {
+		names = { 
+			"Vaenaer" "Cieneurio" "Xaeruikuov" "Rieneouko" "Kaienour" "Tsuuaikuon" "Maeriouk" "Nooruon" "Seeriau" "Baariouka"
+			"Keanouru" "Faeraoku" "Shaenoiu" "Laesuu" "Ruoniaku" "Daeriuo" "Meiouko" "Soeruon" "Kairuoku" "Gaenoru"
+			"Naeruu" "Tsieouko" "Faiunoru" "Haeiouka" "Zaeioukou" "Louraoku" "Voiurak" "Souniaku" "Peurioan" "Tsuoniur"
+			"Xaeiou" "Raiunoku" "Kaenuoru" "Mieaurko" "Ceairiou" "Naeiouku" "Shaoriun" "Vaeiouka" "Gaeounur" "Bouneaku"
+		}
+	}
+	surnames = { 
+		"Bourzuik" "Keax" "Gourxeon" "Raenuik" "Sounoik" "Taeruion" "Shaekou" "Kaieuron" "Moerouka" "Zaerion"
+		"Faerouik" "Noiukon" "Xaerouka" "Baeurion" "Raerioik" "Gieurou" "Daezon" "Seiounk" "Naiurou" "Louxioun"
+		"Peanoiuk" "Tsuruon" "Meonior" "Ceoniru" "Boeniouk" "Saeounir" "Ruionek" "Haerouku" "Laenoiur" "Zaenouik"
+		"Faeiouko" "Maerouni" "Vaeniuor" "Kieuroun" 
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+	
+	prefix = o_operatsiya
 }

@@ -558,6 +558,10 @@ spriteTypes = {
 	spriteType = { name = "GFX_portrait_TEN_Geight" texturefile = "gfx/leaders/TEN/TEN_Geight.tga" }
 	spriteType = { name = "GFX_portrait_TEN_Geight_Small" texturefile = "gfx/interface/ministers/TEN/TEN_Geight.tga" }
 
+	#VIX - Vixenoids
+	spriteType = { name = "GFX_portrait_VIX_Noronyo" texturefile = "gfx/leaders/VIX/VIX_Noronyo.tga" }
+	spriteType = { name = "GFX_portrait_VIX_Noronyo_Small" texturefile = "gfx/interface/ministers/VIX/VIX_Noronyo.tga" }
+
 
 	################
 	### Arivoejo ###

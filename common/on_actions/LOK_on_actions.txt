@@ -292,11 +292,39 @@ on_actions = {
 			#MCF
 			MCF = { every_owned_state = { set_variable = { species = 13 } } }
 
+			#KHA
+			KHA = { every_owned_state = { set_variable = { species = 22 } } }
+
+			#Tenet
+			TEN = { every_owned_state = { set_variable = { species = 3 } } }
+			TEN = { every_owned_state = { set_variable = { minority = 0 } } }
+
+			#Dietrich
+			BSS = { every_owned_state = { set_variable = { species = 21 } } }
+			BSS = { every_owned_state = { set_variable = { minority = 1 } } }
+			854 = { set_variable = { species = 1 } }
+			434 = { set_variable = { species = 1 } }
+			854 = { set_variable = { minority = 21 } }
+			434 = { set_variable = { minority = 21 } }
+
+			#Gergovie
+			NGE = { every_owned_state = { set_variable = { species = 3 } } }
+			NGE = { every_owned_state = { set_variable = { minority = 23 } } }
+			867 = { set_variable = { species = 1 } }
+			867 = { set_variable = { minority = 3 } }
+			878 = { set_variable = { species = 23 } }
+			878 = { set_variable = { minority = 3 } }
+			447 = { set_variable = { minority = 1 } }
+			453 = { set_variable = { minority = 1000 } }
+
 			#Kusnurk
 			KUS = { every_owned_state = { set_variable = { species = 12 } } }
 			KUS = { every_owned_state = { set_variable = { minority = 1 } } } #Meow
 			213 = { set_variable = { species = 1 } }
 			213 = { set_variable = { minority = 12 } }
+
+			#Vixens
+			VIX = { every_owned_state = { set_variable = { species = 12 } } }
 
 			#Katown
 			KTW = { every_owned_state = { set_variable = { species = 1 } } }

@@ -1,0 +1,26 @@
+characters = {
+	VIX_Noronyo = {
+		name = VIX_Noronyo
+		portraits={
+			army={
+				large="GFX_portrait_VIX_Noronyo"
+				small="GFX_portrait_VIX_Noronyo_Small"
+			}
+		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = centrism
+		}
+		corps_commander = {
+			traits = { war_hero }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	DELETE_ME = {
+		name = DELETE_ME
+	}
+}

@@ -9142,6 +9142,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			check_variable = { minority = 0 }
+		}
+		localization_key = var_species.0
+	}
+	text = {
+		trigger = {
 			check_variable = { minority = 1 }
 		}
 		localization_key = var_species.1

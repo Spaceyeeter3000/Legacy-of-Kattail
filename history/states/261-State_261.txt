@@ -4,8 +4,32 @@ state={
 	provinces={
 		737 1959 3642 4703 6442 6845 7229 9108 11471 17237 17293 17311 17363 17381 17394 17428 
 	}
-	manpower=2000000
 	buildings_max_level_factor=1.000
-	state_category=town
 	local_supplies=0.000
+	manpower=5850000.0
+	state_category=city
+	resources = { food = 46.0 rubber = 0.0 tungsten = 0.0 aluminium = 0.0 fissiles = 0.0 supertensiles = 0.0 chromium = 0.0 oil = 0.0 steel = 57.0 }
+	history={
+		owner = VIX
+		add_core_of = VIX
+
+		victory_points = { 11471 10 }
+		victory_points = { 17311 10 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 0
+			dockyard = 0
+			anti_air_building = 0
+			11471 = {
+				supply_node = 1
+				bunker = 0.0
+			}
+			17311 = {
+				supply_node = 1
+				bunker = 0.0
+			}
+
+		}
+	}
 }
