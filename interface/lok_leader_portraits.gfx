@@ -434,6 +434,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_portrait_RQA_Konrad_Chadenauer" texturefile = "gfx/leaders/RQA/RQA_Konrad_Chadenauer.tga" }
 	spriteType = { name = "GFX_portrait_RQA_Konrad_Chadenauer_Small" texturefile = "gfx/interface/ministers/RQA/RQA_Konrad_Chadenauer.tga" }
 
+	#FST - Kaiserstein
 
 	#MCF - Cloudstriders
 	spriteType = { name = "GFX_portrait_MCF_Rose" 							texturefile = "gfx/leaders/MCF/MCF_Rose.tga" 								}
