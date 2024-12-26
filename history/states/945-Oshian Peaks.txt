@@ -1,0 +1,10 @@
+state={
+	id=945
+	name="STATE_945"
+	provinces={
+		822 1310 4057 5591 7668 8862 9027 11168 16495 16519 16529 16537 16587 16593 16644 16673 16674 16725 16768 16793 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
