@@ -62,6 +62,9 @@
  tunnel:0 "Tunnel"
  tunnel_desc: "§gNarrow corridors of concrete, rendering military expeditions into a bloody and slow advance through."
 
+ lok_polar_projection:0 "Projection Adjustements"
+ lok_polar_projection_desc:0 "The poles are not nearly as large as they are depicted to be. Thus, crossing them is faster than what would otherwise be expected."
+
  #Adjacencies
  BLASTERIAN_CANAL:0 "Blasterian Canal"
 

@@ -165,5 +165,3 @@ strategic_region={
 		}
 	}
 }
-}
-}
