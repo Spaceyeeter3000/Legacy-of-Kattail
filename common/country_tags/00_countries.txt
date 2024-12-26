@@ -77,6 +77,7 @@ TAL = "countries/TAL.txt" #Talsan'ar
 VAS = "countries/VAS.txt" #Vasmar
 COR = "countries/COR.txt" #Corebound
 RSA = "countries/RSA.txt" #Roqualian Strait Authority
+SPQ = "countries/SPQ.txt" #SPQA
 
 #Flusionea
 ACR = "countries/ACR.txt" #ACR
@@ -89,7 +90,9 @@ LTR = "countries/LTR.txt" #Loutrien
 PRC = "countries/PRC.txt" #Procione
 KAP = "countries/KAP.txt" #Kapy's
 BKM = "countries/BKM.txt" #Bondskrijgsmacht/Katjeisland (Not present at Gamestart)
+
 #Oshia
+WSF = "countries/WSF.txt" #West Flusion
 SAR = "countries/SAR.txt" #Grand Duchy of Saru
 DRO = "countries/DRO.txt" #Droogian Tribal Councils
 FRU = "countries/FRU.txt" #Principality of Frusia
