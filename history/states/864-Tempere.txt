@@ -16,13 +16,14 @@ state={
 		1746 
 	}
 	history = {
-		owner = BSS
+		owner = NGE
+		add_core_of = NGE
 		add_core_of = BSS
 		buildings = {
 			dockyard = 1
 		}
 	}
-	manpower=860000
+	manpower=86000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

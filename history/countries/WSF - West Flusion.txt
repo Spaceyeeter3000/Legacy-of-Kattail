@@ -1,10 +1,10 @@
-﻿capital = 110
+﻿capital = 908
 
 oob = "KTZ_1936"
 
 set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.5
+set_stability = 0.3
+set_war_support = 0.4
 
 # Starting tech
 set_technology = {
@@ -101,7 +101,7 @@ set_politics = {
 
 set_popularities = {
 	neutrality = 3
-	fascism = 0
+	fascism = 3
 	communism = 82
 	democratic = 12
 }
