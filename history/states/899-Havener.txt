@@ -12,9 +12,23 @@ state={
 	history={
 		owner = FST
 		add_core_of = FST
+		victory_points = { 19078 5 }
+		victory_points = { 9823 5 }
 
 		buildings = {
 			infrastructure = 3
+			19078 = { 
+				supply_node = 1
+				naval_base = 2
+				bunker = 2
+				coastal_bunker = 2
+			}
+			9823 = { 
+				supply_node = 1
+				naval_base = 0
+				bunker = 2
+				coastal_bunker = 0
+			}
 			industrial_complex = 1
 			arms_factory = 0
 			dockyard = 1
