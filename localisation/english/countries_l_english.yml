@@ -1166,6 +1166,21 @@
 
 
  #Nouvelle-Gergovie
+ SPQ_democratic:0 "Senatus Populusque Aurelianus"
+ SPQ_democratic_DEF:0 "the Senatus Populusque Aurelianus"
+ SPQ_democratic_ADJ:0 "Aurelian"
+ SPQ_fascism:0 "Imperium Aurelianus"
+ SPQ_fascism_DEF:0 "the Imperium Aurelianus"
+ SPQ_fascism_ADJ:0 "Aurelian"
+ SPQ_communism:0 "Communitas Proletaristasque Aurelianus"
+ SPQ_communism_DEF:0 "the Communitas Proletaristasque Aurelianus"
+ SPQ_communism_ADJ:0 "Aurelian"
+ SPQ_neutrality:0 "Regnum Aurelium"
+ SPQ_neutrality_DEF:0 "the Regnum Aurelium"
+ SPQ_neutrality_ADJ:0 "Aurelian"
+ SPQ:0 "Aurelia"
+
+ #Nouvelle-Gergovie
  NGE_democratic:0 "République Antarctique"
  NGE_democratic_DEF:0 "the République Antarctique"
  NGE_democratic_ADJ:0 "Antarctique"
