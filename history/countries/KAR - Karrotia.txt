@@ -24,5 +24,9 @@ set_popularities = {
 	democratic = 0
 }
 
+add_ideas = closed_economy
+add_ideas = disarmed_nation
+add_ideas = undisturbed_isolation
+
 recruit_character = PLR_Lenaghan
 recruit_character = PLR_Oharey
