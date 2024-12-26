@@ -1,0 +1,119 @@
+﻿##### Division Templates #####
+division_template = { #Fodder
+	name = "Kaiserstein-Garnison"		
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = { location = 3244 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 9823 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 2306 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 3244 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 383 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 8648 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 11032 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 3244 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 9823 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 19078 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 3244 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 2306 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 7296 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 383 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 7296 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 19078 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 10086 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 2306 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 2306 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 383 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 3244 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 9823 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 383 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 8648 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 11032 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 8648 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 19078 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 9823 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 9823 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 8648 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 383 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 8648 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 7296 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 383 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 19078 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 7296 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 7296 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 383 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 9823 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 11032 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 383 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 9823 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 11032 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 10086 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+	division = { location = 7296 division_template = "Kaiserstein-Garnison" start_experience_factor = 0.3 }
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "FST"
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "FST" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "FST" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = train_equipment_wartime_1
+			creator = "FST" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "FST" 
+		}
+		requested_factories = 4
+		progress = 0.4
+		efficiency = 50
+	}
+}

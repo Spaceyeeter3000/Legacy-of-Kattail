@@ -684,16 +684,28 @@
  TEN:0 "Tenetianen"
 
  #Vixens
+ VIX_communism:0 "Vixenoid Communes of the Channel"
+ VIX_communism_DEF:0 "the Vixenoid Communes of the Channel"
  VIX_democratic:0 "Social Republic of Vixenoids"
  VIX_democratic_DEF:0 "the Social Republic of Vixenoids"
+ VIX_fascism:0 "Greater Vixenoidia"
+ VIX_fascism_DEF:0 "the Greater Vixenoidia"
+ VIX_neutrality:0 "Vixenoid Authority"
+ VIX_neutrality_DEF:0 "the Vixenoid Authority"
  VIX_ADJ:0 "Vixenoid"
  VIX:0 "Vixenoidia"
 
  #Kaiserstein
- FST_neutrality:0 "Festung Kaiserstein"
- FST_neutrality_DEF:0 "Festung Kaiserstein"
- FST_ADJ:0 "Purrhelmshavien"
- FST:0 "Purrhelmshaven"
+ FST_communism:0 "Democratic People's Republic of Purrhelmshaven"
+ FST_communism_DEF:0 "the Democratic People's Republic of Purrhelmshaven"
+ FST_democratic:0 "Republic of Purrhelmshaven"
+ FST_democratic_DEF:0 "the Republic of Purrhelmshaven"
+ FST_fascism:0 "Festung Kaiserstein"
+ FST_fascism_DEF:0 "Festung Kaiserstein"
+ FST_neutrality:0 "Kaisersteinstaat"
+ FST_neutrality_DEF:0 "Kaisersteinstaat"
+ FST_ADJ:0 "FSTetianen"
+ FST:0 "FSTetianen"
 
  #Toilok
  TOI_neutrality:0 "Toilok Empire"
