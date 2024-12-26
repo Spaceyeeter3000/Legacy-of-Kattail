@@ -4,7 +4,22 @@ state={
 	provinces={
 		1585 1773 3484 4636 5914 6814 8410 9582 9688 10237 15664 15727 
 	}
-	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	manpower=6400000.0
+	state_category=town
+	resources = { food = 77.0 rubber = 0.0 tungsten = 0.0 aluminium = 0.0 fissiles = 26.0 supertensiles = 0.0 chromium = 0.0 oil = 0.0 steel = 0.0 }
+	history={
+		owner = WSF
+		add_core_of = WSF
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			anti_air_building = 0
+
+		}
+	}
 }

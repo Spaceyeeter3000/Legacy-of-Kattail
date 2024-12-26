@@ -1164,8 +1164,22 @@
  NRW_ADJ:0 "Norvegijian"
  NRW:0 "Norvegija"
 
+ #West Flusion
+ WSF_democratic:0 "Federal Republic of Western Flusion"
+ WSF_democratic_DEF:0 "the Federal Republic of Western Flusion"
+ WSF_democratic_ADJ:0 "Westflusionian"
+ WSF_fascism:0 "National Rebirth Army"
+ WSF_fascism_DEF:0 "the National Rebirth Army "
+ WSF_fascism_ADJ:0 "Westflusionian"
+ WSF_communism:0 "Democratic Federal Republic of Western Flusion"
+ WSF_communism_DEF:0 "the Democratic Federal Republic of Western Flusion"
+ WSF_communism_ADJ:0 "Westflusionian"
+ WSF_neutrality:0 "Ordosocialist Union of West Flusion"
+ WSF_neutrality_DEF:0 "the Ordosocialist Union of West Flusion"
+ WSF_neutrality_ADJ:0 "Westflusionian"
+ WSF:0 "West Flusion"
 
- #Nouvelle-Gergovie
+ #Aurelia
  SPQ_democratic:0 "Senatus Populusque Aurelianus"
  SPQ_democratic_DEF:0 "the Senatus Populusque Aurelianus"
  SPQ_democratic_ADJ:0 "Aurelian"
