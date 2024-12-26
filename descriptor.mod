@@ -1,5 +1,5 @@
 name="Legacy of Kattail DEV"
-version="3.14"
+version="1.15.*"
 tags={
 	"Gameplay"
 	"Map"
@@ -56,5 +56,5 @@ replace_path="gfx/flags/small"
 replace_path="gfx/interface/equipmentdesigner/graphic_db"
 replace_path="gfx/train_gfx_database"
 replace_path="tutorial"
-supported_version="1.14.*"
+supported_version="1.15.*"
 remote_file_id="3297932931"
