@@ -285,3 +285,9 @@ AUR_the_kaiser_must_return = {
 	war_support_weekly = AUR_the_kaiser_must_return_war_support_weekly
 	industrial_capacity_factory = AUR_the_kaiser_must_return_industrial_capacity_factory
 }
+
+lok_polar_projection = {
+	enable = { always = yes }
+
+	army_speed_factor_for_controller = 2
+}
