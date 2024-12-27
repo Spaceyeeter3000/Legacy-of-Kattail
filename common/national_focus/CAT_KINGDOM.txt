@@ -78,7 +78,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 			add_equipment_to_stockpile = {
-				type = convoys
+				type = convoy_1
 				amount = 500
 			}
 			14 = {
@@ -295,7 +295,7 @@ focus_tree = {
 			if = {
 				limit = {
 					country_exists = 509.owner
-					509.owner = { NOT = { tag = ROOT } }
+					509 = { var:owner = { NOT = { tag = ROOT } } }
 				}
 				declare_war_on = {
 					target = 509.owner
@@ -1050,7 +1050,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_equipment_to_stockpile = {
-				type = convoys
+				type = convoy_1
 				amount = 500
 			}
 			192 = { 
@@ -1732,7 +1732,8 @@ focus_tree = {
 		y = 6
 		cost = 5
 		available = {
-			STR = { every_core_state = { is_controlled_by = ROOT } }
+			NOT = { country_exists = STR }
+			STR = { any_core_state = { is_controlled_by = ROOT } }
 			113 = { is_controlled_by = ROOT }
 			558 = { is_controlled_by = ROOT }
 			548 = { is_controlled_by = ROOT }

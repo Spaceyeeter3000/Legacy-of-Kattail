@@ -4509,10 +4509,10 @@ technologies = {
 		enable_tactic = tactic_airmobile_shock
 		enable_tactic = tactic_air_cavalry_charge
 		
-		airmobile = {
-			soft_attack = 0.1
-			breakthrough = 0.1
-		}
+		# airmobile = {
+		# 	soft_attack = 0.1
+		# 	breakthrough = 0.1
+		# }
 			
 		doctrine = yes	
 		research_cost = 4.5
@@ -5420,10 +5420,10 @@ technologies = {
 		# 	utility_helicopter_1 = 1
 		# }
 
-		airmobile = {
-			ap_attack = 0.15
-			hard_attack = 0.1
-		}
+		# airmobile = {
+		# 	ap_attack = 0.15
+		# 	hard_attack = 0.1
+		# }
 		
 		category_tanks = { 
 			fuel_consumption = -0.1

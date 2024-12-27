@@ -184,7 +184,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = anti_tank_equipment
+			type = anti_tank_equipment_1
 			creator = "HYP" 
 		}
 		requested_factories = 3

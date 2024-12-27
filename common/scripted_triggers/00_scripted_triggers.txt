@@ -144,45 +144,45 @@ ai_land_doctrine_tier_2_trigger = {
 	}
 }
 
-anti_submarine_strategy_required_trigger = {
-	always = NO #CHANGE LATER
-	#OR = {
-	#	AND = {
-	#		tag = ENG
-	#		not = { is_in_faction_with = GER }
-	#		GER = {
-	#			has_navy_size = {
-	#				type = submarine
-	#				size > 30
-	#			}
-	#		}
-	#	}
-	#	AND = {
-	#		tag = USA
-	#		not = { is_in_faction_with = GER }
-	#		GER = {
-	#			has_navy_size = {
-	#				type = submarine
-	#				size > 30
-	#			}
-	#		}
-	#	}
-	#	AND = {
-	#		tag = JAP
-	#		not = { is_in_faction_with = USA }
-	#	}
-	#	AND = {
-	#		has_war = yes
-	#		any_enemy_country = {
-	#			has_navy_size = {
-	#				type = submarine
-	#				size > 30
-	#			}
-	#		}
-	#	}
-	#	convoy_threat > 0.3
-	#}
-}
+# anti_submarine_strategy_required_trigger = {
+# 	always = NO #CHANGE LATER
+# 	#OR = {
+# 	#	AND = {
+# 	#		tag = ENG
+# 	#		not = { is_in_faction_with = GER }
+# 	#		GER = {
+# 	#			has_navy_size = {
+# 	#				type = submarine
+# 	#				size > 30
+# 	#			}
+# 	#		}
+# 	#	}
+# 	#	AND = {
+# 	#		tag = USA
+# 	#		not = { is_in_faction_with = GER }
+# 	#		GER = {
+# 	#			has_navy_size = {
+# 	#				type = submarine
+# 	#				size > 30
+# 	#			}
+# 	#		}
+# 	#	}
+# 	#	AND = {
+# 	#		tag = JAP
+# 	#		not = { is_in_faction_with = USA }
+# 	#	}
+# 	#	AND = {
+# 	#		has_war = yes
+# 	#		any_enemy_country = {
+# 	#			has_navy_size = {
+# 	#				type = submarine
+# 	#				size > 30
+# 	#			}
+# 	#		}
+# 	#	}
+# 	#	convoy_threat > 0.3
+# 	#}
+# }
 
 enemy_has_equal_or_better_radar_tech_trigger = {
 	custom_trigger_tooltip = {

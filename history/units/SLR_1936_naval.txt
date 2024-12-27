@@ -1,7 +1,7 @@
 ﻿
 units= {
 	fleet = {
-		name = "Solarian Revolutionary Fleet"			
+		name = "People's Navy of Solaria"			
 		naval_base = 7824
 		task_force = {
 			name = "First Task Force"
