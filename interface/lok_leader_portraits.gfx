@@ -628,6 +628,21 @@ spriteTypes = {
 	spriteType = { name = "GFX_portrait_NGE_Megaliott_Small" texturefile = "gfx/interface/ministers/NGE/NGE_Megaliott.tga" }
 
 
+	 # SPQA
+	  ######  ########   #######     ###    
+	 ##    ## ##     ## ##     ##   ## ##   
+	 ##       ##     ## ##     ##  ##   ##  
+	  ######  ########  ##     ## ##     ## 
+	       ## ##        ##  ## ## ######### 
+	 ##    ## ##        ##    ##  ##     ## 
+	  ######  ##         ##### ## ##     ## 
+	  
+	spriteType = {
+		name = "GFX_portrait_SPQ_cincinnatus"
+		texturefile = "gfx/leaders/SPQ/SPQ_lucius_quinctius_cincinnatus.tga"
+	}
+	
+
 	######################
 	### Misc Portraits ###
 	######################
