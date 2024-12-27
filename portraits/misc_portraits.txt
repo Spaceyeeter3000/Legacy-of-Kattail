@@ -5,6 +5,14 @@ NKC = {
 		male = { "GFX_portrait_nekeox_generic_1" "GFX_portrait_nekeox_generic_2" "GFX_portrait_nekeox_generic_3" "GFX_portrait_nekeox_generic_4" "GFX_portrait_nekeox_generic_5" "GFX_portrait_nekeox_generic_6" "GFX_portrait_nekeox_generic_7" "GFX_portrait_nekeox_generic_8" }
 		female = { "GFX_portrait_nekeox_generic_1" "GFX_portrait_nekeox_generic_2" "GFX_portrait_nekeox_generic_3" "GFX_portrait_nekeox_generic_4" "GFX_portrait_nekeox_generic_5" "GFX_portrait_nekeox_generic_6" "GFX_portrait_nekeox_generic_7" "GFX_portrait_nekeox_generic_8" }
 	}
+	operative = {
+		male = { "GFX_portrait_nekeox_generic_1" "GFX_portrait_nekeox_generic_2" "GFX_portrait_nekeox_generic_3" "GFX_portrait_nekeox_generic_4" "GFX_portrait_nekeox_generic_5" "GFX_portrait_nekeox_generic_6" "GFX_portrait_nekeox_generic_7" "GFX_portrait_nekeox_generic_8" }
+		female = { "GFX_portrait_nekeox_generic_1" "GFX_portrait_nekeox_generic_2" "GFX_portrait_nekeox_generic_3" "GFX_portrait_nekeox_generic_4" "GFX_portrait_nekeox_generic_5" "GFX_portrait_nekeox_generic_6" "GFX_portrait_nekeox_generic_7" "GFX_portrait_nekeox_generic_8" }
+	}
+	scientist = {
+		male = { "GFX_portrait_nekeox_generic_1" "GFX_portrait_nekeox_generic_2" "GFX_portrait_nekeox_generic_3" "GFX_portrait_nekeox_generic_4" "GFX_portrait_nekeox_generic_5" "GFX_portrait_nekeox_generic_6" "GFX_portrait_nekeox_generic_7" "GFX_portrait_nekeox_generic_8" }
+		female = { "GFX_portrait_nekeox_generic_1" "GFX_portrait_nekeox_generic_2" "GFX_portrait_nekeox_generic_3" "GFX_portrait_nekeox_generic_4" "GFX_portrait_nekeox_generic_5" "GFX_portrait_nekeox_generic_6" "GFX_portrait_nekeox_generic_7" "GFX_portrait_nekeox_generic_8" }
+	}
 }
 
 SOB = {
@@ -37,6 +45,11 @@ SOB = {
 	}
 
 	operative = {
+		male = { "GFX_portrait_sobaki_generic_civilian_1" "GFX_portrait_sobaki_generic_civilian_2" "GFX_portrait_sobaki_generic_civilian_3" "GFX_portrait_sobaki_generic_civilian_4" }
+		female = { "GFX_portrait_sobaki_generic_civilian_1" "GFX_portrait_sobaki_generic_civilian_2" "GFX_portrait_sobaki_generic_civilian_3" "GFX_portrait_sobaki_generic_civilian_4" }
+	}
+
+	scientist = {
 		male = { "GFX_portrait_sobaki_generic_civilian_1" "GFX_portrait_sobaki_generic_civilian_2" "GFX_portrait_sobaki_generic_civilian_3" "GFX_portrait_sobaki_generic_civilian_4" }
 		female = { "GFX_portrait_sobaki_generic_civilian_1" "GFX_portrait_sobaki_generic_civilian_2" "GFX_portrait_sobaki_generic_civilian_3" "GFX_portrait_sobaki_generic_civilian_4" }
 	}
@@ -74,6 +87,10 @@ KUS = {
 		male = { "GFX_portrait_fox_generic_civilian_1" "GFX_portrait_fox_generic_civilian_2" "GFX_portrait_fox_generic_civilian_3" "GFX_portrait_fox_generic_civilian_4" }
 		female = { "GFX_portrait_fox_generic_civilian_1" "GFX_portrait_fox_generic_civilian_2" "GFX_portrait_fox_generic_civilian_3" "GFX_portrait_fox_generic_civilian_4" }
 	}
+	scientist = {
+		male = { "GFX_portrait_fox_generic_civilian_1" "GFX_portrait_fox_generic_civilian_2" "GFX_portrait_fox_generic_civilian_3" "GFX_portrait_fox_generic_civilian_4" }
+		female = { "GFX_portrait_fox_generic_civilian_1" "GFX_portrait_fox_generic_civilian_2" "GFX_portrait_fox_generic_civilian_3" "GFX_portrait_fox_generic_civilian_4" }
+	}
 }
 
 VIX = {
@@ -108,6 +125,10 @@ VIX = {
 		male = { "GFX_portrait_fox_generic_civilian_1" "GFX_portrait_fox_generic_civilian_2" "GFX_portrait_fox_generic_civilian_3" "GFX_portrait_fox_generic_civilian_4" }
 		female = { "GFX_portrait_fox_generic_civilian_1" "GFX_portrait_fox_generic_civilian_2" "GFX_portrait_fox_generic_civilian_3" "GFX_portrait_fox_generic_civilian_4" }
 	}
+	scientist = {
+		male = { "GFX_portrait_fox_generic_civilian_1" "GFX_portrait_fox_generic_civilian_2" "GFX_portrait_fox_generic_civilian_3" "GFX_portrait_fox_generic_civilian_4" }
+		female = { "GFX_portrait_fox_generic_civilian_1" "GFX_portrait_fox_generic_civilian_2" "GFX_portrait_fox_generic_civilian_3" "GFX_portrait_fox_generic_civilian_4" }
+	}
 }
 
 NMI = {
@@ -118,6 +139,10 @@ NMI = {
 		female = { "GFX_portrait_nitromethane_generic_1" "GFX_portrait_nitromethane_generic_2" "GFX_portrait_nitromethane_generic_3" "GFX_portrait_nitromethane_generic_4" "GFX_portrait_nitromethane_generic_5" "GFX_portrait_nitromethane_generic_6" }
 	}
 	operative = {
+		male = { "GFX_portrait_nitromethane_generic_1" "GFX_portrait_nitromethane_generic_2" "GFX_portrait_nitromethane_generic_3" "GFX_portrait_nitromethane_generic_4" "GFX_portrait_nitromethane_generic_5" "GFX_portrait_nitromethane_generic_6" }
+		female = { "GFX_portrait_nitromethane_generic_1" "GFX_portrait_nitromethane_generic_2" "GFX_portrait_nitromethane_generic_3" "GFX_portrait_nitromethane_generic_4" "GFX_portrait_nitromethane_generic_5" "GFX_portrait_nitromethane_generic_6" }
+	}
+	scientist = {
 		male = { "GFX_portrait_nitromethane_generic_1" "GFX_portrait_nitromethane_generic_2" "GFX_portrait_nitromethane_generic_3" "GFX_portrait_nitromethane_generic_4" "GFX_portrait_nitromethane_generic_5" "GFX_portrait_nitromethane_generic_6" }
 		female = { "GFX_portrait_nitromethane_generic_1" "GFX_portrait_nitromethane_generic_2" "GFX_portrait_nitromethane_generic_3" "GFX_portrait_nitromethane_generic_4" "GFX_portrait_nitromethane_generic_5" "GFX_portrait_nitromethane_generic_6" }
 	}
@@ -155,6 +180,10 @@ WAC = {
 		male = { "GFX_portrait_wacegi_generic_civilian_1" "GFX_portrait_wacegi_generic_civilian_2" "GFX_portrait_wacegi_generic_civilian_3" "GFX_portrait_wacegi_generic_civilian_4" }
 		female = { "GFX_portrait_wacegi_generic_civilian_1" "GFX_portrait_wacegi_generic_civilian_2" "GFX_portrait_wacegi_generic_civilian_3" }
 	}
+	scientist = {
+		male = { "GFX_portrait_wacegi_generic_civilian_1" "GFX_portrait_wacegi_generic_civilian_2" "GFX_portrait_wacegi_generic_civilian_3" "GFX_portrait_wacegi_generic_civilian_4" }
+		female = { "GFX_portrait_wacegi_generic_civilian_1" "GFX_portrait_wacegi_generic_civilian_2" "GFX_portrait_wacegi_generic_civilian_3" }
+	}
 }
 
 ZUS = {
@@ -165,6 +194,10 @@ ZUS = {
 		female = { "GFX_portrait_zuspri_generic_1" }
 	}
 	operative = {
+		male = { "GFX_portrait_zuspri_generic_1" }
+		female = { "GFX_portrait_zuspri_generic_1" }
+	}
+	scientist = {
 		male = { "GFX_portrait_zuspri_generic_1" }
 		female = { "GFX_portrait_zuspri_generic_1" }
 	}
@@ -203,6 +236,10 @@ MCF = {
 		male = { "GFX_portrait_cloudstrider_generic_civilian_1" "GFX_portrait_cloudstrider_generic_civilian_2" "GFX_portrait_cloudstrider_generic_civilian_3" "GFX_portrait_cloudstrider_generic_civilian_4" }
 		female = { "GFX_portrait_cloudstrider_generic_civilian_1" "GFX_portrait_cloudstrider_generic_civilian_2" "GFX_portrait_cloudstrider_generic_civilian_3" "GFX_portrait_cloudstrider_generic_civilian_4" }
 	}
+	scientist = {
+		male = { "GFX_portrait_cloudstrider_generic_civilian_1" "GFX_portrait_cloudstrider_generic_civilian_2" "GFX_portrait_cloudstrider_generic_civilian_3" "GFX_portrait_cloudstrider_generic_civilian_4" }
+		female = { "GFX_portrait_cloudstrider_generic_civilian_1" "GFX_portrait_cloudstrider_generic_civilian_2" "GFX_portrait_cloudstrider_generic_civilian_3" "GFX_portrait_cloudstrider_generic_civilian_4" }
+	}
 }
 
 ROQ = {
@@ -233,6 +270,10 @@ ROQ = {
 		#female = { "GFX_portrait_roqualian_generic_navy_1" "GFX_portrait_roqualian_generic_navy_2" "GFX_portrait_roqualian_generic_navy_3" "GFX_portrait_roqualian_generic_navy_4" }
 	}
 	operative = {
+		male = { "GFX_portrait_roqualian_generic_civilian_1" "GFX_portrait_roqualian_generic_civilian_2" "GFX_portrait_roqualian_generic_civilian_3" "GFX_portrait_roqualian_generic_civilian_8" "GFX_portrait_roqualian_generic_civilian_9" "GFX_portrait_roqualian_generic_civilian_10" }
+		female = { "GFX_portrait_roqualian_generic_civilian_4" "GFX_portrait_roqualian_generic_civilian_5" "GFX_portrait_roqualian_generic_civilian_6" "GFX_portrait_roqualian_generic_civilian_7" }
+	}
+	scientist = {
 		male = { "GFX_portrait_roqualian_generic_civilian_1" "GFX_portrait_roqualian_generic_civilian_2" "GFX_portrait_roqualian_generic_civilian_3" "GFX_portrait_roqualian_generic_civilian_8" "GFX_portrait_roqualian_generic_civilian_9" "GFX_portrait_roqualian_generic_civilian_10" }
 		female = { "GFX_portrait_roqualian_generic_civilian_4" "GFX_portrait_roqualian_generic_civilian_5" "GFX_portrait_roqualian_generic_civilian_6" "GFX_portrait_roqualian_generic_civilian_7" }
 	}
@@ -269,6 +310,10 @@ NGE = {
 		male = { "GFX_portrait_roqualian_generic_civilian_1" "GFX_portrait_roqualian_generic_civilian_2" "GFX_portrait_roqualian_generic_civilian_3" "GFX_portrait_roqualian_generic_civilian_8" "GFX_portrait_roqualian_generic_civilian_9" "GFX_portrait_roqualian_generic_civilian_10" }
 		female = { "GFX_portrait_roqualian_generic_civilian_4" "GFX_portrait_roqualian_generic_civilian_5" "GFX_portrait_roqualian_generic_civilian_6" "GFX_portrait_roqualian_generic_civilian_7" }
 	}
+	scientist = {
+		male = { "GFX_portrait_roqualian_generic_civilian_1" "GFX_portrait_roqualian_generic_civilian_2" "GFX_portrait_roqualian_generic_civilian_3" "GFX_portrait_roqualian_generic_civilian_8" "GFX_portrait_roqualian_generic_civilian_9" "GFX_portrait_roqualian_generic_civilian_10" }
+		female = { "GFX_portrait_roqualian_generic_civilian_4" "GFX_portrait_roqualian_generic_civilian_5" "GFX_portrait_roqualian_generic_civilian_6" "GFX_portrait_roqualian_generic_civilian_7" }
+	}
 }
 
 LMB = {
@@ -299,6 +344,10 @@ LMB = {
 		#female = { "GFX_portrait_roqualian_generic_navy_1" "GFX_portrait_roqualian_generic_navy_2" "GFX_portrait_roqualian_generic_navy_3" "GFX_portrait_roqualian_generic_navy_4" }
 	}
 	operative = {
+		male = { "GFX_portrait_roqualian_generic_civilian_1" "GFX_portrait_roqualian_generic_civilian_2" "GFX_portrait_roqualian_generic_civilian_3" "GFX_portrait_roqualian_generic_civilian_8" "GFX_portrait_roqualian_generic_civilian_9" "GFX_portrait_roqualian_generic_civilian_10" }
+		female = { "GFX_portrait_roqualian_generic_civilian_4" "GFX_portrait_roqualian_generic_civilian_5" "GFX_portrait_roqualian_generic_civilian_6" "GFX_portrait_roqualian_generic_civilian_7" }
+	}
+	scientist = {
 		male = { "GFX_portrait_roqualian_generic_civilian_1" "GFX_portrait_roqualian_generic_civilian_2" "GFX_portrait_roqualian_generic_civilian_3" "GFX_portrait_roqualian_generic_civilian_8" "GFX_portrait_roqualian_generic_civilian_9" "GFX_portrait_roqualian_generic_civilian_10" }
 		female = { "GFX_portrait_roqualian_generic_civilian_4" "GFX_portrait_roqualian_generic_civilian_5" "GFX_portrait_roqualian_generic_civilian_6" "GFX_portrait_roqualian_generic_civilian_7" }
 	}
@@ -335,6 +384,10 @@ TAK = {
 		male = { "GFX_portrait_roqualian_generic_civilian_1" "GFX_portrait_roqualian_generic_civilian_2" "GFX_portrait_roqualian_generic_civilian_3" "GFX_portrait_roqualian_generic_civilian_8" "GFX_portrait_roqualian_generic_civilian_9" "GFX_portrait_roqualian_generic_civilian_10" }
 		female = { "GFX_portrait_roqualian_generic_civilian_4" "GFX_portrait_roqualian_generic_civilian_5" "GFX_portrait_roqualian_generic_civilian_6" "GFX_portrait_roqualian_generic_civilian_7" }
 	}
+	scientist = {
+		male = { "GFX_portrait_roqualian_generic_civilian_1" "GFX_portrait_roqualian_generic_civilian_2" "GFX_portrait_roqualian_generic_civilian_3" "GFX_portrait_roqualian_generic_civilian_8" "GFX_portrait_roqualian_generic_civilian_9" "GFX_portrait_roqualian_generic_civilian_10" }
+		female = { "GFX_portrait_roqualian_generic_civilian_4" "GFX_portrait_roqualian_generic_civilian_5" "GFX_portrait_roqualian_generic_civilian_6" "GFX_portrait_roqualian_generic_civilian_7" }
+	}
 }
 
 PER = {
@@ -365,6 +418,10 @@ PER = {
 		#female = { "GFX_portrait_roqualian_generic_navy_1" "GFX_portrait_roqualian_generic_navy_2" "GFX_portrait_roqualian_generic_navy_3" "GFX_portrait_roqualian_generic_navy_4" }
 	}
 	operative = {
+		male = { "GFX_portrait_roqualian_generic_civilian_1" "GFX_portrait_roqualian_generic_civilian_2" "GFX_portrait_roqualian_generic_civilian_3" "GFX_portrait_roqualian_generic_civilian_8" "GFX_portrait_roqualian_generic_civilian_9" "GFX_portrait_roqualian_generic_civilian_10" }
+		female = { "GFX_portrait_roqualian_generic_civilian_4" "GFX_portrait_roqualian_generic_civilian_5" "GFX_portrait_roqualian_generic_civilian_6" "GFX_portrait_roqualian_generic_civilian_7" }
+	}
+	scientist = {
 		male = { "GFX_portrait_roqualian_generic_civilian_1" "GFX_portrait_roqualian_generic_civilian_2" "GFX_portrait_roqualian_generic_civilian_3" "GFX_portrait_roqualian_generic_civilian_8" "GFX_portrait_roqualian_generic_civilian_9" "GFX_portrait_roqualian_generic_civilian_10" }
 		female = { "GFX_portrait_roqualian_generic_civilian_4" "GFX_portrait_roqualian_generic_civilian_5" "GFX_portrait_roqualian_generic_civilian_6" "GFX_portrait_roqualian_generic_civilian_7" }
 	}
@@ -401,6 +458,10 @@ NEK = {
 		male = { "GFX_portrait_solakatzen_generic_military_1" "GFX_portrait_solakatzen_generic_military_2" "GFX_portrait_solakatzen_generic_military_3" "GFX_portrait_solakatzen_generic_military_4" "GFX_portrait_solakatzen_generic_military_5" "GFX_portrait_solakatzen_generic_military_6" "GFX_portrait_solakatzen_generic_military_7" "GFX_portrait_solakatzen_generic_military_8" "GFX_portrait_solakatzen_generic_military_9" "GFX_portrait_solakatzen_generic_military_10" }
 		female = { "GFX_portrait_solakatzen_generic_military_1" "GFX_portrait_solakatzen_generic_military_2" "GFX_portrait_solakatzen_generic_military_3" "GFX_portrait_solakatzen_generic_military_4" "GFX_portrait_solakatzen_generic_military_5" "GFX_portrait_solakatzen_generic_military_6" "GFX_portrait_solakatzen_generic_military_7" "GFX_portrait_solakatzen_generic_military_8" "GFX_portrait_solakatzen_generic_military_9" "GFX_portrait_solakatzen_generic_military_10" }
 	}
+	scientist = {
+		male = { "GFX_portrait_solakatzen_generic_military_1" "GFX_portrait_solakatzen_generic_military_2" "GFX_portrait_solakatzen_generic_military_3" "GFX_portrait_solakatzen_generic_military_4" "GFX_portrait_solakatzen_generic_military_5" "GFX_portrait_solakatzen_generic_military_6" "GFX_portrait_solakatzen_generic_military_7" "GFX_portrait_solakatzen_generic_military_8" "GFX_portrait_solakatzen_generic_military_9" "GFX_portrait_solakatzen_generic_military_10" }
+		female = { "GFX_portrait_solakatzen_generic_military_1" "GFX_portrait_solakatzen_generic_military_2" "GFX_portrait_solakatzen_generic_military_3" "GFX_portrait_solakatzen_generic_military_4" "GFX_portrait_solakatzen_generic_military_5" "GFX_portrait_solakatzen_generic_military_6" "GFX_portrait_solakatzen_generic_military_7" "GFX_portrait_solakatzen_generic_military_8" "GFX_portrait_solakatzen_generic_military_9" "GFX_portrait_solakatzen_generic_military_10" }
+	}
 }
 
 PLR = {
@@ -431,6 +492,10 @@ PLR = {
 		female = { "GFX_portrait_paluush_generic_navy_1" "GFX_portrait_paluush_generic_navy_2" "GFX_portrait_paluush_generic_navy_3" "GFX_portrait_paluush_generic_navy_4" "GFX_portrait_paluush_generic_navy_5" "GFX_portrait_paluush_generic_navy_6" "GFX_portrait_paluush_generic_navy_7" "GFX_portrait_paluush_generic_navy_8" }
 	}
 	operative = {
+		male = { "GFX_portrait_paluush_generic_civilian_1" "GFX_portrait_paluush_generic_civilian_2" "GFX_portrait_paluush_generic_civilian_3" "GFX_portrait_paluush_generic_civilian_4" "GFX_portrait_paluush_generic_civilian_5" "GFX_portrait_paluush_generic_civilian_6" "GFX_portrait_paluush_generic_civilian_7" "GFX_portrait_paluush_generic_civilian_8" "GFX_portrait_paluush_generic_civilian_9" "GFX_portrait_paluush_generic_civilian_10" "GFX_portrait_paluush_generic_civilian_11" "GFX_portrait_paluush_generic_civilian_12" "GFX_portrait_paluush_generic_civilian_13" "GFX_portrait_paluush_generic_civilian_14" "GFX_portrait_paluush_generic_civilian_15" "GFX_portrait_paluush_generic_civilian_16" }
+		female = { "GFX_portrait_paluush_generic_civilian_1" "GFX_portrait_paluush_generic_civilian_2" "GFX_portrait_paluush_generic_civilian_3" "GFX_portrait_paluush_generic_civilian_4" "GFX_portrait_paluush_generic_civilian_5" "GFX_portrait_paluush_generic_civilian_6" "GFX_portrait_paluush_generic_civilian_7" "GFX_portrait_paluush_generic_civilian_8" "GFX_portrait_paluush_generic_civilian_9" "GFX_portrait_paluush_generic_civilian_10" "GFX_portrait_paluush_generic_civilian_11" "GFX_portrait_paluush_generic_civilian_12" "GFX_portrait_paluush_generic_civilian_13" "GFX_portrait_paluush_generic_civilian_14" "GFX_portrait_paluush_generic_civilian_15" "GFX_portrait_paluush_generic_civilian_16" }
+	}
+	scientist = {
 		male = { "GFX_portrait_paluush_generic_civilian_1" "GFX_portrait_paluush_generic_civilian_2" "GFX_portrait_paluush_generic_civilian_3" "GFX_portrait_paluush_generic_civilian_4" "GFX_portrait_paluush_generic_civilian_5" "GFX_portrait_paluush_generic_civilian_6" "GFX_portrait_paluush_generic_civilian_7" "GFX_portrait_paluush_generic_civilian_8" "GFX_portrait_paluush_generic_civilian_9" "GFX_portrait_paluush_generic_civilian_10" "GFX_portrait_paluush_generic_civilian_11" "GFX_portrait_paluush_generic_civilian_12" "GFX_portrait_paluush_generic_civilian_13" "GFX_portrait_paluush_generic_civilian_14" "GFX_portrait_paluush_generic_civilian_15" "GFX_portrait_paluush_generic_civilian_16" }
 		female = { "GFX_portrait_paluush_generic_civilian_1" "GFX_portrait_paluush_generic_civilian_2" "GFX_portrait_paluush_generic_civilian_3" "GFX_portrait_paluush_generic_civilian_4" "GFX_portrait_paluush_generic_civilian_5" "GFX_portrait_paluush_generic_civilian_6" "GFX_portrait_paluush_generic_civilian_7" "GFX_portrait_paluush_generic_civilian_8" "GFX_portrait_paluush_generic_civilian_9" "GFX_portrait_paluush_generic_civilian_10" "GFX_portrait_paluush_generic_civilian_11" "GFX_portrait_paluush_generic_civilian_12" "GFX_portrait_paluush_generic_civilian_13" "GFX_portrait_paluush_generic_civilian_14" "GFX_portrait_paluush_generic_civilian_15" "GFX_portrait_paluush_generic_civilian_16" }
 	}
@@ -467,6 +532,10 @@ HAR = {
 		male = { "GFX_portrait_paluush_generic_civilian_1" "GFX_portrait_paluush_generic_civilian_2" "GFX_portrait_paluush_generic_civilian_3" "GFX_portrait_paluush_generic_civilian_4" "GFX_portrait_paluush_generic_civilian_5" "GFX_portrait_paluush_generic_civilian_6" "GFX_portrait_paluush_generic_civilian_7" "GFX_portrait_paluush_generic_civilian_8" "GFX_portrait_paluush_generic_civilian_9" "GFX_portrait_paluush_generic_civilian_10" "GFX_portrait_paluush_generic_civilian_11" "GFX_portrait_paluush_generic_civilian_12" "GFX_portrait_paluush_generic_civilian_13" "GFX_portrait_paluush_generic_civilian_14" "GFX_portrait_paluush_generic_civilian_15" "GFX_portrait_paluush_generic_civilian_16" }
 		female = { "GFX_portrait_paluush_generic_civilian_1" "GFX_portrait_paluush_generic_civilian_2" "GFX_portrait_paluush_generic_civilian_3" "GFX_portrait_paluush_generic_civilian_4" "GFX_portrait_paluush_generic_civilian_5" "GFX_portrait_paluush_generic_civilian_6" "GFX_portrait_paluush_generic_civilian_7" "GFX_portrait_paluush_generic_civilian_8" "GFX_portrait_paluush_generic_civilian_9" "GFX_portrait_paluush_generic_civilian_10" "GFX_portrait_paluush_generic_civilian_11" "GFX_portrait_paluush_generic_civilian_12" "GFX_portrait_paluush_generic_civilian_13" "GFX_portrait_paluush_generic_civilian_14" "GFX_portrait_paluush_generic_civilian_15" "GFX_portrait_paluush_generic_civilian_16" }
 	}
+	scientist = {
+		male = { "GFX_portrait_paluush_generic_civilian_1" "GFX_portrait_paluush_generic_civilian_2" "GFX_portrait_paluush_generic_civilian_3" "GFX_portrait_paluush_generic_civilian_4" "GFX_portrait_paluush_generic_civilian_5" "GFX_portrait_paluush_generic_civilian_6" "GFX_portrait_paluush_generic_civilian_7" "GFX_portrait_paluush_generic_civilian_8" "GFX_portrait_paluush_generic_civilian_9" "GFX_portrait_paluush_generic_civilian_10" "GFX_portrait_paluush_generic_civilian_11" "GFX_portrait_paluush_generic_civilian_12" "GFX_portrait_paluush_generic_civilian_13" "GFX_portrait_paluush_generic_civilian_14" "GFX_portrait_paluush_generic_civilian_15" "GFX_portrait_paluush_generic_civilian_16" }
+		female = { "GFX_portrait_paluush_generic_civilian_1" "GFX_portrait_paluush_generic_civilian_2" "GFX_portrait_paluush_generic_civilian_3" "GFX_portrait_paluush_generic_civilian_4" "GFX_portrait_paluush_generic_civilian_5" "GFX_portrait_paluush_generic_civilian_6" "GFX_portrait_paluush_generic_civilian_7" "GFX_portrait_paluush_generic_civilian_8" "GFX_portrait_paluush_generic_civilian_9" "GFX_portrait_paluush_generic_civilian_10" "GFX_portrait_paluush_generic_civilian_11" "GFX_portrait_paluush_generic_civilian_12" "GFX_portrait_paluush_generic_civilian_13" "GFX_portrait_paluush_generic_civilian_14" "GFX_portrait_paluush_generic_civilian_15" "GFX_portrait_paluush_generic_civilian_16" }
+	}
 }
 
 KAR = {
@@ -499,6 +568,14 @@ KAR = {
 	navy = {
 		male = { "GFX_portrait_paluush_generic_navy_1" "GFX_portrait_paluush_generic_navy_2" "GFX_portrait_paluush_generic_navy_3" "GFX_portrait_paluush_generic_navy_4" "GFX_portrait_paluush_generic_navy_5" "GFX_portrait_paluush_generic_navy_6" "GFX_portrait_paluush_generic_navy_7" "GFX_portrait_paluush_generic_navy_8" }
 		female = { "GFX_portrait_paluush_generic_navy_1" "GFX_portrait_paluush_generic_navy_2" "GFX_portrait_paluush_generic_navy_3" "GFX_portrait_paluush_generic_navy_4" "GFX_portrait_paluush_generic_navy_5" "GFX_portrait_paluush_generic_navy_6" "GFX_portrait_paluush_generic_navy_7" "GFX_portrait_paluush_generic_navy_8" }
+	}
+	operative = {
+		male = { "GFX_portrait_paluush_generic_civilian_1" "GFX_portrait_paluush_generic_civilian_2" "GFX_portrait_paluush_generic_civilian_3" "GFX_portrait_paluush_generic_civilian_4" "GFX_portrait_paluush_generic_civilian_5" "GFX_portrait_paluush_generic_civilian_6" "GFX_portrait_paluush_generic_civilian_7" "GFX_portrait_paluush_generic_civilian_8" "GFX_portrait_paluush_generic_civilian_9" "GFX_portrait_paluush_generic_civilian_10" "GFX_portrait_paluush_generic_civilian_11" "GFX_portrait_paluush_generic_civilian_12" "GFX_portrait_paluush_generic_civilian_13" "GFX_portrait_paluush_generic_civilian_14" "GFX_portrait_paluush_generic_civilian_15" "GFX_portrait_paluush_generic_civilian_16" }
+		female = { "GFX_portrait_paluush_generic_civilian_1" "GFX_portrait_paluush_generic_civilian_2" "GFX_portrait_paluush_generic_civilian_3" "GFX_portrait_paluush_generic_civilian_4" "GFX_portrait_paluush_generic_civilian_5" "GFX_portrait_paluush_generic_civilian_6" "GFX_portrait_paluush_generic_civilian_7" "GFX_portrait_paluush_generic_civilian_8" "GFX_portrait_paluush_generic_civilian_9" "GFX_portrait_paluush_generic_civilian_10" "GFX_portrait_paluush_generic_civilian_11" "GFX_portrait_paluush_generic_civilian_12" "GFX_portrait_paluush_generic_civilian_13" "GFX_portrait_paluush_generic_civilian_14" "GFX_portrait_paluush_generic_civilian_15" "GFX_portrait_paluush_generic_civilian_16" }
+	}
+	scientist = {
+		male = { "GFX_portrait_paluush_generic_civilian_1" "GFX_portrait_paluush_generic_civilian_2" "GFX_portrait_paluush_generic_civilian_3" "GFX_portrait_paluush_generic_civilian_4" "GFX_portrait_paluush_generic_civilian_5" "GFX_portrait_paluush_generic_civilian_6" "GFX_portrait_paluush_generic_civilian_7" "GFX_portrait_paluush_generic_civilian_8" "GFX_portrait_paluush_generic_civilian_9" "GFX_portrait_paluush_generic_civilian_10" "GFX_portrait_paluush_generic_civilian_11" "GFX_portrait_paluush_generic_civilian_12" "GFX_portrait_paluush_generic_civilian_13" "GFX_portrait_paluush_generic_civilian_14" "GFX_portrait_paluush_generic_civilian_15" "GFX_portrait_paluush_generic_civilian_16" }
+		female = { "GFX_portrait_paluush_generic_civilian_1" "GFX_portrait_paluush_generic_civilian_2" "GFX_portrait_paluush_generic_civilian_3" "GFX_portrait_paluush_generic_civilian_4" "GFX_portrait_paluush_generic_civilian_5" "GFX_portrait_paluush_generic_civilian_6" "GFX_portrait_paluush_generic_civilian_7" "GFX_portrait_paluush_generic_civilian_8" "GFX_portrait_paluush_generic_civilian_9" "GFX_portrait_paluush_generic_civilian_10" "GFX_portrait_paluush_generic_civilian_11" "GFX_portrait_paluush_generic_civilian_12" "GFX_portrait_paluush_generic_civilian_13" "GFX_portrait_paluush_generic_civilian_14" "GFX_portrait_paluush_generic_civilian_15" "GFX_portrait_paluush_generic_civilian_16" }
 	}
 }
 
@@ -544,6 +621,7 @@ KEP = {
 		}
 	}
 }
+
 SLR = {
 	political = {
 		communism = {
@@ -572,6 +650,10 @@ SLR = {
 		female = { "GFX_portrait_solarian_generic_navy_1" "GFX_portrait_solarian_generic_navy_2" }
 	}
 	operative = {
+		male = { "GFX_portrait_solarian_generic_civilian_6" "GFX_portrait_solarian_generic_civilian_7" "GFX_portrait_solarian_generic_civilian_8" "GFX_portrait_solarian_generic_civilian_9" "GFX_portrait_solarian_generic_civilian_10" }
+		female = { "GFX_portrait_solarian_generic_civilian_1" "GFX_portrait_solarian_generic_civilian_2" "GFX_portrait_solarian_generic_civilian_3" "GFX_portrait_solarian_generic_civilian_4" "GFX_portrait_solarian_generic_civilian_5" }
+	}
+	scientist = {
 		male = { "GFX_portrait_solarian_generic_civilian_6" "GFX_portrait_solarian_generic_civilian_7" "GFX_portrait_solarian_generic_civilian_8" "GFX_portrait_solarian_generic_civilian_9" "GFX_portrait_solarian_generic_civilian_10" }
 		female = { "GFX_portrait_solarian_generic_civilian_1" "GFX_portrait_solarian_generic_civilian_2" "GFX_portrait_solarian_generic_civilian_3" "GFX_portrait_solarian_generic_civilian_4" "GFX_portrait_solarian_generic_civilian_5" }
 	}

@@ -3152,10 +3152,10 @@ technologies = {
 		light_cruiser = {
 			sub_detection = 0.1
 		}
-		category_naval_helicopter = {
-			build_cost_ic = -0.1
-			sub_detection = 0.1
-		}
+		# category_naval_helicopter = {
+		# 	build_cost_ic = -0.1
+		# 	sub_detection = 0.1
+		# }
 		#####
 		
 		# path = {

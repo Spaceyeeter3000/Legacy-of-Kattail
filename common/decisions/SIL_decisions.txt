@@ -543,10 +543,10 @@ SIL_politics_cat = {
 			NOT = { has_global_flag = joe_biden_incident_occurred }
 		}
 
-		allowed = {
-			check_variable = { sil_kaiserist_loyalty > 0 }
-			check_variable = { sil_monarchist_loyalty < 100 }
-		}
+		# allowed = {
+		# 	check_variable = { sil_kaiserist_loyalty > 0 }
+		# 	check_variable = { sil_monarchist_loyalty < 100 }
+		# }
 
 		cost = 75
 
@@ -577,7 +577,7 @@ SIL_politics_cat = {
 
 		available = {
 			has_equipment = { infantry_equipment > 9999 }
-			check_variable = { sil_frankat_loyalty < 100 }
+			#check_variable = { sil_frankat_loyalty < 100 }
 			num_of_military_factories > 1
 		}
 
@@ -623,10 +623,10 @@ SIL_politics_cat = {
 			NOT = { has_global_flag = joe_biden_incident_occurred }
 		}
 
-		allowed = {
-			check_variable = { sil_monarchist_loyalty > 0 }
-			check_variable = { sil_kaiserist_loyalty < 100 }
-		}
+		# allowed = {
+		# 	check_variable = { sil_monarchist_loyalty > 0 }
+		# 	check_variable = { sil_kaiserist_loyalty < 100 }
+		# }
 
 		cost = 75
 
@@ -793,9 +793,9 @@ SIL_politics_cat = {
 			NOT = { has_global_flag = joe_biden_incident_occurred }
 		}
 
-		allowed = {
-			check_variable = { sil_itch_loyalty < 100 }
-		}
+		# allowed = {
+		# 	check_variable = { sil_itch_loyalty < 100 }
+		# }
 
 		cost = 150
 
@@ -830,9 +830,9 @@ SIL_politics_cat = {
 			NOT = { has_global_flag = joe_biden_incident_occurred }
 		}
 
-		allowed = {
-			check_variable = { sil_itch_loyalty < 100 }
-		}
+		# allowed = {
+		# 	check_variable = { sil_itch_loyalty < 100 }
+		# }
 
 		cost = 150
 

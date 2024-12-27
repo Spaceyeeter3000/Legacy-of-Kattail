@@ -860,10 +860,10 @@ DIPLOMACY_OFFER_JOIN_FACTION_ENABLE_TRIGGER = {
 	always = yes # change if needed
 }
 
-is_unlikely_country_tag = {
-	always = NO
-	#change later
-}
+# is_unlikely_country_tag = {
+# 	always = NO
+# 	#change later
+# }
 
 DIPLOMACY_WAR_ENABLE_TRIGGER = {
 	if = {

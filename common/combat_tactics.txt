@@ -948,10 +948,7 @@ tactic_piecemeal_attack = { #
 		is_fighting_in_weather = snow
 		phase = no
 		OWNER = {
-			OR = {
-				has_completed_focus = FIN_motti_tactics
-				has_tech = ski_troops
-			}
+			has_tech = ski_troops
 		}
 		OR = {
 			skill > 2
@@ -1994,10 +1991,7 @@ tactic_grit_defense = { #
 			skill_advantage > 1
 		}
 		OWNER = {
-			OR = {
-				has_completed_focus = FIN_motti_tactics
-				has_tech = ski_troops
-			}
+			has_tech = ski_troops
 		}
 	}
 	
