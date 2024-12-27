@@ -80,8 +80,8 @@ add_ideas = disarmed_nation
 
 set_politics = {
 	ruling_party = communism
-	last_election = "1932.5.1"
-	election_frequency = 48
+	last_election = "1931.5.1"
+	election_frequency = 60
 	elections_allowed = yes
 }
 
