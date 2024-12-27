@@ -246,8 +246,8 @@ adjacency_rule =
 		has_global_flag = MOG_RIVER_BLOCKED
 	}
 
-	icon = 19017
-	offset = { 0 0 0 }
+	icon = 273
+	offset = { 0 0 11 }
 
 	required_provinces = { 273 19017 18968 18969 18952 }
 
@@ -289,10 +289,10 @@ adjacency_rule =
 		has_global_flag = BOG_RIVER_BLOCKED
 	}
 
-	icon = 2086
-	offset = { 0 0 0 }
+	icon = 18977
+	offset = { 2 0 9 }
 
-	required_provinces = { 18977 7449 2373 2086 18847 }
+	required_provinces = { 18977 7449 2383 2086 18847 }
 
 	contested =
 	{

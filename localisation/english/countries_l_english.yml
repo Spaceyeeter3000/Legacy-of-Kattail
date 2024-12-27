@@ -538,6 +538,8 @@
  KUS_ADJ:0 "Kusnurk"
  KUS:0 "Kusnurk"
 
+ KUS_BOOKMARK_DESC:0 "REPLACE_ME"
+
  #Dominiontracks
  DOM_communism:0 "Panzer Commune"
  DOM_communism_DEF:0 "the Panzer Commune"
@@ -549,6 +551,8 @@
  DOM_neutrality_DEF:0 "the State of the Feline Solakean East"
  DOM_ADJ:0 "Dominiontracks"
  DOM:0 "Dominiontracks"
+
+ DOM_BOOKMARK_DESC:0 "REPLACE_ME"
 
  #Roqualien
  FSR_communism:0 "Feline Communes of Solakea"
@@ -574,6 +578,8 @@
  MCF_ADJ:0 "Cloudstrider"
  MCF:0 "Gallopia"
 
+ MCF_BOOKMARK_DESC:0 "REPLACE_ME"
+
  #Nekaston
  NEK_communism:0 "Nekaston Free Territory"
  NEK_communism_DEF:0 "the Nekaston Free Territory"
@@ -597,6 +603,8 @@
  SLR_communism_DEF:0 "the Solarian Socialist Confederation"
  SLR_ADJ:0 "Solarian"
  SLR:0 "Solaria"
+
+ SLR_BOOKMARK_DESC:0 "REPLACE_ME"
 
  #Khaganate
 
@@ -629,6 +637,8 @@
  ROQ_ADJ:0 "Roqualian"
  ROQ:0 "Roqualia"
 
+ ROQ_BOOKMARK_DESC:0 "REPLACE_ME"
+
  #LMB
  LMB_communism:0 "Roqualian Democratic Republic"
  LMB_communism_DEF:0 "the Roqualian Democratic Republic"
@@ -641,6 +651,8 @@
  LMB_ADJ:0 "East Roqualian"
  LMB:0 "Eastern Roqualia"
 
+ LMB_BOOKMARK_DESC:0 "REPLACE_ME"
+
  #Persona Inc.
  PER_communism:0 "Revolutionary West Roqualia"
  PER_communism_DEF:0 "Revolutionary West Roqualia"
@@ -652,6 +664,8 @@
  PER_neutrality_DEF:0 "Persona Incorporated"
  PER_ADJ:0 "Glitchopian"
  PER:0 "Glitchopia"
+
+ PER_BOOKMARK_DESC:0 "REPLACE_ME"
 
  #Alkroa
  ALK_neutrality:0 "Alkroan Technostate"
@@ -682,6 +696,8 @@
  TEN_neutrality_DEF:0 "Tenetianen"
  TEN_ADJ:0 "Tenetianen"
  TEN:0 "Tenetianen"
+
+ TEN_BOOKMARK_DESC:0 "REPLACE_ME"
 
  #Vixens
  VIX_communism:0 "Vixenoid Communes of the Channel"
@@ -1373,4 +1389,4 @@
  SMP_fascism:0 "National Swampland State"
  SMP_fascism_DEF:0 "National State of the Swamplandish People."
 
- SMP_BOOKMARK_DESC:0 "After a decade of war, the lowland kingdom of Swamp King Terrence IV lies as the strongest military power on the Arivoejan continent. While their fleet may dull in comparison to the mighty Nederkatten and Loutterian fleets, the Royal Marines of his Majesty outnumber the militaries of every other Arivoejan state, not counting the Zealots of Nova, 2 to 1.\n\nBut for all their military prowess, the Swamplands are a in a tought spot at home. The current Conservative Prime Minister, Edwar Platmer, has made many an enemy with the common man of the Swamplands while dining with business magnates and the nobility. While the situation is by no means irredeemable, the workers look to their neigbhours with their trade unions as the topic of a general strike... even republican sentiment, becomes louder and louder... The Kingdom must act before these whispers become a deafening cry that can no longer be ignored."
+ SMP_BOOKMARK_DESC:0 "After a decade of war, the realm of Swamp King Terrence IV lies as the strongest land power on Arivoejo. While their fleet may dull in comparison to others on the isle, his Majesties Marines outnumber the militaries of all their neighbours, not counting the Zealots of Nova, 2-1.\n\nBut for all their military prowess, the Swamplands are a in a tought spot at home. Mistreatment of the workers under Prime Minister Platmers premiership have caused republican and socialist sentiment to skyrocket... By no means irredeemable, but is definitely not something that can be ignored... "

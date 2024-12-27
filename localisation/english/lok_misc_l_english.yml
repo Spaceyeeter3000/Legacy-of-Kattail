@@ -11,6 +11,8 @@
 
  GRAND_CANAL:0 "Grand Canal"
  PINK_SEA_CANAL:0 "Pink Sea Canal"
+ BOG_RIVER:0 "River Bog"
+ MOG_RIVER:0 "River Mog"
 
  GESTALT_PARTY_DEFAULT_NAME:0 "Unorganised Rabble"
  GESTALT_PARTY_DEFAULT_LEADER:0 "No Leader"

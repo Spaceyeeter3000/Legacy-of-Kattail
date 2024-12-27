@@ -27,6 +27,18 @@ bookmarks = {
             history = "MCF_BOOKMARK_DESC"
             ideology = neutrality
         }
+        "DOM" = {
+            history = "DOM_BOOKMARK_DESC"
+            ideology = fascism
+        }
+        "SLR" = {
+            history = "SLR_BOOKMARK_DESC"
+            ideology = communism
+        }
+        "TEN" = {
+            history = "TEN_BOOKMARK_DESC"
+            ideology = neutrality
+        }
 
         effect = {
             randomize_weather = 22345 # <- Obligatory in every bookmark !

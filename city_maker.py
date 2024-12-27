@@ -78,6 +78,7 @@ def confirm():
 # Create the GUI
 root = tk.Tk()
 root.title("City Maker")
+root.wm_attributes("-topmost", 1)
 
 # Province ID Entry
 tk.Label(root, text="Province ID").grid(row=0)
